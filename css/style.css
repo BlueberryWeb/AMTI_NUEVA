@@ -1,0 +1,38 @@
+/*
+Negro: #131313
+Amarillo: #f4b150
+Morado: #9d5d93
+Verde: #7cb269
+*/
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url("fonts/Montserrat-Bold.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat ExtraBold';
+    src: url("fonts/Montserrat-ExtraBold.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Italic';
+    src: url("fonts/Montserrat-Italic.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url("fonts/Montserrat-Regular.ttf"); 
+}
+.bold{
+    font-family: 'Montserrat Bold';
+}
+.extrabold{
+    font-family: 'Montserrat ExtraBold';
+}
+.italic{
+    font-family: 'Montserrat Italic';
+}
+.regular{
+    font-family: 'Montserrat Regular';
+}
+html, body {
+   	width: 100% !important;
+   	overflow-x: hidden;
+}
