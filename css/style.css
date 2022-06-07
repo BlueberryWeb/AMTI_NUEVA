@@ -32,7 +32,178 @@ Verde: #7cb269
 .regular{
     font-family: 'Montserrat Regular';
 }
+.txt-amarillo{
+    color: #f4b150;
+}
+.txt-morado{
+    color: #9d5d93;
+}
+.txt-azul{
+    color: #12417C;
+}
+.txt-verde{
+    color: #7cb269;
+}
+.txt-negro{
+    color: #313131;
+}
+.none_a_decoration{
+    text-decoration: none;
+    color: #fff;
+} 
+a:hover{
+    color: #fff;
+}
 html, body {
    	width: 100% !important;
    	overflow-x: hidden;
+}
+.logo-header{
+    width: 200px;
+}
+.logo-footer{
+    width: 300px;
+}
+.bb-logo{
+    width: 250px;
+}
+.logo-menu{
+    width: 150px;
+}
+.fa-solid{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.section__index{
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+}
+.texto-header{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 20%;
+}
+.vid-ventajas{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+.video_descanso{
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+}
+.texto-ventajas{
+    position: absolute;
+    color: #fff;
+    margin-top: 4rem;
+}
+.bg-licencia {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    margin-bottom: 649px;
+}
+.txt-licencia{
+    position: absolute;
+    color: #fff;
+}
+.btn-tramita{
+    background-color: #9d5d93;
+    border-color: #9d5d93;
+    border-radius: 0;
+}
+.btn-tramita:hover{
+    background-color: #9d5d93;
+    border-color: #9d5d93;
+    border-radius: 0;
+}
+.btn-paises{
+    background-color: #f4b150;
+    border-color: #f4b150;
+    border-radius: 0;
+    width: 250px;
+}
+.btn-paises:hover{
+    background-color: #f4b150;
+    border-color: #f4b150;
+    border-radius: 0;
+    width: 250px;
+}
+.btn-azul{
+    background-color: #12417C;
+    border-color: #12417C;
+    border-radius: 0;
+}
+.btn-azul:hover{
+    background-color: #12417C;
+    border-color: #12417C;
+    border-radius: 0;
+}
+.btn-verde{
+    background-color: #7cb269;
+    border-color: #7cb269;
+    border-radius: 0;
+}
+.btn-verde:hover{
+    background-color: #7cb269;
+    border-color: #7cb269;
+    border-radius: 0;
+}
+.btn-morado{
+    background-color: #9d5d93;
+    border-color: #9d5d93;
+    border-radius: 0;
+}
+.btn-morado:hover{
+    background-color: #9d5d93;
+    border-color: #9d5d93;
+    border-radius: 0;
+}
+.btn-enviar{
+    background-color: #f4b150;
+    border-color: #f4b150;
+    width: 150px;
+}
+.btn-enviar:hover{
+    background-color: #f4b150;
+    border-color: #f4b150;
+}
+.bg-azul{
+    background-color: #173C5C;
+    color: #fff;
+}
+footer a, h3{
+    color: #000000;
+}
+.icono-footer{
+    width: 30px;
+}
+.icono-ventajas{
+    width: 100px;
+}
+.icono-cicr{
+    width: 100px;
+}
+.icono-onu{
+    width: 100px;
+}
+.icono-mexico{
+    width: 250px;
+}
+.icono-point{
+    width: 45px;
+}
+.telefono{
+    border: 1px solid #fff;
+}
+.borde-derecho{
+    border-left: 1px solid #000000;
 }
