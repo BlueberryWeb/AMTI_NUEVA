@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
         <div class="section__index">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
                 <source src="vid/main-loop.mp4" type="video/mp4" />
@@ -26,7 +26,7 @@
                 </a>
                 <div class="navbar-nav ml-auto">
                     <div class="button_menu">
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars" onclick="menu()"></i>
                     </div>
                 </div>
             </div>
@@ -43,11 +43,48 @@
             </div>
         </div>
     </header>
+    <!--MENÚ-->
+    <div class="container-fluid bg-azul py-5 wp-animated" data-animation="fadeInRight" id="menu">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                    <div class="text-end pb-5 d-block d-sm-block d-md-none" >
+                        <i class="fa-solid fa-xmark" onclick="cerrar()"></i>
+                    </div>
+                    <a href="#header" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">INICIO</h1>
+                    </a>
+                    <a href="#somos" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">SOMOS</h1>
+                    </a>
+                    <a href="#como-funciona" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">CÓMO FUNCIONA</h1>
+                    </a>
+                    <a href="#tarifas" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">TARIFAS</h1>
+                    </a>
+                    <a href="#contacto" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">CONTACTO</h1>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                    <div class="text-end pb-5 d-none d-sm-none d-md-block" >
+                        <i class="fa-solid fa-xmark" onclick="cerrar()"></i>
+                    </div>
+                    <div class="text-center pt-5">
+                        <img src="img/simbolo-blanco.gif" alt="AMTI" class="img-fluid logo-menu pb-5"/>
+                        <h3 class="h6 py-5 text-white regular"> © 2022 AMTI. Todos Los Derechos Reservados</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
     <!--CON TU LICENCIA INTERNACIONAL-->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="somos">
         <div class="row">
             <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
-            <div class="col-12 col-lg-5 col-sm-12 col-md-12 py-5">
+            <div class="col-12 col-lg-5 col-sm-12 col-md-12 py-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
                 <div class="">
                     <h1 class="italic display-4">CON TU LICENCIA</h1>
                     <h1 class="extrabold txt-morado display-4">INTERNACIONAL</h1>
@@ -55,36 +92,155 @@
                     LIBRE Y LEGAL EN MÁS DE 150 <br>
                     PAÍSES ALREDEDOR DEL MUNDO</h3>
                     <h3 class="extrabold txt-negro pt-5 pb-3">CONOCE LA COBERTURA <br> DE PAÍSES:</h3>
-
-                    <button class="btn btn-primary btn-paises ">
+                    <button class="btn btn-primary btn-paises" data-bs-toggle="modal" data-bs-target="#Paises">
                         <h3 class="pt-1 bold text-white h5">LISTA DE PAÍSES</h3>
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12 p-0 py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 p-0 py-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
                 <img src="img/licencia-somos.png" alt="AMTI" class="img-fluid"/>
             </div>
         </div>
     </div>
+    <!-- MODAL CON LISTA DE PAÍSES -->
+    <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="ms-5">
+                            <h1 class="italic">POR FAVOR</h1>
+                            <h1 class="italic">UBICA SI TU PAÍS</h1>
+                            <h1 class="extrabold txt-amarillo">SE ENCUENTRA EN LA </h1>
+                            <h1 class="extrabold txt-amarillo">LISTA</h1>
+                        </div>
+                        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+                        <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                            <div class="regular">
+                            <h1 class="extrabold">A</h1>
+                            <h5>Arabia Saudita, Afganistán, Albania, <br>
+                            Alemania, Algeria, Andorra, Angola, <br>
+                            Antigua, Argentina, Armenia, <br>
+                            Aruba, Australia, Austria.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">B</h1>
+                                <h5>Bahamas, Bangladesh, Barbados, <br>
+                                Bielorrusia, Bélgica, Benin, Bolivia, <br>
+                                Botswana, Brasil, Bulgaroa, Bután.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">C</h1>
+                                <h5>Camerún, Canadá, Chad, Chile, <br>
+                                China, Chipre, Ciudad del Vaticano, <br>
+                                Colombia, Comorros, Congo, Costa <br>
+                                de Marfil, Costa Rica, Croacia, Cuba, <br>
+                                Curacao.</h5>
+                            </div>
+                            <div class="regular">
+                            <h1 class="extrabold">E</h1>
+                            <h5>Ecuador, Egipto, El Salvador, <br>
+                            Emiratos Arabes, Eslovaquia, <br>
+                            Eslovenia, España, Estados Unidos, <br>
+                            Estonia.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">F</h1>
+                                <h5>Fiji, Filipinas, Finlandia, Francia.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">G</h1>
+                                <h5>Gabon, Gambia, Georgia, Ghana, <br>
+                                Gibraltar, Granada, Grecia <br>
+                                Guernsey, Guinea, Guinea <br>
+                                Ecuatorial, Guinea- Bissau, Guayana.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">H</h1>
+                                <h5>Haití, Holanda, Hong Kong, <br>
+                                Hungría.</h5>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                            <div class="regular">
+                            <h1 class="extrabold">I</h1>
+                            <h5>India, Indonecia, Irán, Irlanda, Isla <br>
+                            de Cabo Verde, Islandia, Islas <br>
+                            Caimán, Israel, Italia.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">J</h1>
+                                <h5>Jamaica, Jersey, Jordania.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">K</h1>
+                                <h5>Kenia, Kuwait.</h5>
+                            </div>
+                            <div class="regular">
+                            <h1 class="extrabold">L</h1>
+                            <h5>Laos, Liberia, Libia, Liechtenstein, <br>
+                            Lituania, Luxemburgo.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">M</h1>
+                                <h5>Macao, Madagascar, Malasia, <br> 
+                                Malawi, Mali, Malta, Marruecos, <br>
+                                Mauritania, México, Moldavia, <br>
+                                Mónaco, Montserrat, Mozambique.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">N</h1>
+                                <h5>Nepal, Nicaragua, Nigeria, <br>
+                                Noruega, Nueva Caledonia, Nueva <br>
+                                Guinea, Nueva Zelanda.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">O</h1>
+                                <h5>Omán.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">P</h1>
+                                <h5>Panamá, Paquistan, Paraguay, <br>
+                                Perú, Polinesia, Polinesia Francesa <br>
+                                Polonia, Portugal.</h5>
+                            </div>
+                            <div class="regular">
+                                <h1 class="extrabold">Q</h1>
+                                <h5>Qatar.</h5>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
     <!--CÓMO FUNCIONA-->
     <div class="container-fluid bg-licencia py-5 p-0">
-        <div class="section__index">
+        <div class="section__index wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
                 <source src="vid/vid-licencia.mp4" type="video/mp4" />
             </video>
         </div>
-        <div class="row txt-licencia" >
+        <div class="row txt-licencia wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s" >
             <div class="col-12 col-lg-6 col-sm-12 col-md-12">
                 <img src="img/gaffete.png" alt="AMTI" class="img-fluid" style="visibility: hidden;"/>
             </div>
             <div class="col-12 col-lg-6 col-sm-12 col-md-12 py-5">
-                <h1 class="italic display-3">¿CÓMO</h1>
-                <h1 class="extrabold txt-amarillo display-3">FUNCIONA?</h1>
-                <h4 class="regular py-3">La licencia internacional funciona <br>
+                <h1 class="italic display-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">¿CÓMO</h1>
+                <h1 class="extrabold txt-amarillo display-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="5s">FUNCIONA?</h1>
+                <h4 class="regular py-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">La licencia internacional funciona <br>
                 como una extensión de tu licencia <br>
                 nacional para poder conducir de <br>
                 manera legal en el extranjero.</h4>
-                <button class="btn btn-primary btn-tramita">
+                <button class="btn btn-primary btn-tramita wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s">
                     <a href="#" class="none_a_decoration ">
                         <h6 class="pt-1 bold h4">TRAMÍTALA AHORA</h6>
                     </a>
@@ -94,40 +250,40 @@
     </div>
     <!--RAPIDEZ, SEGURIDAD SOPORTE-->
     <div class="container-fluid p-0 vid-ventajas">
-        <div class="video_descanso">
+        <div class="video_descanso wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
                 <source src="vid/loop-ventajas.mp4" type="video/mp4" />
             </video>
         </div>
         <div class="row texto-ventajas d-flex justify-content-center py-5">
             <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5">
+            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5 wp-animated" data-animation="zoomIn" data-animation-duration="5s">
                 <div class="text-center">
                     <img src="img/rapidez.gif" alt="AMTI" class="img-fluid icono-ventajas"/>
                     <h1 class="extrabold txt-amarillo">RAPIDEZ</h1>
-                    <h3 class="regular text-white">Tu licencia en 2 <br>
+                    <h3 class="regular ">Tu licencia en 2 <br>
                     días hábiles.</h3>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5">
+            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5 wp-animated" data-animation="zoomIn" data-animation-delay="0.3s" data-animation-duration="5s">
                 <div class="text-center">
                     <img src="img/seguridad.gif" alt="AMTI" class="img-fluid icono-ventajas"/>
                     <h1 class="extrabold txt-amarillo">SEGURIDAD</h1>
-                    <h3 class="regular text-white">Tu licencia bajo <br>
+                    <h3 class="regular ">Tu licencia bajo <br>
                     todas las normativas <br>
                     gubernamentales.</h3>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5">
+            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5 wp-animated" data-animation="zoomIn" data-animation-delay="0.6s" data-animation-duration="5s">
                 <div class="text-center">
                     <img src="img/soporte.gif" alt="AMTI" class="img-fluid icono-ventajas"/>
                     <h1 class="extrabold txt-amarillo">SOPORTE</h1>
-                    <h3 class="regular text-white">Soporte y atención <br>
+                    <h3 class="regular ">Soporte y atención <br>
                     personalizada 24/7.</h3>
                 </div>
             </div>
             <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
-            <div class="row">
+            <div class="row wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">
                 <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
                 <div class="col-12 col-lg-4 col-sm-12 col-md-12">
                     <h2 class="text-end bold">¿TIENES ALGUNA DUDA?</h2>
@@ -145,13 +301,13 @@
         </div>
     </div>
     <!--TRAMITA LA LICENCIA-->
-    <div class="container py-5">
-        <div class="row pt-5 d-flex justify-content-center pb-5">
+    <div class="container py-5" id="tarifas">
+        <div class="row pt-5 d-flex justify-content-center pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
             <h1 class="italic text-center display-4">TRAMITA TU <b class="extrabold txt-amarillo">LICENCIA</b></h1>
             <h3 class="bold text-center h4 txt-negro">ELIGE LA LICENCIA QUE PREFIERAS</h3>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12 py-3 wp-animated" data-animation="zoomIn" data-animation-duration="5s">
                 <img src="img/documentos-entrega.png" alt="AMTI" class="img-fluid"/>
                 <h5 class="italic ">PERMISO INTERNACIONAL</h5>
                 <h1 class="extrabold txt-verde display-5">5 AÑOS</h1>
@@ -162,7 +318,7 @@
                     </a>
                 </button>
             </div>
-            <div class="col-12 col-lg-4 col-sm-12 col-md-12 borde-derecho">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12 borde-derecho py-3 wp-animated" data-animation="zoomIn" data-animation-delay="0.3s" data-animation-duration="5s">
                 <div class="ms-4">
                     <img src="img/documentos-entrega.png" alt="AMTI" class="img-fluid"/>
                     <h5 class="italic">PERMISO INTERNACIONAL</h5>
@@ -175,7 +331,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-lg-4 col-sm-12 col-md-12 borde-derecho">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12 borde-derecho py-3 wp-animated" data-animation="zoomIn" data-animation-delay="0.6s" data-animation-duration="5s">
                 <div class="ms-4">
                     <img src="img/documentos-entrega.png" alt="AMTI" class="img-fluid"/>
                     <h5 class="italic">PERMISO INTERNACIONAL</h5>
@@ -192,14 +348,14 @@
         </div>
     </div>
     <!--ES MUY SENCILLO-->
-    <div class="container py-5">
-        <div class="row">
+    <div class="container py-5" id="como-funciona">
+        <div class="row wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
             <h1 class="italic display-4">ES MUY</h1>
             <h1 class="extrabold txt-amarillo display-4">SENCILLO</h1>
         </div>
         <!--VIGENCIA-->
-        <div class="row py-3">
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
+        <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-duration="5s">
+            <div class="col-12 col-lg-2 col-md-12 col-sm-12 ">
                 <img src="img/vigencia.gif" alt="AMTI" class="img-fluid"/>
             </div>
             <div class="col-12 col-lg-3 col-md-12 col-sm-12">
@@ -208,7 +364,7 @@
             </div>
         </div>
          <!--PROCESO EN LÍNEA-->
-         <div class="row py-3">
+         <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-delay="0.3s" data-animation-duration="5s">
             <div class="col-12 col-lg-2 col-md-12 col-sm-12">
                 <div class="text-center">
                     <img src="img/flechita.png" alt="AMTI" class="img-fluid"/>
@@ -224,7 +380,7 @@
             </div>
         </div>
          <!--PAGO-->
-         <div class="row py-3">
+         <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-delay="0.6s" data-animation-duration="5s">
             <div class="col-12 col-lg-2 col-md-12 col-sm-12"></div>
             <div class="col-12 col-lg-2 col-md-12 col-sm-12">
                 <div class="text-center">
@@ -242,7 +398,7 @@
             </div>
         </div>
         <!--ENVÍO-->
-        <div class="row py-3">
+        <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-delay="0.9s" data-animation-duration="5s">
             <div class="col-12 col-lg-4 col-md-12 col-sm-12"></div>
             <div class="col-12 col-lg-2 col-md-12 col-sm-12">
                 <div class="text-center">
@@ -266,52 +422,52 @@
         <div class="row py-5">
             <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
             <div class="col-12 col-lg-6 col-sm-12 col-md-12">
-                <p class="regular">Permiso Internacional de Manejo <br>
-                <b class="bold">DONDE ESTÁ AVALADO</b></p>
+                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-duration="5s">Permiso Internacional de Manejo <br>
+                <b class="bold wp-animated" data-animation="fadeInDown" data-animation-duration="5s">DONDE ESTÁ AVALADO</b></p>
 
-                <p class="regular"><b class="bold">Norma reguladora:</b> <br>
+                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s"><b class="bold">Norma reguladora:</b> <br>
                 Capítulo III del Reglamento General de Conductores. <br>
                 Convenio Internacional de Ginebra de 19 de septiembre del 1949, Capítulo XI: <br>
                 Transportes y comunicaciones.</p>
 
-                <p class="regular"><b class="bold">¿EN QUÉ PAÍSES PUEDO CONDUCIR CON ESTE PERMISO?</b> <br>
+                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s"><b class="bold">¿EN QUÉ PAÍSES PUEDO CONDUCIR CON ESTE PERMISO?</b> <br>
                 Puedes conducir tu permiso internacional en los países que han firmado <br>
                 el Convenio Internacional de Ginebra referente a transportes y comunicación.</p>
 
-                <p class="regular"><b class="bold">¿CON QUÉ DOCUMENTOS DEBO ACOMPAÑAR EL PERMISO?</b> <br>
+                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s"><b class="bold">¿CON QUÉ DOCUMENTOS DEBO ACOMPAÑAR EL PERMISO?</b> <br>
                 El permiso internacional es un permiso complementario, por lo que siempre <br>
                 que vayas a usarlo, lo tienes que acompañar de tu pasaporte y de tu licencia <br>
                 de conducir.</p>
             </div>
             <div class="col-12 col-lg-2 col-sm-12 col-md-12 py-2">
-                <img src="img/cicr.png" alt="AMTI" class="img-fluid py-2 icono-cicr"/> <br>
-                <img src="img/onu.png" alt="AMTI" class="img-fluid py-2 icono-onu py-5"/>
-                <img src="img/mexico.png" alt="AMTI" class="img-fluid py-2 icono-mexico"/>
+                <img src="img/cicr.png" alt="AMTI" class="img-fluid py-2 icono-cicr wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/> <br>
+                <img src="img/onu.png" alt="AMTI" class="img-fluid py-2 icono-onu py-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s"/>
+                <img src="img/mexico.png" alt="AMTI" class="img-fluid py-2 icono-mexico wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s"/>
             </div>
         </div>
     </div>
     <!--COMUNÍCATE CON NOSOTROS-->
-    <div class="container py-5">
+    <div class="container py-5" id="contacto">
         <div class="row py-5">
             <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
             <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-                <h1 class="italic display-3">COMUNÍCATE</h1>
-                <h1 class="extrabold txt-morado display-3">CON <br>
+                <h1 class="italic display-3 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">COMUNÍCATE</h1>
+                <h1 class="extrabold txt-morado display-3 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">CON <br>
                 NOSOTROS</h1>
-                <form action="">
-                    <div class="mb-3">
+                <form method="POST" action="mail.php" id="form">
+                    <div class="mb-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">
                         <label for="name" class="form-label regular h5" >Nombre</label>
                         <input type="text" class="form-control regular" id="name" name="name">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s">
                         <label for="name" class="form-label regular h5" >Teléfono</label>
                         <input type="text" class="form-control regular" id="name" name="name">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s">
                         <label for="mensaje" class="form-label regular h5" >Mensaje</label>
                         <textarea class="form-control regular" id="mensaje" rows="3" name="mensaje" ></textarea>
                     </div>
-                    <div class="text-end">
+                    <div class="text-end wp-animated" data-animation="fadeInDown" data-animation-delay="0.8s" data-animation-duration="5s">
                         <button class="btn btn-primary btn-enviar">
                             <h4 class="regular pt-1 h5">ENVIAR</h4>
                         </button>
@@ -320,7 +476,7 @@
             </div>
             <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
             <div class="col-12 col-lg-6 col-md-12 col-sm-12">
-                <div class="gdl">
+                <div class="gdl wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
                     <h2 class="bold txt-amarillo h3">
                         <img src="img/check-point.png" alt="AMTI" class="img-fluid icono-point"/>
                         SUCURSAL GUADALAJARA
@@ -334,7 +490,7 @@
                         <h4 class="bold text-black ms-5 h5">55 4032 4042</h4>
                     </a>
                 </div>
-                <div class="mty">
+                <div class="mty wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">
                     <h2 class="bold txt-amarillo h3">
                         <img src="img/check-point.png" alt="AMTI" class="img-fluid icono-point"/>
                         SUCURSAL MONTERREY
@@ -349,7 +505,7 @@
                         <h4 class="bold text-black ms-5 h5">55 4032 4042</h4>
                     </a>
                 </div>
-                <div class="cdmx">
+                <div class="cdmx wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s">
                     <h2 class="bold txt-amarillo h3">
                         <img src="img/check-point.png" alt="AMTI" class="img-fluid icono-point"/>
                         SUCURSAL CDMX

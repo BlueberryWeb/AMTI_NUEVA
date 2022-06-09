@@ -58,6 +58,12 @@ html, body {
    	width: 100% !important;
    	overflow-x: hidden;
 }
+body.modal-open{
+    overflow: hidden;
+}
+#menu{
+    display: none;
+}
 .logo-header{
     width: 200px;
 }
@@ -90,6 +96,9 @@ html, body {
     color: #fff;
     top: 40%;
     left: 20%;
+}
+.texto-ventajas h3{
+    color: #fff!important;
 }
 .vid-ventajas{
     position: relative;
@@ -176,6 +185,9 @@ html, body {
     background-color: #f4b150;
     border-color: #f4b150;
 }
+.btn-close{
+    background: none;
+}
 .bg-azul{
     background-color: #173C5C;
     color: #fff;
@@ -206,4 +218,30 @@ footer a, h3{
 }
 .borde-derecho{
     border-left: 1px solid #000000;
+}
+.modal-content{
+    background-image: url('../img/bg-popup.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.modal-header{
+    border-bottom: none;
+}
+@media(max-width:400px){
+    .texto-header{
+        color: #000000;
+        top: 40%;
+        left: 0;
+    }
+    .txt-licencia{
+        color: #000000;
+    }
+    .texto-ventajas h3 {
+        color: #000000!important;
+    }
+    .vid-ventajas{
+        margin-bottom: 600px;
+    }
 }

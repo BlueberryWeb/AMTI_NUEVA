@@ -11,33 +11,222 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <title>AMTI</title>
 <body>
-    <div class="container-fluid bg-azul py-5">
-        <div class="row py-5">
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
-                <a href="" class="none_a_decoration">
-                    <h1 class="italic display-4 py-2">INICIO</h1>
+    <header class="header" id="header">
+        <div class="section__index">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
+                <source src="vid/main-loop.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-gris ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo-blanco.gif" alt="AMTI" class="img-fluid logo-header" />
                 </a>
-                <a href="" class="none_a_decoration">
-                    <h1 class="italic display-4 py-2">SOMOS</h1>
-                </a>
-                <a href="" class="none_a_decoration">
-                    <h1 class="italic display-4 py-2">CÓMO FUNCIONA</h1>
-                </a>
-                <a href="" class="none_a_decoration">
-                    <h1 class="italic display-4 py-2">LICENCIAS</h1>
-                </a>
-                <a href="" class="none_a_decoration">
-                    <h1 class="italic display-4 py-2">CONTACTO</h1>
-                </a>
+                <div class="navbar-nav ml-auto">
+                    <div class="button_menu">
+                        <i class="fa-solid fa-bars" onclick="menu()"></i>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12 py-5">
-                <div class="text-center">
-                    <img src="img/simbolo-blanco.gif" alt="AMTI" class="img-fluid logo-menu pb-5"/>
-                    <h3 class="h6 py-5 text-white regular"> © 2022 AMTI. Todos Los Derechos Reservados</h3>
+        </nav>
+        <div class="texto-header text-center">
+            <h1 class="italic display-2">CONDUCE EN EL <br> EXTRANJERO <b class="extrabold txt-amarillo">SIN LÍMITES</b></h1>
+            <h3 class="bold text-white">LICENCIA INTERNACIONAL PARA CONDUCIR</h3>
+            <div class="text-center">
+                <button class="btn btn-primary btn-tramita">
+                    <a href="#" class="none_a_decoration ">
+                        <h6 class="pt-1 bold h4">TRAMÍTALA AHORA</h6>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!--MENÚ-->
+    <div class="container-fluid bg-azul py-5" id="menu">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                    <div class="text-end pb-5 d-block d-sm-block d-md-none" >
+                        <i class="fa-solid fa-xmark" onclick="cerrar()"></i>
+                    </div>
+                    <a href="" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">INICIO</h1>
+                    </a>
+                    <a href="" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">SOMOS</h1>
+                    </a>
+                    <a href="" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">CÓMO FUNCIONA</h1>
+                    </a>
+                    <a href="" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">LICENCIAS</h1>
+                    </a>
+                    <a href="" class="none_a_decoration">
+                        <h1 class="italic display-4 py-2">CONTACTO</h1>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                    <div class="text-end pb-5 d-none d-sm-none d-md-block" >
+                        <i class="fa-solid fa-xmark" onclick="cerrar()"></i>
+                    </div>
+                    <div class="text-center pt-5">
+                        <img src="img/simbolo-blanco.gif" alt="AMTI" class="img-fluid logo-menu pb-5"/>
+                        <h3 class="h6 py-5 text-white regular"> © 2022 AMTI. Todos Los Derechos Reservados</h3>
+                    </div>
                 </div>
             </div>
         </div>
+        
     </div>
+    <!--CON TU LICENCIA INTERNACIONAL-->
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+            <div class="col-12 col-lg-5 col-sm-12 col-md-12 py-5">
+                <div class="">
+                    <h1 class="italic display-4">CON TU LICENCIA</h1>
+                    <h1 class="extrabold txt-morado display-4">INTERNACIONAL</h1>
+                    <h3 class="regular txt-negro">PODRÁS CONDUCIR DE MANERA <br>
+                    LIBRE Y LEGAL EN MÁS DE 150 <br>
+                    PAÍSES ALREDEDOR DEL MUNDO</h3>
+                    <h3 class="extrabold txt-negro pt-5 pb-3">CONOCE LA COBERTURA <br> DE PAÍSES:</h3>
+
+                    <button class="btn btn-primary btn-paises " data-bs-toggle="modal" data-bs-target="#Paises">
+                        <h3 class="pt-1 bold text-white h5">LISTA DE PAÍSES</h3>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 p-0 py-5">
+                <img src="img/licencia-somos.png" alt="AMTI" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Paises">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row">
+                    <div class="ms-5">
+                        <h1 class="italic">POR FAVOR</h1>
+                        <h1 class="italic">UBICA SI TU PAÍS</h1>
+                        <h1 class="extrabold txt-amarillo">SE ENCUENTRA EN LA </h1>
+                        <h1 class="extrabold txt-amarillo">LISTA</h1>
+                    </div>
+                    <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+                    <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                        <div class="regular">
+                          <h1 class="extrabold">A</h1>
+                          <h5>Arabia Saudita, Afganistán, Albania, <br>
+                          Alemania, Algeria, Andorra, Angola, <br>
+                          Antigua, Argentina, Armenia, <br>
+                          Aruba, Australia, Austria.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">B</h1>
+                            <h5>Bahamas, Bangladesh, Barbados, <br>
+                              Bielorrusia, Bélgica, Benin, Bolivia, <br>
+                              Botswana, Brasil, Bulgaroa, Bután.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">C</h1>
+                            <h5>Camerún, Canadá, Chad, Chile, <br>
+                              China, Chipre, Ciudad del Vaticano, <br>
+                              Colombia, Comorros, Congo, Costa <br>
+                              de Marfil, Costa Rica, Croacia, Cuba, <br>
+                              Curacao.</h5>
+                        </div>
+                        <div class="regular">
+                          <h1 class="extrabold">E</h1>
+                          <h5>Ecuador, Egipto, El Salvador, <br>
+                          Emiratos Arabes, Eslovaquia, <br>
+                          Eslovenia, España, Estados Unidos, <br>
+                          Estonia.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">F</h1>
+                            <h5>Fiji, Filipinas, Finlandia, Francia.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">G</h1>
+                            <h5>Gabon, Gambia, Georgia, Ghana, <br>
+                              Gibraltar, Granada, Grecia <br>
+                              Guernsey, Guinea, Guinea <br>
+                              Ecuatorial, Guinea- Bissau, Guayana.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">H</h1>
+                            <h5>Haití, Holanda, Hong Kong, <br>
+                              Hungría.</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                        <div class="regular">
+                          <h1 class="extrabold">I</h1>
+                          <h5>India, Indonecia, Irán, Irlanda, Isla <br>
+                          de Cabo Verde, Islandia, Islas <br>
+                          Caimán, Israel, Italia.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">J</h1>
+                            <h5>Jamaica, Jersey, Jordania.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">K</h1>
+                            <h5>Kenia, Kuwait.</h5>
+                        </div>
+                        <div class="regular">
+                          <h1 class="extrabold">L</h1>
+                          <h5>Laos, Liberia, Libia, Liechtenstein, <br>
+                          Lituania, Luxemburgo.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">M</h1>
+                            <h5>Macao, Madagascar, Malasia, <br> 
+                              Malawi, Mali, Malta, Marruecos, <br>
+                              Mauritania, México, Moldavia, <br>
+                              Mónaco, Montserrat, Mozambique.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">N</h1>
+                            <h5>Nepal, Nicaragua, Nigeria, <br>
+                              Noruega, Nueva Caledonia, Nueva <br>
+                              Guinea, Nueva Zelanda.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">O</h1>
+                            <h5>Omán.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">P</h1>
+                            <h5>Panamá, Paquistan, Paraguay, <br>
+                              Perú, Polinesia, Polinesia Francesa <br>
+                              Polonia, Portugal.</h5>
+                        </div>
+                        <div class="regular">
+                            <h1 class="extrabold">Q</h1>
+                            <h5>Qatar.</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
