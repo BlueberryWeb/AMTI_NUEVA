@@ -76,6 +76,9 @@ body.modal-open{
 .logo-menu{
     width: 150px;
 }
+.logo-flujo{
+    width: 130px;
+}
 .fa-solid{
     color: #fff;
     cursor: pointer;
@@ -192,6 +195,20 @@ body.modal-open{
     background-color: #173C5C;
     color: #fff;
 }
+.bg-morado{
+    background-color: #9d5d93;
+    color: #fff;
+    width: 200px;
+    padding: 0;
+}
+.bg-atras{
+    border: 1px solid #12417C;
+    border-color: #12417C;
+}
+.bg-continuar{
+    background-color: #12417C;
+    border-color: #12417C;
+}
 footer a, h3{
     color: #000000;
 }
@@ -212,6 +229,13 @@ footer a, h3{
 }
 .icono-point{
     width: 45px;
+}
+.whats-flujo{
+    width: 30px;
+    float: left;
+}
+.carro{
+    width: 100px;
 }
 .telefono{
     border: 1px solid #fff;
