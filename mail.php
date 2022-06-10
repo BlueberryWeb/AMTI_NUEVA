@@ -11,7 +11,7 @@ use PHPMailer\PHPMailer\Exception;
 require './vendor/autoload.php';
 
 $sender = 'noreply.blueberryvideo@gmail.com';
-$senderName = 'Pagina Blueberry video';
+$senderName = 'Nuevo Contacto en amti.mx';
 $recipient = 'noreply.blueberryvideo@gmail.com';
 
 $usernameSmtp = 'noreply.blueberryvideo@gmail.com';
@@ -19,7 +19,7 @@ $passwordSmtp = 'hdgybzekimhkzhus';
 $configurationSet = 'ConfigSet';
 $host = 'smtp.gmail.com';
 $port = 587;
-$subject = 'Mensaje de textilo en la web';
+$subject = 'Mensaje de AMTI en la web';
 $bodyText =  "Correo de la web";
 $bodyHtml = '
 
