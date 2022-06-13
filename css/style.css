@@ -47,6 +47,9 @@ Verde: #7cb269
 .txt-negro{
     color: #313131;
 }
+.txt-gris{
+    color: #595959;
+}
 .none_a_decoration{
     text-decoration: none;
     color: #fff;
@@ -69,6 +72,9 @@ body.modal-open{
 }
 .logo-footer{
     width: 300px;
+}
+.logo-modal{
+    width: 150px;
 }
 .bb-logo{
     width: 250px;
@@ -191,6 +197,12 @@ body.modal-open{
 .btn-close{
     background: none;
 }
+.btn-sexo{
+    background-color: #1E4D6B;
+    border-color: #1E4D6B;
+    width: 100px;
+    color: #fff;
+}
 .bg-azul{
     background-color: #173C5C;
     color: #fff;
@@ -202,12 +214,17 @@ body.modal-open{
     padding: 0;
 }
 .bg-atras{
-    border: 1px solid #12417C;
-    border-color: #12417C;
+    border: 1px solid #1E4D6B;
+    border-color: #1E4D6B;
 }
 .bg-continuar{
-    background-color: #12417C;
-    border-color: #12417C;
+    background-color: #1E4D6B;
+    border-color: #1E4D6B;
+}
+.foto{
+    background-color: #fff;
+    width: 150px;
+    height: 200px;
 }
 footer a, h3{
     color: #000000;
@@ -240,10 +257,13 @@ footer a, h3{
 .telefono{
     border: 1px solid #fff;
 }
+.ojito img{
+    width: 30px;
+}
 .borde-derecho{
     border-left: 1px solid #000000;
 }
-.modal-content{
+.modal-paises{
     background-image: url('../img/bg-popup.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -252,6 +272,34 @@ footer a, h3{
 }
 .modal-header{
     border-bottom: none;
+}
+.modal-flujo{
+    background-color: #1E4D6B!important;
+    color: #fff;
+    border-radius: 20px;
+}
+.card{
+    background-color: #F2F2F1;
+    border-radius: 20px;
+}
+.card-body{
+    color: #2E4371;
+}
+.card-header {
+    background-color: #60628A;
+    color: #fff;
+}
+.card-header h6{
+    font-size: 0.8rem;
+}
+.card-header:first-child {
+    border-radius: calc(0.90rem - 2px) calc(0.90rem - 2px) 0 0;
+}
+.ojito{
+    cursor: pointer;
+}
+.confirmar-datos{
+    margin-top: 190px;
 }
 @media(max-width:400px){
     .texto-header{

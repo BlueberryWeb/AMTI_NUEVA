@@ -102,15 +102,15 @@
         </div>
     </div>
 
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Paises">
-    Launch static backdrop modal
-  </button>
+    <!-- Button trigger modal 
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Paises">
+        Launch static backdrop modal
+    </button>-->
   
   <!-- Modal -->
   <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-xl">
-      <div class="modal-content">
+      <div class="modal-content modal-paises">
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
             <i class="fa-solid fa-xmark"></i>
@@ -227,6 +227,99 @@
       </div>
     </div>
   </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examplePhoto">
+    Launch demo modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="examplePhoto" tabindex="-1" aria-labelledby="examplePhotoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-foto">
+      <div class="modal-content modal-flujo">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> <i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pb-5">
+                  <h6>Ejemplo de fotografía a subir:</h6>
+                  <img src="img/licencia-somos.png" alt="AMTI" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12 pt-5">
+                <h6 class="bold pt-4">Recomendaciones:</h6>
+                <h6 class="pt-3">- Fondo blanco</h6>
+                <h6>-Buena iluminación</h6>
+                <h6>-De frente</h6>
+                <img src="img/logo-blanco.gif" alt="AMTI" class="img-fluid logo-modal">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    
+    .body {
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+
+    img#coche1 {
+       position: absolute;
+    }
+
+    img#coche2 {
+      position: absolute;
+      margin-top: 80px;
+   }
+
+   .zona_boton {
+     text-align: center;
+     width: 100%;
+     margin-top: 240px;
+   }
+
+</style>
+<div class="body">
+	<img id="coche1" src="img/Carro_Andando.gif" alt="Este es mi coche">
+	<img id="coche2" src="img/Carro_parado.gif" alt="Este es mi oponente">			
+	<div class="zona_boton">
+		<input type="button" onclick='setInterval("correr()",60)' value="A CORRER!">	
+	</div>
+    </div>
+    <script>	  
+      //seleccionar imágenes
+      var coche1 = document.getElementById("coche1");
+      var coche2 = document.getElementById("coche2");
+
+      //posiciones iniciales
+      var x_coche1 = 0;
+      var x_coche2 = 0;
+
+      function correr() {
+      	   //movimiento coche1
+	   if (x_coche1 <= 85 && x_coche1 >= 0) { //condición para que se mueva entre estos valores de la pantalla
+		x_coche1 = x_coche1 + 2; //movimiento del valor x
+		coche1.style.left = x_coche1 + "%"; //aplicar el valor obtenido al left del elemento
+	    }
+	    else { //si no cumple la condición, es decir, se sale de los valores de la pantalla, vuelve a empezar
+		 x_coche1=0; //posicion inicial
+		 coche1.style.left = x_coche1 + "%"; //volvemos a aplicar el valor obtenido al left del elemento
+	    }
+
+	    //movimiento coche2
+            if (x_coche2 <= 85 && x_coche2 >= 0) { //condición para que se mueva entre estos valores de la pantalla
+		 x_coche2 = x_coche2 + 1; //movimiento del valor x
+		 coche2.style.left = x_coche2 + "%"; //aplicar el valor obtenido al left del elemento
+	    }
+            else { //si no cumple la condición, es decir, se sale de los valores de la pantalla, vuelve a empezar
+		 x_coche2=0; //posicion inicial
+		 coche2.style.left = x_coche2 + "%"; //volvemos a aplicar el valor obtenido al left del elemento
+	    }
+      }
+  </script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
