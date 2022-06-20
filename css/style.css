@@ -20,6 +20,14 @@ Verde: #7cb269
     font-family: 'Montserrat Regular';
     src: url("fonts/Montserrat-Regular.ttf"); 
 }
+.logo-formulario{
+    width: 150px;
+}
+.fa-solid{
+    color: #000000;
+    cursor: pointer;
+    font-size: 2rem;
+}
 .bold{
     font-family: 'Montserrat Bold';
 }
@@ -32,23 +40,18 @@ Verde: #7cb269
 .regular{
     font-family: 'Montserrat Regular';
 }
-.txt-amarillo{
-    color: #f4b150;
-}
-.txt-morado{
-    color: #9d5d93;
+.txt-rojo{
+    color: #FF0058;
 }
 .txt-azul{
-    color: #12417C;
+    color: #1844E5;
 }
 .txt-verde{
-    color: #7cb269;
+    color: #00D07F;
 }
-.txt-negro{
-    color: #313131;
-}
-.txt-gris{
-    color: #595959;
+.bg-azul{
+    background-color: #025373;
+    color: #fff;
 }
 .none_a_decoration{
     text-decoration: none;
@@ -64,36 +67,19 @@ html, body {
 body.modal-open{
     overflow: hidden;
 }
-#menu{
-    display: none;
+.icono-header{
+    width: 30px;
 }
-.logo-header{
-    width: 200px;
+.carrito{
+    float: left;
 }
-.logo-footer{
-    width: 300px;
+.icono-pagos{
+    width: 30px;
 }
-.logo-modal{
-    width: 150px;
-}
-.bb-logo{
-    width: 250px;
-}
-.logo-menu{
-    width: 150px;
-}
-.logo-flujo{
-    width: 130px;
-}
-.fa-solid{
-    color: #fff;
-    cursor: pointer;
-    font-size: 2rem;
-}
-.header{
+.video{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     color: #fff;
 }
 .section__index{
@@ -103,217 +89,103 @@ body.modal-open{
 .texto-header{
     position: absolute;
     color: #fff;
-    top: 40%;
-    left: 20%;
+    top: 30%;
+    left: 25%;
 }
-.texto-ventajas h3{
-    color: #fff!important;
+.tachado{
+    text-decoration: line-through;
 }
-.vid-ventajas{
+.content-sobre-puesto{
     position: relative;
-    width: 100%;
-    height: 70vh;
 }
-.video_descanso{
-    position: absolute;
-    padding: 0px 0px 0px 0px;
+.content-sobre-puesto span{
+    font-size: 0.5rem;
 }
-.texto-ventajas{
-    position: absolute;
-    color: #fff;
-    margin-top: 4rem;
+.content-sobre-puesto img{
+    margin-top: -110px;
 }
-.bg-licencia {
-    position: relative;
-    width: 100%;
-    z-index: 2;
-    margin-bottom: 649px;
-}
-.txt-licencia{
-    position: absolute;
-    color: #fff;
-}
-.btn-tramita{
-    background-color: #9d5d93;
-    border-color: #9d5d93;
-    border-radius: 0;
-}
-.btn-tramita:hover{
-    background-color: #9d5d93;
-    border-color: #9d5d93;
-    border-radius: 0;
-}
-.btn-paises{
-    background-color: #f4b150;
-    border-color: #f4b150;
-    border-radius: 0;
-    width: 250px;
-}
-.btn-paises:hover{
-    background-color: #f4b150;
-    border-color: #f4b150;
-    border-radius: 0;
-    width: 250px;
-}
-.btn-azul{
-    background-color: #12417C;
-    border-color: #12417C;
-    border-radius: 0;
-}
-.btn-azul:hover{
-    background-color: #12417C;
-    border-color: #12417C;
-    border-radius: 0;
-}
-.btn-verde{
-    background-color: #7cb269;
-    border-color: #7cb269;
-    border-radius: 0;
-}
-.btn-verde:hover{
-    background-color: #7cb269;
-    border-color: #7cb269;
-    border-radius: 0;
-}
-.btn-morado{
-    background-color: #9d5d93;
-    border-color: #9d5d93;
-    border-radius: 0;
-}
-.btn-morado:hover{
-    background-color: #9d5d93;
-    border-color: #9d5d93;
-    border-radius: 0;
-}
-.btn-enviar{
-    background-color: #f4b150;
-    border-color: #f4b150;
-    width: 150px;
-}
-.btn-enviar:hover{
-    background-color: #f4b150;
-    border-color: #f4b150;
-}
-.btn-close{
-    background: none;
-}
-.btn-sexo{
-    background-color: #1E4D6B;
-    border-color: #1E4D6B;
-    width: 100px;
-    color: #fff;
-}
-.bg-azul{
-    background-color: #173C5C;
-    color: #fff;
-}
-.bg-morado{
-    background-color: #9d5d93;
-    color: #fff;
-    width: 200px;
-    padding: 0;
-}
-.bg-atras{
-    border: 1px solid #1E4D6B;
-    border-color: #1E4D6B;
-}
-.bg-continuar{
-    background-color: #1E4D6B;
-    border-color: #1E4D6B;
-}
-.foto{
-    background-color: #fff;
-    width: 150px;
-    height: 200px;
-}
-footer a, h3{
-    color: #000000;
-}
-.icono-footer{
-    width: 30px;
-}
-.icono-ventajas{
-    width: 100px;
-}
-.icono-cicr{
-    width: 100px;
-}
-.icono-onu{
-    width: 100px;
-}
-.icono-mexico{
-    width: 250px;
-}
-.icono-point{
-    width: 45px;
-}
-.whats-flujo{
-    width: 30px;
-    float: left;
-}
-.carro{
-    width: 100px;
-}
-.telefono{
-    border: 1px solid #fff;
-}
-.ojito img{
-    width: 30px;
-}
-.borde-derecho{
-    border-left: 1px solid #000000;
-}
-.modal-paises{
-    background-image: url('../img/bg-popup.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: #fff;
+.card{
+    border-radius: 15px;
 }
 .modal-header{
     border-bottom: none;
 }
-.modal-flujo{
-    background-color: #1E4D6B!important;
-    color: #fff;
-    border-radius: 20px;
-}
-.card{
-    background-color: #F2F2F1;
-    border-radius: 20px;
-}
-.card-body{
-    color: #2E4371;
-}
-.card-header {
-    background-color: #60628A;
-    color: #fff;
-}
-.card-header h6{
-    font-size: 0.8rem;
-}
-.card-header:first-child {
-    border-radius: calc(0.90rem - 2px) calc(0.90rem - 2px) 0 0;
-}
-.ojito{
+.libro{
     cursor: pointer;
 }
-.confirmar-datos{
-    margin-top: 190px;
+.opiniones span{
+    font-size: 0.7rem;
 }
-@media(max-width:400px){
-    .texto-header{
-        color: #000000;
-        top: 40%;
-        left: 0;
-    }
-    .txt-licencia{
-        color: #000000;
-    }
-    .texto-ventajas h3 {
-        color: #000000!important;
-    }
-    .vid-ventajas{
-        margin-bottom: 600px;
-    }
+.avalado{
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 70vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+}
+.avalado video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.text{
+    position: relative;
+    z-index: 10;
+}
+.avalados-img{
+    width: 100px;
+}
+.btn-compra{
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+    border-radius: 0;
+    width: 200px;
+}
+.btn-compra:hover{
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+    border-radius: 0;
+}
+.btn-rojo{
+    background-color: #FF0058;
+    border-color: #FF0058;
+}
+.btn-rojo:hover{
+    background-color: #FF0058;
+    border-color: #FF0058;
+}
+.btn-verde{
+    background-color: #00D07F;
+    border-color: #00D07F;
+}
+.btn-verde:hover{
+    background-color: #00D07F;
+    border-color: #00D07F;
+}
+.btn-azul{
+    background-color: #1844E5;
+    border-color: #1844E5;
+}
+.btn-azul:hover{
+    background-color: #1844E5;
+    border-color: #1844E5;
+}
+.btn-licencias{
+    width: 250px;
+}
+.btn-close{
+    background: none;
+}
+.btn-popup{
+    width: 250px;
 }

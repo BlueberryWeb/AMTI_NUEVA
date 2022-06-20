@@ -12,582 +12,609 @@
     <title>AMTI</title>
 </head>
 <body>
-
-    <header class="header" id="header">
-        <div class="section__index">
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
-                <source src="vid/main-loop.mp4" type="video/mp4" />
-            </video>
+    <header>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                    <img src="img/logo-azul-amti.png" alt="AMTI" class="img-fluid"/>
+                </div>
+                <div class="col-12 col-lg-7 col-sm-12 col-md-12"></div>
+                <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                    <img src="img/carrito-de-compras.png" alt="AMTI" class="img-fluid icono-header carrito me-4"/>
+                    <a href="#" class="none_a_decoration">
+                        <h3 class="txt-azul h4">
+                            <img src="img/icono-whats-azul.png" alt="AMTI" class="img-fluid icono-header me-2"/>
+                            55 4032 4042
+                        </h3>
+                    </a>
+                    
+                </div>
+            </div>   
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-gris ">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo-blanco.gif" alt="AMTI" class="img-fluid logo-header" />
-                </a>
-                <div class="navbar-nav ml-auto">
-                    <div class="button_menu">
-                        <i class="fa-solid fa-bars" onclick="menu()"></i>
-                    </div>
+        <div class="container-fluid video">
+            <div class="row">
+                <div class="section__index">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
+                        <source src="vid/main-loop.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
-        </nav>
-        <div class="texto-header text-center">
-            <h1 class="italic display-2">CONDUCE EN EL <br> EXTRANJERO <b class="extrabold txt-amarillo">SIN LÍMITES</b></h1>
-            <h3 class="bold text-white">LICENCIA INTERNACIONAL PARA CONDUCIR</h3>
-            <div class="text-center">
-                <button class="btn btn-primary btn-tramita">
-                    <a href="licencias.html" class="none_a_decoration ">
-                        <h6 class="pt-1 bold h4">TRAMÍTALA AHORA</h6>
-                    </a>
-                </button>
+            <div class="texto-header text-center">
+                <h1 class="extrabold display-4">CONDUCE EN EL <br> EXTRANJERO SIN LÍMITES</h1>
+                <h3 class="italic text-white">CON TU LICENCIA INTERNACIONAL</h3>
+                <div class="text-center pt-5">
+                    <button class="btn btn-primary btn-compra">
+                        <a href="licencias.html" class="none_a_decoration ">
+                            <h6 class="pt-1 italic">COMPRAR</h6>
+                        </a>
+                    </button>
+                </div>
             </div>
         </div>
     </header>
-    <!--MENÚ-->
-    <div class="container-fluid bg-azul py-5 wp-animated" data-animation="fadeInRight" id="menu">
-        <div class="container">
-            <div class="row py-5">
-                <div class="col-12 col-lg-6 col-sm-12 col-md-12">
-                    <div class="text-end pb-5 d-block d-sm-block d-md-none" >
-                        <i class="fa-solid fa-xmark" onclick="cerrar()"></i>
+    <!--DIV SOBREPUESTO-->
+    <div class="container content-sobre-puesto">
+        <div class="row">
+            <div class="col-12 col-lg-1"></div>
+            <div class="col-12 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="img/paq-1.png" alt="AMTI" class="img-fluid"/>
+                      <h6 class="txt-rojo pt-3 ms-3">3 años</h6>
+                      <h4 class="h5 ms-3">$2, 700 <b class="regular h6">MXN</b></h4>
+                      <span class="ms-3">PERMISO INTERNACIONAL</span>
+                      <div class="text-center py-3">
+                        <button class="btn btn-primary btn-rojo btn-licencias">
+                            <a href="#" class="none_a_decoration">
+                                <h6 class="pt-1"> COMPRAR</h6>
+                            </a>
+                        </button>
+                      </div>
                     </div>
-                    <a href="#header" class="none_a_decoration">
-                        <h1 class="italic display-4 py-2">INICIO</h1>
-                    </a>
-                    <a href="#somos" class="none_a_decoration">
-                        <h1 class="italic display-4 py-2">SOMOS</h1>
-                    </a>
-                    <a href="#como-funciona" class="none_a_decoration">
-                        <h1 class="italic display-4 py-2">CÓMO FUNCIONA</h1>
-                    </a>
-                    <a href="#tarifas" class="none_a_decoration">
-                        <h1 class="italic display-4 py-2">TARIFAS</h1>
-                    </a>
-                    <a href="#contacto" class="none_a_decoration">
-                        <h1 class="italic display-4 py-2">CONTACTO</h1>
-                    </a>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="img/paq-2.png" alt="AMTI" class="img-fluid"/>
+                      <h6 class="txt-verde pt-3 ms-3">5 años</h6>
+                      <div class="row">
+                          <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                              <h6 class="h5">$ 3,700 <b class="regular h6">MXN</b></h6>
+                          </div>
+                          <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                              <h6 class="tachado h5">$4,900 <b class="regular h6">MXN</b></h6>
+                          </div>
+                      </div>
+                      <span class="ms-3">PERMISO INTERNACIONAL</span>
+                      <div class="text-center py-3">
+                        <button class="btn btn-primary btn-verde btn-licencias">
+                            <a href="#" class="none_a_decoration">
+                                <h6 class="pt-1"> COMPRAR</h6>
+                            </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="img/paq-3.png" alt="AMTI" class="img-fluid"/>
+                      <h6 class="txt-azul pt-3 ms-3">1 año</h6>
+                      <h5 class="ms-3">$1,450 <b class="regular h6">MXN</b></h5>
+                      <span class="ms-3">PERMISO INTERNACIONAL</span>
+                      <div class="text-center py-3">
+                        <button class="btn btn-primary btn-azul btn-licencias">
+                            <a href="#" class="none_a_decoration">
+                                <h6 class="pt-1"> COMPRAR</h6>
+                            </a>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-lg-1"></div>
+        </div>
+    </div>
+    <!--CÓMO COMPRAR-->
+    <div class="container py-5">
+        <div class="row pt-5">
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+            <div class="col-12 col-lg-10 col-sm-12 col-md-12 pt-5">
+                <div class="row">
+                    <div class="text-center py-5">
+                        <h6 class="extrabold h5">¿CÓMO COMPRAR?</h6>
+                        <p class="">La licencia internacional funciona como una extensión <br> de tu licencia nacional para el extranjero.</p>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12 pt-5">
+                        <div class="row text-center">
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <img src="img/elige.png" alt="AMTI" class="img-fluid ms-5"/>
+                            </div>
+                            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                                <img src="img/linea.png" alt="AMTI" class="img-fluid pt-5 ms-5"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12 pt-5">
+                        <div class="row text-center">
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <img src="img/completa.png" alt="AMTI" class="img-fluid ms-5"/>
+                            </div>
+                            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                                <img src="img/linea.png" alt="AMTI" class="img-fluid pt-5 ms-5"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12 pt-5">
+                        <div class="row text-center">
+                            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                                <img src="img/paga.png" alt="AMTI" class="img-fluid ms-5"/>
+                            </div>
+                            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                                <img src="img/linea.png" alt="AMTI" class="img-fluid pt-5 ms-5"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12 pt-5">
+                        <img src="img/envio.png" alt="AMTI" class="img-fluid ms-5"/>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-6 col-sm-12 col-md-12">
-                    <div class="text-end pb-5 d-none d-sm-none d-md-block" >
-                        <i class="fa-solid fa-xmark" onclick="cerrar()"></i>
+                <div class="row py-3">
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                        <div class="text-center">
+                            <h6>ELIGE</h6>
+                            <p>Revisa la cobertura del país y elige la vigencia de tu licencia,</p>
+                        </div>
                     </div>
-                    <div class="text-center pt-5">
-                        <img src="img/simbolo-blanco.gif" alt="AMTI" class="img-fluid logo-menu pb-5"/>
-                        <h3 class="h6 py-5 text-white regular"> © 2022 AMTI. Todos Los Derechos Reservados</h3>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                        <div class="text-center">
+                            <h6>COMPLETA</h6>
+                            <p>Sigue los pasos a través de formulario en línea.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                        <div class="text-center">
+                            <h6>PAGA</h6>
+                            <p>Realiza el pago de tu licencia a través de los métodos aceptados.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12 col-md-12">
+                        <div class="text-center">
+                            <h6>ENVÍO GRATIS</h6>
+                            <p>Tu licencia será estará lista. Envío nacional gratis.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
         </div>
-        
     </div>
-    <!--CON TU LICENCIA INTERNACIONAL-->
-    <div class="container-fluid py-5" id="somos">
+    <!--MEDIOS Y SOLUCIONES DE PAGO-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
+            <div class="col-12 col-lg-8 col-sm-12 col-md-12">
+                <div class="text-center">
+                    <h1 class="h5">MEDIOS Y SOLUCIONES DE PAGO</h1>
+                </div>
+                <div class="row py-5">
+                    <div class="col-12 col-lg-2 col-sm-12 col-md-12"> 
+                        <img src="img/icono-visa.png" alt="AMTI" class="img-fluid icono-pagos"/>
+                    </div>
+                    <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                        <img src="img/icono-master.png" alt="AMTI" class="img-fluid icono-pagos"/>
+                    </div>
+                    <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                        <img src="img/icono-american.png" alt="AMTI" class="img-fluid icono-pagos"/>
+                    </div>
+                    <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                        <img src="img/icono-benavides.png" alt="AMTI" class="img-fluid"/>
+                    </div>
+                    <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                        <img src="img/icono-7-eleven.png" alt="AMTI" class="img-fluid icono-pagos"/>
+                    </div>
+                    <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                        <img src="img/icono-walmart.png" alt="AMTI" class="img-fluid "/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
+        </div>
+    </div>
+    <!--POR QUÉ NOSOTROS-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <div class="">
+                    <h5 class="">¿POR QUÉ NOSOTROS?</h5>
+                    <p>Somos una empresa dedicada al trámite y expedición de licencias <br> 
+                        internacionales, con la cual podrás conducir en el extranjero sin <br> 
+                        preocupaciones.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <img src="img/rapidez.png" alt="AMTI" class="img-fluid"/>
+                    </div>
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <h5>RAPIDEZ</h5>
+                        <h6>Tu licencia en solo 2 días hábiles.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <img src="img/seguridad.png" alt="AMTI" class="img-fluid"/>
+                    </div>
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <h5>SEGURIDAD</h5>
+                        <h6>Tu licencia bajo todas las <br> normativas gubernamentales.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <img src="img/cobertura.png" alt="AMTI" class="img-fluid"/>
+                    </div>
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <h5>COBERTURA</h5>
+                        <h6>Cobertura en más de 130 países.</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <img src="img/soporte.png" alt="AMTI" class="img-fluid"/>
+                    </div>
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6">
+                        <h5>SOPORTE</h5>
+                        <h6>Soporte y atención personalizada 24/7.</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12"></div>
+        </div>
+    </div>
+    <!--CONDUCE EN EL EXTRANJERO-->
+    <div class="container">
         <div class="row">
             <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
-            <div class="col-12 col-lg-5 col-sm-12 col-md-12 py-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-                <div class="">
-                    <h1 class="italic display-4">CON TU LICENCIA</h1>
-                    <h1 class="extrabold txt-morado display-4">INTERNACIONAL</h1>
-                    <h3 class="regular txt-negro">PODRÁS CONDUCIR DE MANERA <br>
-                    LIBRE Y LEGAL EN MÁS DE 150 <br>
-                    PAÍSES ALREDEDOR DEL MUNDO</h3>
-                    <h3 class="extrabold txt-negro pt-5 pb-3">CONOCE LA COBERTURA <br> DE PAÍSES:</h3>
-                    <button class="btn btn-primary btn-paises" data-bs-toggle="modal" data-bs-target="#Paises">
-                        <h3 class="pt-1 bold text-white h5">LISTA DE PAÍSES</h3>
+            <div class="col-12 col-lg-10 col-sm-12 col-md-12">
+                <div class="text-center">
+                    <h5>CONDUCE EN EL EXTRANJERO</h5>
+                    <h2>+150</h2>
+                    <span>Cobertura en más de 150 países.</span>
+                    
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary">
+                        VER LISTA
                     </button>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12 p-0 py-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-                <img src="img/licencia-somos.png" alt="AMTI" class="img-fluid"/>
-            </div>
-        </div>
-    </div>
-    <!-- MODAL CON LISTA DE PAÍSES -->
-    <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-xl">
-        <div class="modal-content modal-paises">
-            <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="ms-5">
-                            <h1 class="italic">POR FAVOR</h1>
-                            <h1 class="italic">UBICA SI TU PAÍS</h1>
-                            <h1 class="extrabold txt-amarillo">SE ENCUENTRA EN LA </h1>
-                            <h1 class="extrabold txt-amarillo">LISTA</h1>
-                        </div>
-                        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
-                        <div class="col-12 col-lg-5 col-sm-12 col-md-12">
-                            <div class="regular">
-                            <h1 class="extrabold">A</h1>
-                            <h5>Arabia Saudita, Afganistán, Albania, <br>
-                            Alemania, Algeria, Andorra, Angola, <br>
-                            Antigua, Argentina, Armenia, <br>
-                            Aruba, Australia, Austria.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">B</h1>
-                                <h5>Bahamas, Bangladesh, Barbados, <br>
-                                Bielorrusia, Bélgica, Benin, Bolivia, <br>
-                                Botswana, Brasil, Bulgaroa, Bután.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">C</h1>
-                                <h5>Camerún, Canadá, Chad, Chile, <br>
-                                China, Chipre, Ciudad del Vaticano, <br>
-                                Colombia, Comorros, Congo, Costa <br>
-                                de Marfil, Costa Rica, Croacia, Cuba, <br>
-                                Curacao.</h5>
-                            </div>
-                            <div class="regular">
-                            <h1 class="extrabold">E</h1>
-                            <h5>Ecuador, Egipto, El Salvador, <br>
-                            Emiratos Arabes, Eslovaquia, <br>
-                            Eslovenia, España, Estados Unidos, <br>
-                            Estonia.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">F</h1>
-                                <h5>Fiji, Filipinas, Finlandia, Francia.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">G</h1>
-                                <h5>Gabon, Gambia, Georgia, Ghana, <br>
-                                Gibraltar, Granada, Grecia <br>
-                                Guernsey, Guinea, Guinea <br>
-                                Ecuatorial, Guinea- Bissau, Guayana.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">H</h1>
-                                <h5>Haití, Holanda, Hong Kong, <br>
-                                Hungría.</h5>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-5 col-sm-12 col-md-12">
-                            <div class="regular">
-                            <h1 class="extrabold">I</h1>
-                            <h5>India, Indonecia, Irán, Irlanda, Isla <br>
-                            de Cabo Verde, Islandia, Islas <br>
-                            Caimán, Israel, Italia.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">J</h1>
-                                <h5>Jamaica, Jersey, Jordania.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">K</h1>
-                                <h5>Kenia, Kuwait.</h5>
-                            </div>
-                            <div class="regular">
-                            <h1 class="extrabold">L</h1>
-                            <h5>Laos, Liberia, Libia, Liechtenstein, <br>
-                            Lituania, Luxemburgo.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">M</h1>
-                                <h5>Macao, Madagascar, Malasia, <br> 
-                                Malawi, Mali, Malta, Marruecos, <br>
-                                Mauritania, México, Moldavia, <br>
-                                Mónaco, Montserrat, Mozambique.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">N</h1>
-                                <h5>Nepal, Nicaragua, Nigeria, <br>
-                                Noruega, Nueva Caledonia, Nueva <br>
-                                Guinea, Nueva Zelanda.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">O</h1>
-                                <h5>Omán.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">P</h1>
-                                <h5>Panamá, Paquistan, Paraguay, <br>
-                                Perú, Polinesia, Polinesia Francesa <br>
-                                Polonia, Portugal.</h5>
-                            </div>
-                            <div class="regular">
-                                <h1 class="extrabold">Q</h1>
-                                <h5>Qatar.</h5>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
         </div>
     </div>
     <!--CÓMO FUNCIONA-->
-    <div class="container-fluid bg-licencia py-5 p-0">
-        <div class="section__index wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
-                <source src="vid/vid-licencia.mp4" type="video/mp4" />
-            </video>
-        </div>
-        <div class="row txt-licencia wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s" >
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
-                <img src="img/gaffete.png" alt="AMTI" class="img-fluid" style="visibility: hidden;"/>
-            </div>
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12 py-5">
-                <h1 class="italic display-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">¿CÓMO</h1>
-                <h1 class="extrabold txt-amarillo display-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.3s" data-animation-duration="5s">FUNCIONA?</h1>
-                <h4 class="regular py-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">La licencia internacional funciona <br>
-                como una extensión de tu licencia <br>
-                nacional para poder conducir de <br>
-                manera legal en el extranjero.</h4>
-                <button class="btn btn-primary btn-tramita wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s">
-                    <a href="licencias.html" class="none_a_decoration ">
-                        <h6 class="pt-1 bold h4">TRAMÍTALA AHORA</h6>
-                    </a>
-                </button>
-            </div>
-        </div>
-    </div>
-    <!--RAPIDEZ, SEGURIDAD SOPORTE-->
-    <div class="container-fluid p-0 vid-ventajas">
-        <div class="video_descanso wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
-                <source src="vid/loop-ventajas.mp4" type="video/mp4" />
-            </video>
-        </div>
-        <div class="row texto-ventajas d-flex justify-content-center py-5">
-            <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5 wp-animated" data-animation="zoomIn" data-animation-duration="5s">
-                <div class="text-center">
-                    <img src="img/rapidez.gif" alt="AMTI" class="img-fluid icono-ventajas"/>
-                    <h1 class="extrabold txt-amarillo">RAPIDEZ</h1>
-                    <h3 class="regular ">Tu licencia en 2 <br>
-                    días hábiles.</h3>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5 wp-animated" data-animation="zoomIn" data-animation-delay="0.3s" data-animation-duration="5s">
-                <div class="text-center">
-                    <img src="img/seguridad.gif" alt="AMTI" class="img-fluid icono-ventajas"/>
-                    <h1 class="extrabold txt-amarillo">SEGURIDAD</h1>
-                    <h3 class="regular ">Tu licencia bajo <br>
-                    todas las normativas <br>
-                    gubernamentales.</h3>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12 py-5 wp-animated" data-animation="zoomIn" data-animation-delay="0.6s" data-animation-duration="5s">
-                <div class="text-center">
-                    <img src="img/soporte.gif" alt="AMTI" class="img-fluid icono-ventajas"/>
-                    <h1 class="extrabold txt-amarillo">SOPORTE</h1>
-                    <h3 class="regular ">Soporte y atención <br>
-                    personalizada 24/7.</h3>
-                </div>
-            </div>
-            <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
-            <div class="row wp-animated" data-animation="fadeInDown" data-animation-delay="0.5s" data-animation-duration="5s">
-                <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
-                <div class="col-12 col-lg-4 col-sm-12 col-md-12">
-                    <h2 class="text-end bold">¿TIENES ALGUNA DUDA?</h2>
-                    <h2 class="text-end bold">CONTÁCTANOS</h2>
-                </div>
-                <div class="col-12 col-lg-3 col-sm-12 col-md-12 pt-3">
-                    <div class="telefono">
-                        <a href="" class="none_a_decoration">
-                            <h1 class="bold text-center">55 4032 4042</h1>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
-            </div>
-        </div>
-    </div>
-    <!--TRAMITA LA LICENCIA-->
-    <div class="container py-5" id="tarifas">
-        <div class="row pt-5 d-flex justify-content-center pb-5 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-            <h1 class="italic text-center display-4">TRAMITA TU <b class="extrabold txt-amarillo">LICENCIA</b></h1>
-            <h3 class="bold text-center h4 txt-negro">ELIGE LA LICENCIA QUE PREFIERAS</h3>
-        </div>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-lg-4 col-sm-12 col-md-12 py-3 wp-animated" data-animation="zoomIn" data-animation-duration="5s">
-                <img src="img/documentos-entrega.png" alt="AMTI" class="img-fluid"/>
-                <h5 class="italic ">PERMISO INTERNACIONAL</h5>
-                <h1 class="extrabold txt-verde display-5">5 AÑOS</h1>
-                <h5 class="regular">$3,700 MXN</h5>
-                <button class="btn btn-primary btn-verde">
-                    <a href="licencias.html" class="none_a_decoration">
-                        <h1 class="bold h5">COMPRAR LICENCIA</h1>
-                    </a>
-                </button>
-            </div>
-            <div class="col-12 col-lg-4 col-sm-12 col-md-12 borde-derecho py-3 wp-animated" data-animation="zoomIn" data-animation-delay="0.3s" data-animation-duration="5s">
-                <div class="ms-4">
-                    <img src="img/documentos-entrega.png" alt="AMTI" class="img-fluid"/>
-                    <h5 class="italic">PERMISO INTERNACIONAL</h5>
-                    <h1 class="extrabold txt-azul display-5">3 AÑOS</h1>
-                    <h5 class="regular">$2,700 MXN</h5>
-                    <button class="btn btn-primary btn-azul">
-                        <a href="licencias.html" class="none_a_decoration">
-                            <h1 class="bold h5">COMPRAR LICENCIA</h1>
-                        </a>
-                    </button>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 col-sm-12 col-md-12 borde-derecho py-3 wp-animated" data-animation="zoomIn" data-animation-delay="0.6s" data-animation-duration="5s">
-                <div class="ms-4">
-                    <img src="img/documentos-entrega.png" alt="AMTI" class="img-fluid"/>
-                    <h5 class="italic">PERMISO INTERNACIONAL</h5>
-                    <h1 class="extrabold txt-morado display-5">1 AÑO</h1>
-                    <h5 class="regular">$1,450 MXN</h5>
-                    <button class="btn btn-primary btn-morado">
-                        <a href="licencias.html" class="none_a_decoration">
-                            <h1 class="bold h5">COMPRAR LICENCIA</h1>
-                        </a>
-                    </button>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                <div class="text-center">
+                    <h5>¿CÓMO FUNCIONA?</h5>
+                    <p>La licencia internacional funciona como una extensión <br> 
+                        de tu licencia nacional para poder conducir de manera <br> 
+                        legal en el extranjero.
+                    </p>
+                    <img src="img/como-funciona.png" alt="AMTI" class="img-fluid"/>
                 </div>
                 
             </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                <img src="img/libro.png" alt="AMTI" class="img-fluid libro" data-bs-toggle="modal" data-bs-target="#licencia"/>
+                <!-- Modal -->
+                <div class="modal fade" id="licencia" tabindex="-1" aria-labelledby="licenciaLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <h5 class="text-center">¡ADQUIERE TU LICENCIA!</h5>
+                        <img src="img/licencia-pop-up.png" alt="AMTI" class="img-fluid">
+                        <div class="text-center">
+                            <button class="btn btn-primary btn-verde btn-popup">
+                                <a href="#" class="none_a_decoration">
+                                    <h6 class="pt-1">COMPRAR</h6>
+                                </a>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!--ES MUY SENCILLO-->
-    <div class="container py-5" id="como-funciona">
-        <div class="row wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-            <h1 class="italic display-4">ES MUY</h1>
-            <h1 class="extrabold txt-amarillo display-4">SENCILLO</h1>
-        </div>
-        <!--VIGENCIA-->
-        <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-duration="5s">
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12 ">
-                <img src="img/vigencia.gif" alt="AMTI" class="img-fluid"/>
-            </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12">
-                <h1 class="extrabold txt-azul h2">01 ELIGE TU <br> VIGENCIA</h1>
-                <h4 class="regular h5">Revisa la cobertura del <br> país y elige la vigencia <br> de tu licencia.</h4>
-            </div>
-        </div>
-         <!--PROCESO EN LÍNEA-->
-         <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-delay="0.3s" data-animation-duration="5s">
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
+    <!--QUÉ OPINAN NUESTROS CLIENTES-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+            <div class="col-12 col-lg-10 col-sm-12 col-md-12">
                 <div class="text-center">
-                    <img src="img/flechita.png" alt="AMTI" class="img-fluid"/>
+                    <h5>¿QUÉ OPINAN NUESTROS CLIENTES?</h5>
+                    <p>Esto es lo que algunos de nuestros clientes nos han <br>
+                         comentado luego de adquirir su licencia con nosotros.
+                    </p>
+                </div>
+                <div class="row opiniones">
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                      <img src="img/testimonio-1.png" alt="AMTI" class="img-fluid"/>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                      <h5>ROBERTO MONTES</h5>
+                                      <h6>Licencia de 5 años</h6>
+                                      <span>
+                                        <img src="img/estrellas.png" alt="AMTI" class="img-fluid me-2"/>
+                                        <b>¡Excelente!</b>
+                                    </span>
+                                  </div>
+                              </div>
+                              <div class="row"><p>Me ha gustado mucho la atención, así como  
+                                algún texto repetitivo del por qué es importante 
+                                contratar los servicios y cómo le ha cambiado la 
+                                 vida al usuario.
+                            </p><p></p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                      <img src="img/testimonio-2.png" alt="AMTI" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                        <h5>SOFÍA MARTÍNEZ</h5>
+                                        <h6>Licencia 5 años</h6>
+                                        <span>
+                                            <img src="img/estrellas.png" alt="AMTI" class="img-fluid me-2"/>
+                                            <b>Muy fácil</b>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p>
+                                        Me ha gustado mucho la atención, así como 
+                                        algún texto repetitivo del por qué es importante 
+                                        contratar los servicios y cómo le ha cambiado la 
+                                         vida al usuario.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                      <img src="img/testimonio-3.png" alt="AMTI" class="img-fluid"/>
+                                    </div>
+                                    <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                        <h5>HÉCTOR NAVARRO</h5>
+                                        <h6>Licencia 3 años</h6>
+                                        <span>
+                                            <img src="img/estrellas.png" alt="AMTI" class="img-fluid me-2"/>
+                                            <b>Justo a tiempo</b>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p>Me ha gustado mucho la atención, así como 
+                                        algún texto repetitivo del por qué es importante 
+                                        contratar los servicios y cómo le ha cambiado la 
+                                         vida al usuario.
+                                    </p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                <img src="img/proceso-linea.gif" alt="AMTI" class="img-fluid"/>
-            </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12">
-                <h1 class="extrabold txt-morado h2">02 REALIZA EL PROCESO DE PAGO</h1>
-                <h4 class="regular h5">Sigue los paso a través <br>
-                del formulario en línea.</h4> 
-            </div>
-        </div>
-         <!--PAGO-->
-         <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-delay="0.6s" data-animation-duration="5s">
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12"></div>
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                <div class="text-center">
-                    <img src="img/flechita.png" alt="AMTI" class="img-fluid"/>
-                </div>
-            </div>
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                <img src="img/pago.gif" alt="AMTI" class="img-fluid"/>
-            </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12">
-               <h1 class="extrabold txt-azul h2">03 REALIZA <br> TU PAGO</h1>
-               <h4 class="regular h5">Realiza el pago de tu <br>
-                licencia a través de los <br>
-                métodos aceptados.</h4>
-            </div>
-        </div>
-        <!--ENVÍO-->
-        <div class="row py-3  wp-animated" data-animation="zoomIn" data-animation-delay="0.9s" data-animation-duration="5s">
-            <div class="col-12 col-lg-4 col-md-12 col-sm-12"></div>
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                <div class="text-center">
-                    <img src="img/flechita.png" alt="AMTI" class="img-fluid"/>
-                </div>
-            </div>
-            <div class="col-12 col-lg-2 col-md-12 col-sm-12">
-                <img src="img/envio.gif" alt="AMTI" class="img-fluid"/>
-            </div>
-            <div class="col-12 col-lg-3 col-md-12 col-sm-12">
-                <h1 class="extrabold txt-morado h2">04 ENVÍO</h1>
-                <h4 class="regular h5">Tu licencia estará lista <br>
-                podrás pasar por ella en <br>
-                nuestras sucursales o te <br>
-                llegará en 2 días hábiles.</h4>
-            </div>
+            <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
         </div>
     </div>
     <!--DÓNDE ESTÁ AVALADO-->
-    <div class="container-fluid bg-azul py-5">
-        <div class="row py-5">
-            <div class="col-12 col-lg-2 col-sm-12 col-md-12"></div>
-            <div class="col-12 col-lg-6 col-sm-12 col-md-12">
-                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-duration="5s">Permiso Internacional de Manejo <br>
-                <b class="bold wp-animated" data-animation="fadeInDown" data-animation-duration="5s">DONDE ESTÁ AVALADO</b></p>
-
-                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s"><b class="bold">Norma reguladora:</b> <br>
-                Capítulo III del Reglamento General de Conductores. <br>
-                Convenio Internacional de Ginebra de 19 de septiembre del 1949, Capítulo XI: <br>
-                Transportes y comunicaciones.</p>
-
-                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s"><b class="bold">¿EN QUÉ PAÍSES PUEDO CONDUCIR CON ESTE PERMISO?</b> <br>
-                Puedes conducir tu permiso internacional en los países que han firmado <br>
-                el Convenio Internacional de Ginebra referente a transportes y comunicación.</p>
-
-                <p class="regular wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s"><b class="bold">¿CON QUÉ DOCUMENTOS DEBO ACOMPAÑAR EL PERMISO?</b> <br>
-                El permiso internacional es un permiso complementario, por lo que siempre <br>
-                que vayas a usarlo, lo tienes que acompañar de tu pasaporte y de tu licencia <br>
-                de conducir.</p>
-            </div>
-            <div class="col-12 col-lg-2 col-sm-12 col-md-12 py-2">
-                <img src="img/cicr.png" alt="AMTI" class="img-fluid py-2 icono-cicr wp-animated" data-animation="fadeInDown" data-animation-duration="5s"/> <br>
-                <img src="img/onu.png" alt="AMTI" class="img-fluid py-2 icono-onu py-5 wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s"/>
-                <img src="img/mexico.png" alt="AMTI" class="img-fluid py-2 icono-mexico wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s"/>
+    <section class="avalado">
+        <video src="vid/main-loop.mp4" muted loop autoplay ></video>
+        <div class="container">
+            <div class="row d-flex justify-content-start">
+                <div class="text">
+                    <div class="container">
+                        <div class="row d-flex justify-content-start">
+                            <div class="row d-flex justify-content-start">
+                                <div class="col-12 col-lg-10 col-sm-12 col-md-12">
+                                    <h6>Permiso Internacional de Manejo</h6>
+                                    <h5>DONDE ESTA AVALADO</h5>
+                                    <h5>Normativa reguladora:</h5>
+                                    <h6>Capítulo III del Reglamento General de Conductores.</h6>
+                                    <h6>Convenio Internacional de Ginebra de 19 de septiembre de 1949. Capítulo XI:</h6>
+                                    <h6>Transportes y comunicaciones.</h6>
+                                    <h5>¿En qué países puedo conducir con este permiso?</h5>
+                                    <h6>Puedes conducir con tu permiso internacional en los países que han firmado <br>
+                                        el convenio internacional de Ginebra referente a transportes y comunicación.
+                                    </h6>
+                                    <h5>¿Con qué documentos debo acompañar el permiso?</h5>
+                                    <h6>El permiso internacional es un permiso complementario, por lo que siempre <br>
+                                        que vayas a usarlo, lo tienes que acompañar de tu pasaporte y de tu licencia <br>
+                                        de conducir.
+                                    </h6>
+                                </div>
+                                <div class="col-12 col-lg-2 col-sm-12 col-md-12">
+                                    <img src="img/ICRS.png" alt="AMTI" class="img-fluid pb-4 avalados-img"/> <br>
+                                    <img src="img/ONU.png" alt="AMTI" class="img-fluid pb-4 avalados-img"/> <br>
+                                    <img src="img/Gobierno-Mexico.png" alt="AMTI" class="img-fluid avalados-img"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!--COMUNÍCATE CON NOSOTROS-->
-    <div class="container py-5" id="contacto">
-        <div class="row py-5">
-            <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
-            <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-                <h1 class="italic display-3 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">COMUNÍCATE</h1>
-                <h1 class="extrabold txt-morado display-3 wp-animated" data-animation="fadeInDown" data-animation-duration="5s">CON <br>
-                NOSOTROS</h1>
-                <form method="POST" action="mail.php" id="form">
-                    <div class="mb-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">
-                        <label for="name" class="form-label regular h5" >Nombre</label>
-                        <input type="text" class="form-control regular" id="name" name="name">
+    </section>
+    <!--FORMULARIO-->
+    <div class="container-fluid">
+        <div class="row mx-5">
+            <div class="col-12 col-lg-5 col-sm-12 col-md-12">
+                <div class="row">
+                    <img src="img/logo-azul-amti.png" alt="AMTI" class="img-fluid logo-formulario pt-3"/>
+                    <h5 class="py-4">COMUNÍCATE CON NOSOTROS</h5>
+                </div>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">
+                        </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-sm-12 col-md-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Apellido">
+                        </div>
+                        </div>
                     </div>
-                    <div class="mb-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s">
-                        <label for="name" class="form-label regular h5" >Teléfono</label>
-                        <input type="text" class="form-control regular" id="name" name="name">
-                    </div>
-                    <div class="mb-3 wp-animated" data-animation="fadeInDown" data-animation-delay="0.6s" data-animation-duration="5s">
-                        <label for="mensaje" class="form-label regular h5" >Mensaje</label>
-                        <textarea class="form-control regular" id="mensaje" rows="3" name="mensaje" ></textarea>
-                    </div>
-                    <div class="text-end wp-animated" data-animation="fadeInDown" data-animation-delay="0.8s" data-animation-duration="5s">
-                        <button class="btn btn-primary btn-enviar">
-                            <h4 class="regular pt-1 h5">ENVIAR</h4>
-                        </button>
+                    <div class="row">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="mensaje" rows="3" name="mensaje" placeholder="Tu mensaje"></textarea>
+                        </div>
+                        <div class="mb-3 text-end">
+                            <button class="btn btn-primary" type="submit">
+                                Enviar
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>
-            <div class="col-12 col-lg-1 col-md-12 col-sm-12"></div>
-            <div class="col-12 col-lg-6 col-md-12 col-sm-12">
-                <div class="gdl wp-animated" data-animation="fadeInDown" data-animation-duration="5s">
-                    <h2 class="bold txt-amarillo h3">
-                        <img src="img/check-point.png" alt="AMTI" class="img-fluid icono-point"/>
+            <div class="col-12 col-lg-7 col-sm-12 col-md-12 p-0">
+                <img src="img/fondo-carro.png" alt="AMTI" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+    <!--MAPA-->
+    <div class="container-fluid py-5">
+        <div class="row py-5">
+            <div class="col-12 col-lg-7 col-sm-12 col-md-12">
+
+            </div>
+            <div class="col-12 col-lg-5 col-sm-12 col-md-12 bg-azul">
+                <div class="GDL">
+                    <h3>
+                        <img src="img/pointer.png" alt="AMTI" class="img-fluid"/>
                         SUCURSAL GUADALAJARA
-                    </h2>
-                    <h4 class="regular ms-5  h5">Av. Hidalgo #1383 Col. Ladrón de Guevara,</h4>
-                    <h4 class="regular ms-5 h5">CP 44600, Guadalajara, Jalisco.</h4>
-                    <a href="#" class="none_a_decoration">
-                        <h4 class="bold text-black ms-5 h5">33 2790 3393</h4>
-                    </a>
-                    <a href="#" class="none_a_decoration">
-                        <h4 class="bold text-black ms-5 h5">55 4032 4042</h4>
-                    </a>
+                    </h3>
+                    <div class="informes ms-5">
+                        <p>Av. Hidalgo #1383 Col. Ladrón de Guevara,
+                            CP 44600, Guadalajara, Jalisco.</p>
+                        <a href="#" class="none_a_decoration">
+                            <h6>33 2790 3393</h6>
+                        </a>
+                        <a href="#" class="none_a_decoration">
+                            <h6>55 4032 4042</h6>
+                        </a>
+                    </div>
                 </div>
-                <div class="mty wp-animated" data-animation="fadeInDown" data-animation-delay="0.2s" data-animation-duration="5s">
-                    <h2 class="bold txt-amarillo h3">
-                        <img src="img/check-point.png" alt="AMTI" class="img-fluid icono-point"/>
+                <div class="MTY">
+                    <h3>
+                        <img src="img/pointer.png" alt="AMTI" class="img-fluid"/>
                         SUCURSAL MONTERREY
-                    </h2>
-                    <h4 class="regular ms-5 h5">Av. Eugenio Garza Sada #2411 Local</h4>
-                    <h4 class="regular ms-5 h5">L69 (Plaza Paseo Tec) Col. Roma Sur</h4>
-                    <h4 class="regular ms-5 h5">CP 64700, Monterrey, Nuevo León.</h4>
-                    <a href="#" class="none_a_decoration">
-                        <h4 class="bold text-black ms-5 h5">81 3253 2915</h4>
-                    </a>
-                    <a href="#" class="none_a_decoration">
-                        <h4 class="bold text-black ms-5 h5">55 4032 4042</h4>
-                    </a>
+                    </h3>
+                    <div class="informes ms-5">
+                        <p>Av. Eugenio Garza Sada #2411 Local
+                            L69 (Plaza Paseo Tec) Col. Roma Sur
+                            CP 64700, Monterrey, Nuevo León</p>
+                        <a href="#" class="none_a_decoration">
+                            <h6>81 3253 2915</h6>
+                        </a>
+                        <a href="#" class="none_a_decoration">
+                            <h6>55 4032 4042</h6>
+                        </a> 
+                    </div>
                 </div>
-                <div class="cdmx wp-animated" data-animation="fadeInDown" data-animation-delay="0.4s" data-animation-duration="5s">
-                    <h2 class="bold txt-amarillo h3">
-                        <img src="img/check-point.png" alt="AMTI" class="img-fluid icono-point"/>
+                <div class="CDMX">
+                    <h3>
+                        <img src="img/pointer.png" alt="AMTI" class="img-fluid"/>
                         SUCURSAL CDMX
-                    </h2>
-                    <h4 class="regular ms-5 h5">Av. Presidente Masaryk #61, Piso 9</h4>
-                    <h4 class="regular ms-5 h5">Col. Polanco V secc, CP 11560 Miguel</h4>
-                    <h4 class="regular ms-5 h5">Hidalgo, Ciudad de México.</h4>
-                    <a href="#" class="none_a_decoration">
-                        <h4 class="bold text-black ms-5 h5">55 4032 4042</h4>
-                    </a>
-                    <a href="#" class="none_a_decoration">
-                        <h4 class="bold text-black ms-5 h5">55 3689 1390</h4>
-                    </a>
+                    </h3>
+                    <div class="informes ms-5">
+                        <p>Av. Presidente Masaryk #61, Piso 9
+                            Col. Polanco V secc, CP 11560, 
+                            Miguel Hidalgo, Ciudad de México</p>
+                        <a href="#" class="none_a_decoration">
+                            <h6>55 4032 4042</h6>
+                        </a>
+                        <a href="#" class="none_a_decoration">
+                            <h6>55 3689 1390</h6>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--FOOTER-->
     <footer>
-        <div class="container regular">
-            <div class="row d-flex justify-content-center">
-                <img src="img/logo-amti.png" alt="AMTI" class="img-fluid logo-footer"/>
-            </div>
-            <div class="row py-5">
-                <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
-                <div class="col-12 col-lg-3 col-sm-12 col-md-12">
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Inicio</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">INICIO</h6>
                     </a>
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Somos</h3>
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">SOMOS</h6>
                     </a>
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Cómo Funciona</h3>
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">CÓMO FUNCIONA</h6>
                     </a>
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Licencias</h3>
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">LICENCIAS</h6>
                     </a>
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Contacto</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-lg-3 col-sm-12 col-md-12">
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Aviso de Privacidad</h3>
-                    </a>
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Términos y Condiciones</h3>
-                    </a>
-                    <a href="" class="none_a_decoration">
-                        <h3 class="h6">Política de Cookies</h3>
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">CONTACTO</h6>
                     </a>
                 </div>
                 <div class="col-12 col-lg-4 col-sm-12 col-md-12">
-                    <h3 class="text-end h6">Siguenos en nuestras <br> redes sociales</h3>
-                    <div class="text-end">
-                        <a href="" class="none_a_decoration">
-                            <img src="img/icno-fb.png" alt="AMTI" class="img-fluid py-3 me-4 icono-footer"/>
-                        </a>
-                        <a href="" class="none_a_decoration">
-                            <img src="img/icono-ig.png" alt="AMTI" class="img-fluid py-3 icono-footer"/>
-                        </a>
-                        <img src="img/tarjetas.png" alt="AMTI" class="img-fluid pt-4"/>
-                    </div>
-                    
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">AVISO DE PRIVACIDAD</h6>
+                    </a>
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">TÉRMINOS Y CONDICIONES</h6>
+                    </a>
+                    <a href="#" class="none_a_decoration">
+                        <h6 class="txt-azul">POLÍTICAS DE COOKIES</h6>
+                    </a>
                 </div>
-                <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+                <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                    <h6 class="text-end txt-azul">SIGUENOS EN NUESTRAS <br> REDES SOCIALES</h6>
+                </div>
             </div>
-            <div class="row pb-3">
-                <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
-                <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-                    <h3 class="h6"> © 2022 AMTI, Todos Los Derechos Reservados</h3>
+            <div class="row">
+                <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                    <h6>© 2022 AMTI, Todos los derechos reservados</h6>
                 </div>
-                <div class="col-12 col-lg-4 col-md-12 col-sm-12">
-                    <div class="text-end">
-                        <img src="img/materialized-negro.gif" alt="MATERIALIZED BY Blueberry" class="img-fluid bb-logo"/>
-                    </div>
+                <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                    <h6><a href="#" class="none_a_decoration">Términos y condiciones </a> - <a href="#" class="none_a_decoration"> Aviso de privacidad</a></h6>
                 </div>
-                <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+                <div class="col-12 col-lg-4 col-sm-12 col-md-12"></div>
             </div>
         </div>
     </footer>
+
 
 
 
