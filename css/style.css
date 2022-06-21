@@ -20,11 +20,19 @@ Verde: #7cb269
     font-family: 'Montserrat Regular';
     src: url("fonts/Montserrat-Regular.ttf"); 
 }
+.zoom{
+    transition: transform .2s;
+    
+}
+.zoom:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
 .logo-formulario{
     width: 150px;
 }
 .fa-solid{
-    color: #000000;
+    color: #fff;
     cursor: pointer;
     font-size: 2rem;
 }
@@ -49,20 +57,60 @@ Verde: #7cb269
 .txt-verde{
     color: #00D07F;
 }
+.txt-menu{
+    color: #012E40;
+}
+.txt-footer{
+    color: #7C919A;
+}
 .bg-azul{
     background-color: #025373;
     color: #fff;
 }
+.bg-formulario{
+    background-image: url('../img/fondo-manos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+.bg-degradado{
+    background-color: rgba(28, 90, 127, 0.8);
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 .none_a_decoration{
     text-decoration: none;
     color: #fff;
-} 
+}
+.bg-formulario textarea{
+    height: 200px;
+}
+.bg-circulos{
+    background-image: url('../img/bg-medio-circulos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 400px;
+}
+.bg-nosotros{
+    background-image: url('../img/bg-medio-circulos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 a:hover{
     color: #fff;
 }
 html, body {
    	width: 100% !important;
    	overflow-x: hidden;
+}
+input{
+    font-family: 'Montserrat Regular';
 }
 body.modal-open{
     overflow: hidden;
@@ -74,17 +122,17 @@ body.modal-open{
     float: left;
 }
 .icono-pagos{
-    width: 30px;
+    width: 40px;
 }
 .video{
     position: relative;
     width: 100%;
     height: 85vh;
     color: #fff;
-}
-.section__index{
-    position: absolute;
-    padding: 0px 0px 0px 0px;
+    background-image: url('../img/bg-header.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .texto-header{
     position: absolute;
@@ -94,6 +142,7 @@ body.modal-open{
 }
 .tachado{
     text-decoration: line-through;
+    text-decoration-color: red;
 }
 .content-sobre-puesto{
     position: relative;
@@ -145,6 +194,36 @@ body.modal-open{
 .avalados-img{
     width: 100px;
 }
+.mapa{
+    width: 100%;
+    height: 100%;
+}
+.GDL, .MTY, .CDMX h3{
+    cursor: pointer;
+}
+#MTY{
+    display: none;
+}
+#CDMX{
+    display: none;
+}
+.opiniones h5{
+    font-size: 1.2rem;
+}
+.opiniones h6{
+    font-size: 0.8rem;
+}
+.modal-paises{
+    background-image: url('../img/bg-popup.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    border-radius: 20px;
+}
+.modal{
+    background-color: #6B9DB5;
+}
 .btn-compra{
     background-color: #FFAA00;
     border-color: #FFAA00;
@@ -156,29 +235,80 @@ body.modal-open{
     border-color: #FFAA00;
     border-radius: 0;
 }
+.btn-compra:active{
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+    border-radius: 0;
+}
+.btn-compra:visited{
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+    border-radius: 0;
+}
+.btn-compra:focus{
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+    border-radius: 0;
+}
 .btn-rojo{
     background-color: #FF0058;
     border-color: #FF0058;
 }
 .btn-rojo:hover{
-    background-color: #FF0058;
-    border-color: #FF0058;
+    background-color: #C51135;
+    border-color: #C51135;
+}
+.btn-rojo:active{
+    background-color: #C51135;
+    border-color: #C51135;
+}
+.btn-rojo:visited{
+    background-color: #C51135;
+    border-color: #C51135;
+}
+.btn-rojo:focus{
+    background-color: #C51135;
+    border-color: #C51135;
 }
 .btn-verde{
     background-color: #00D07F;
     border-color: #00D07F;
 }
 .btn-verde:hover{
-    background-color: #00D07F;
-    border-color: #00D07F;
+    background-color: #2A875C;
+    border-color: #2A875C;
+}
+.btn-verde:active{
+    background-color: #2A875C;
+    border-color: #2A875C;
+}
+.btn-verde:visited{
+    background-color: #2A875C;
+    border-color: #2A875C;
+}
+.btn-verde:focus{
+    background-color: #2A875C;
+    border-color: #2A875C;
 }
 .btn-azul{
     background-color: #1844E5;
     border-color: #1844E5;
 }
 .btn-azul:hover{
-    background-color: #1844E5;
-    border-color: #1844E5;
+    background-color: #1D2F88;
+    border-color: #1D2F88;
+}
+.btn-azul:active{
+    background-color: #1D2F88;
+    border-color: #1D2F88;
+}
+.btn-azul:visited{
+    background-color: #1D2F88;
+    border-color: #1D2F88;
+}
+.btn-azul:focus{
+    background-color: #1D2F88;
+    border-color: #1D2F88;
 }
 .btn-licencias{
     width: 250px;
@@ -188,4 +318,65 @@ body.modal-open{
 }
 .btn-popup{
     width: 250px;
+}
+.btn-paises{
+    width: 200px;
+    background-color: #DBEBF3;
+    border-color: #DBEBF3;
+    color: #002236;
+}
+.btn-paises:hover{
+    background-color: #88BBDE;
+    border-color: #88BBDE;
+    color: #002236;
+}
+.btn-paises:active{
+    background-color: #88BBDE;
+    border-color: #88BBDE;
+    color: #002236;
+}
+.btn-paises:visited{
+    background-color: #88BBDE;
+    border-color: #88BBDE;
+    color: #002236;
+}
+.btn-paises:focus{
+    background-color: #88BBDE;
+    border-color: #88BBDE;
+    color: #002236;
+}
+.btn-enviar{
+    background-color: #E4385F;
+    border-color: #E4385F;
+    color: #fff;
+    width: 250px;
+}
+.btn-enviar:hover{
+    background-color: #AA2846;
+    border-color: #AA2846;
+    color: #fff;
+}
+.btn-enviar:active{
+    background-color: #AA2846;
+    border-color: #AA2846;
+    color: #fff;
+}
+.btn-enviar:visited{
+    background-color: #AA2846;
+    border-color: #AA2846;
+    color: #fff;
+}
+.btn-enviar:focus{
+    background-color: #AA2846;
+    border-color: #AA2846;
+    color: #fff;
+}
+@media(max-width:400px){
+    .avalado{
+        padding: 0;
+    }
+    .texto-header{
+        top: 10%;
+        left: 0;
+    }
 }
