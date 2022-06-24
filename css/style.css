@@ -52,7 +52,7 @@ Verde: #7cb269
     color: #FF0058;
 }
 .txt-azul{
-    color: #1844E5;
+    color: #033D5F;
 }
 .txt-verde{
     color: #00D07F;
@@ -223,6 +223,18 @@ body.modal-open{
 }
 .modal{
     background-color: #6B9DB5;
+}
+.vid-derecha{
+    padding: 0;
+    margin-top: 30px;
+}
+.vid-derecha video{
+    height: 520px;
+    width: 100%;
+    padding: 0;
+}
+.envio{
+    width: 110px;
 }
 .btn-compra{
     background-color: #FFAA00;

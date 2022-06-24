@@ -13,6 +13,59 @@ function CDMX(){
     document.getElementById('MTY').style.display = 'none';
     document.getElementById('CDMX').style.display = 'block';
 }
+//CAMBIAR IMAGEN CON EL HOVER
+window.addEventListener('load', elige, false);
+function elige() {      
+    var imagen = document.getElementById('elige');
+    imagen.addEventListener('mouseover', peligro_elige, false);
+    imagen.addEventListener('mouseout', restaurar_elige, false);
+}
+function restaurar_elige(){
+    var imagen = document.getElementById('elige').src = "img/elige.png";
+}
+function peligro_elige() {
+    var imagen = document.getElementById('elige').src = "img/elige.gif";
+}
+//COMPLETA
+window.addEventListener('load', completa, false);
+function completa() {      
+    var imagen = document.getElementById('completa');
+    imagen.addEventListener('mouseover', peligro_completa, false);
+    imagen.addEventListener('mouseout', restaurar_completa, false);
+}
+function restaurar_completa(){
+    var imagen = document.getElementById('completa').src = "img/completa.png";
+}
+function peligro_completa() {
+    var imagen = document.getElementById('completa').src = "img/completa.gif";
+}
+//PAGA
+window.addEventListener('load', pago, false);
+function pago() {      
+    var imagen = document.getElementById('pago');
+    imagen.addEventListener('mouseover', peligro_pago, false);
+    imagen.addEventListener('mouseout', restaurar_pago, false);
+}
+function restaurar_pago(){
+    var imagen = document.getElementById('pago').src = "img/paga.png";
+}
+function peligro_pago() {
+    var imagen = document.getElementById('pago').src = "img/paga.gif";
+}
+
+//ENVIO     
+window.addEventListener('load', envio, false);
+function envio() {      
+    var imagen = document.getElementById('envio');
+    imagen.addEventListener('mouseover', peligro_envio, false);
+    imagen.addEventListener('mouseout', restaurar_envio, false);
+}
+function restaurar_envio(){
+    var imagen = document.getElementById('envio').src = "img/envio.png";
+}
+function peligro_envio() {
+    var imagen = document.getElementById('envio').src = "img/envio.gif";
+}
 /* RECAPTCHA */
 $('#form').submit(function (event) {
     event.preventDefault();
