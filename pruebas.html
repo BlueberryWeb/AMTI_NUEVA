@@ -432,7 +432,7 @@
         left: 48%;
     }
 </style>
-  <!--CONDUCE EN EL EXTRANJERO-->
+  <!--CONDUCE EN EL EXTRANJERO
   <div class="container py-5">
     <div class="row">
         <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
@@ -441,7 +441,7 @@
                 <h5 class="bold h3">CONDUCE EN EL EXTRANJERO</h5>
                 <div class="contador text-center pb-4">
                     <h1 class="blanco display-1 extrabold">+ 130</h1>
-                    <h3 class="azul txt-azul extrabold h2">+ 130</h3>
+                    <!--<h3 class="azul txt-azul extrabold h2">+ 130</h3>
                 </div>
                 <h6 class="regular txt-footer">Cobertura en más de 150 países.</h6>
                 
@@ -452,7 +452,7 @@
                 </button>
             </div>
         </div>
-        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
+        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>-->
         <!-- Modal -->
         <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-lg">
@@ -574,38 +574,53 @@
     </div>
 </div>
 
-<div class="content">
-    <div class="signo">+</div>
-    <div class="value" akhi="130">0</div>
-    <div class="value" akhi="500">0</div>
-    <div class="value" akhi="700">0</div>
-    <div class="value" akhi="999">0</div>
-  </div>
-
-
 <style>
-*{
-  padding:0;
-  margin:0;
-}
-.signo{
-    float: left;
-}
-.content {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100vh;
-}
+    .contador{
+        position: relative;
+    }
+    .signo{
+        float: left;
+        color: #fff;
+        text-shadow: #033D5F -1px 1px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px;
+    }
+    .content {
+      display: flex;
+      align-items: center;
+      z-index: 0;
+    }
+    .content2 {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 30%;
+      left: 4%;
+      z-index: 1;
+    }
+    .sombra{
+        color: #fff;
+        text-shadow: #033D5F -1px 1px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px;
+        font-size: 10rem;
+    }
+    .value {
+        text-align: center;
+        display: block;
+        font-weight: bold;
+    }
+    
+    </style>
+<div class="contador">
+    <div class="content">
+        <div class="signo display-1 extrabold">+</div>
+        <div class="value display-1 extrabold sombra" akhi="130">0</div>
+    </div>
+    <div class="content2">
+        <div class="signo-azul h2 extrabold txt-azul">+</div>
+        <div class="value h2 extrabold txt-azul" akhi="130">0</div>
+    </div>
+</div>
 
-.value {
-  font-size: 150px;
-  display: block;
-  font-weight: bold;
-  color: pink;
-}
 
-</style>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>

@@ -20,6 +20,10 @@ Verde: #7cb269
     font-family: 'Montserrat Regular';
     src: url("fonts/Montserrat-Regular.ttf"); 
 }
+.animacion-titulos{
+    animation: fadeIn;
+    animation-duration: 7s;
+}
 .zoom{
     transition: transform .2s;
     
@@ -51,8 +55,12 @@ Verde: #7cb269
 .txt-rojo{
     color: #FF0058;
 }
+.txt-azul-comprar{
+    color: #1844E5;
+}
 .txt-azul{
     color: #033D5F;
+    font-size: 4rem;
 }
 .txt-verde{
     color: #00D07F;
@@ -124,8 +132,10 @@ body.modal-open{
 .icono-pagos{
     width: 40px;
 }
+.iconos-nosotros{
+    width: 100px;
+}
 .video{
-    position: relative;
     width: 100%;
     height: 85vh;
     color: #fff;
@@ -135,10 +145,8 @@ body.modal-open{
     background-size: cover;
 }
 .texto-header{
-    position: absolute;
     color: #fff;
-    top: 30%;
-    left: 25%;
+    margin-top: 12rem;
 }
 .tachado{
     text-decoration: line-through;
@@ -221,7 +229,7 @@ body.modal-open{
     color: #fff;
     border-radius: 20px;
 }
-.modal{
+.bg-modal{
     background-color: #6B9DB5;
 }
 .vid-derecha{
@@ -235,6 +243,17 @@ body.modal-open{
 }
 .envio{
     width: 110px;
+}
+.animacion{
+    position: relative;
+    z-index: 0;
+}
+.camino{
+    position: absolute;
+    z-index: 1;
+    top: 13%;
+    right: 0;
+    width: 35%;
 }
 .btn-compra{
     background-color: #FFAA00;
@@ -383,6 +402,40 @@ body.modal-open{
     border-color: #AA2846;
     color: #fff;
 }
+/*CONTADOR*/
+.contador{
+    position: relative;
+    left: 35%;
+}
+.signo{
+    float: left;
+    color: #fff;
+    text-shadow: #033D5F -1px 1px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  z-index: 0;
+}
+.content2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  z-index: 1;
+}
+.sombra{
+    color: #fff;
+    text-shadow: #033D5F -1px 1px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px, #033D5F -2px 2px;
+    font-size: 10rem;
+}
+.value {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+/*TERMINA CONTADOR*/
 @media(max-width:400px){
     .avalado{
         padding: 0;
@@ -390,5 +443,11 @@ body.modal-open{
     .texto-header{
         top: 10%;
         left: 0;
+    }
+    .content-sobre-puesto{
+        margin-top: 110px;
+    }
+    .contador{
+        left:15%;
     }
 }
