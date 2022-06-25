@@ -304,10 +304,10 @@
    }
 
 </style>
-<!--
+<!---->
 <div class="body">
-	<img id="coche1" src="img/Carro_Andando.gif" alt="Este es mi coche">
-	<img id="coche2" src="img/Carro_parado.gif" alt="Este es mi oponente">			
+	<img id="coche1" src="img2/Carro_Andando.gif" alt="Este es mi coche">
+	<img id="coche2" src="img2/Carro_parado.gif" alt="Este es mi oponente">			
 	<div class="zona_boton">
 		<input type="button" onclick='setInterval("correr()",60)' value="A CORRER!">	
 	</div>
@@ -343,8 +343,8 @@
 	    }
       }
   </script>
--->
-<!--CÓMO COMPRAR
+
+<!--CÓMO COMPRAR-->
 <div class="container py-5">
     <div class="row pt-5">
         <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
@@ -417,7 +417,7 @@
         </div>
         <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
     </div>
-</div>-->
+</div>
 <style>
     .blanco{
         position: relative;
@@ -432,8 +432,8 @@
         left: 48%;
     }
 </style>
-  <!--CONDUCE EN EL EXTRANJERO
-  <div class="container py-5">
+  <!--CONDUCE EN EL EXTRANJERO-->
+  <div class="container py-5" id="basic-waypoint">
     <div class="row">
         <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
         <div class="col-12 col-lg-10 col-sm-12 col-md-12">
@@ -441,7 +441,7 @@
                 <h5 class="bold h3">CONDUCE EN EL EXTRANJERO</h5>
                 <div class="contador text-center pb-4">
                     <h1 class="blanco display-1 extrabold">+ 130</h1>
-                    <!--<h3 class="azul txt-azul extrabold h2">+ 130</h3>
+                    <h3 class="azul txt-azul extrabold h2">+ 130</h3>
                 </div>
                 <h6 class="regular txt-footer">Cobertura en más de 150 países.</h6>
                 
@@ -452,7 +452,7 @@
                 </button>
             </div>
         </div>
-        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>-->
+        <div class="col-12 col-lg-1 col-sm-12 col-md-12"></div>
         <!-- Modal -->
         <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable modal-lg">
@@ -573,7 +573,7 @@
         </div>
     </div>
 </div>
-
+<br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br>
 <style>
     .contador{
         position: relative;
@@ -626,12 +626,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="js/script.js"></script>
+    <!--<script src="js/script.js"></script>-->
     <script src="js/lib/easy-waypoint-animate.js"></script>
     <script src="js/lib/jquery.waypoints.js"></script>
     <script src="js/lib/jquery.waypoints.min.js"></script>
     <script>
-const counters = document.querySelectorAll('.value');
+ 
+/*const counters = document.querySelectorAll('.value');
 const speed = 200;
 
 counters.forEach( counter => {
@@ -651,8 +652,32 @@ counters.forEach( counter => {
    
    animate();
 });
+*/
+var waypoint = new Waypoint({
+  element: document.getElementById('basic-waypoint'),
+  handler: function() {
+    const counters = document.querySelectorAll('.value');
+const speed = 200;
 
-
+counters.forEach( counter => {
+   const animate = () => {
+      const value = +counter.getAttribute('akhi');
+      const data = +counter.innerText;
+     
+      const time = value / speed;
+     if(data < value) {
+          counter.innerText = Math.ceil(data + time);
+          setTimeout(animate, 1);
+        }else{
+          counter.innerText = value;
+        }
+     
+   }
+   
+   animate();
+});
+  }
+});
 
     </script>
 </body>
