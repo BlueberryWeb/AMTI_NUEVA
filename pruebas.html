@@ -11,6 +11,59 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <title>AMTI</title>
 <body>
+    <style>
+        .animacion-H{
+            position: relative;
+        }
+        #camino1, #camino2,  #camino3,  #camino4, #camino5, #camino6{
+            position: absolute;
+        }
+        #camino2{
+            display: none;
+        }
+        #camino3{
+            display: none;
+        }
+        #camino4{
+            display: none;
+        }
+        #camino5{
+            display: none;
+        }
+        #camino6{
+            display: none;
+        }
+       .botones{
+           position: relative;
+           z-index: 2;
+       }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="animacion-H">
+                <img src="img/Camino_Parte1.gif" alt="AMTI" class="img-fluid " id="camino1"/>
+                <img src="img/Camino_Parte2.gif" alt="AMTI" class="img-fluid " id="camino2"/>
+                <img src="img/Camino_Parte3.gif" alt="AMTI" class="img-fluid " id="camino3"/>
+                <img src="img/Camino_Parte4.gif" alt="AMTI" class="img-fluid " id="camino4"/>
+                <img src="img/Camino_Parte5.gif" alt="AMTI" class="img-fluid " id="camino5"/>
+                <img src="img/Camino_Parte6.gif" alt="AMTI" class="img-fluid " id="camino6"/>
+            </div>
+        </div>
+        <div class="row botones">
+            <div class="col-12 col-lg-2">
+                <button class="btn btn-primary">
+                    Anterior
+                </button>
+            </div>
+            <div class="col-12 col-lg-8"></div>
+            <div class="col-12 col-lg-2">
+                <button class="btn btn-primary" onclick="animacion_H()" >
+                    Siguiente
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!--
     <header class="header" id="header">
         <div class="section__index">
@@ -631,6 +684,13 @@
     <script src="js/lib/jquery.waypoints.js"></script>
     <script src="js/lib/jquery.waypoints.min.js"></script>
     <script>
+        function animacion_H(){
+            document.getElementById('camino1').style.display = 'block';
+            document.getElementById('camino2').style.display = 'none';
+        }
+    
+    </script>
+    <script>
  
 /*const counters = document.querySelectorAll('.value');
 const speed = 200;
@@ -653,6 +713,7 @@ counters.forEach( counter => {
    animate();
 });
 */
+
 var waypoint = new Waypoint({
   element: document.getElementById('basic-waypoint'),
   handler: function() {
