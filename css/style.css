@@ -451,3 +451,33 @@ body.modal-open{
         left:15%;
     }
 }
+@media(max-width:700px){
+    .avalado{
+        padding: 0;
+    }
+    .texto-header{
+        top: 10%;
+        left: 0;
+    }
+    .content-sobre-puesto{
+        margin-top: 110px;
+    }
+    .contador{
+        left:15%;
+    }
+}
+@media(max-width:900px){
+    .avalado{
+        padding: 0;
+    }
+    .texto-header{
+        top: 10%;
+        left: 0;
+    }
+    .content-sobre-puesto{
+        margin-top: 110px;
+    }
+    .contador{
+        left:15%;
+    }
+}
