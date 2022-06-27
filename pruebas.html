@@ -18,57 +18,305 @@
         #camino1, #camino2,  #camino3,  #camino4, #camino5, #camino6{
             position: absolute;
         }
-        #camino2{
-            display: none;
-        }
-        #camino3{
-            display: none;
-        }
-        #camino4{
-            display: none;
-        }
-        #camino5{
-            display: none;
-        }
-        #camino6{
-            display: none;
-        }
        .botones{
            position: relative;
            z-index: 2;
            margin-top: 100px;
        }
+       .onboarding-card {
+            position: absolute;
+            user-select: none;
+            visibility: hidden;
+        }
+       .visible-card {
+            opacity: 1;
+            visibility: visible;
+        }
+        .visible-card {
+            opacity: 1;
+            visibility: visible;
+        }
+       .visible-card-web {
+            opacity: 1;
+            visibility: visible;
+        }
+        .onboarding-card-web {
+            position: absolute;
+            user-select: none;
+            visibility: hidden;
+        }
+        .visible-card-web {
+            opacity: 1;
+            visibility: visible;
+        }
+        .iconos-centrados{
+            margin-left: 13rem;
+            margin-bottom: 2rem;
+        }
+        
     </style>
-    <div class="container">
-        <div class="row">
+    <!--CELULAR-->
+    <div class="container d-block d-sm-block d-md-none">
+        <div class="row d-flex justify-content-center onboarding-card visible-card" id="camino1">
+            <div class="iconos-centrados">
+                <img src="img/icono-datos-iniciales.png" alt="AMTI" class="img-fluid ms-5 "/>
+            </div>
+            <h5 class="bold text-center">DATOS INICIALES</h5>
+                <h6 class="ms-4 regular text-center">PASO: 1 / 7</h6>  
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino1">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino2" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="row d-flex justify-content-center onboarding-card" id="camino2">
+            <div class="iconos-centrados">
+                <img src="img/icono-vigencia.png" alt="AMTI" class="img-fluid ms-5"/>
+            </div>
+            <h5 class="bold text-center">TU VIGENCIA</h5>
+                <h6 class="ms-4 regular text-center">PASO: 2 / 7</h6>  
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino1">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino3" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="row d-flex justify-content-center onboarding-card" id="camino3">
+            <div class="iconos-centrados">
+                <img src="img/icono-documentos.png" alt="AMTI" class="img-fluid ms-5"/> 
+            </div>
+            <h5 class="bold text-center">DOCUMENTOS OFICIALES</h5>
+                <h6 class="ms-4 regular text-center">PASO: 3 / 7</h6> 
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino2">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino4" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="row d-flex justify-content-center onboarding-card" id="camino4">
+            <div class="iconos-centrados">
+                <img src="img/icono-datos-personales.png" alt="AMTI" class="img-fluid ms-5"/>
+            </div>
+            <h5 class="bold text-center">DATOS PERSONALES</h5>
+                <h6 class="ms-4 regular text-center">PASO: 4 / 7</h6>  
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino3">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino5" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="row d-flex justify-content-center onboarding-card" id="camino5">
+            <div class="iconos-centrados">
+                <img src="img/icono-datos-iniciales.png" alt="AMTI" class="img-fluid ms-5"/>
+            </div>
+            <h5 class="bold text-center">CONFIRMACIÓN DE LICENCIA</h5>
+                <h6 class="ms-4 regular text-center">PASO: 5 / 7</h6>  
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino4">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino6" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="row d-flex justify-content-center onboarding-card" id="camino6">
+            <div class="iconos-centrados">
+                <img src="img/icono-envio.png" alt="AMTI" class="img-fluid ms-5"/> 
+            </div>
+            <h5 class="bold text-center">DATOS DE ENVÍO</h5>
+                <h6 class="ms-4 regular text-center">PASO: 6 / 7</h6> 
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino5">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino7" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+        <div class="row d-flex justify-content-center onboarding-card" id="camino7">
+            <div class="iconos-centrados">
+                <img src="img/icono-pago.png" alt="AMTI" class="img-fluid ms-5"/>
+            </div>
+            <h5 class="bold text-center">PAGO</h5>
+                <h6 class="ms-4 regular text-center">PASO: 7 / 7</h6>  
+            <div class="row botones" id="botones">
+                <div class="col-6 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino6">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-2 col-lg-6 col-sm-2"></div>
+                <div class="col-2 col-lg-6 col-sm-2">
+                    <button class="btn btn-primary onboarding-card__arrow" data-target="#camino1" >
+                        Siguiente
+                    </button>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <!--COMPUTADORA-->
+    <div class="container d-none d-sm-none d-md-block">
+        <div class="row onboarding-card-web visible-card-web" id="camino1">
             <div class="animacion-H">
-                <img src="img/Camino_Parte1.gif" alt="AMTI" class="img-fluid " id="camino1"/>
-                <img src="img/Camino_Parte2.gif" alt="AMTI" class="img-fluid " id="camino2"/>
-                <img src="img/Camino_Parte3.gif" alt="AMTI" class="img-fluid " id="camino3"/>
-                <img src="img/Camino_Parte4.gif" alt="AMTI" class="img-fluid " id="camino4"/>
-                <img src="img/Camino_Parte5.gif" alt="AMTI" class="img-fluid " id="camino5"/>
-                <img src="img/Camino_Parte6.gif" alt="AMTI" class="img-fluid " id="camino6"/>
+                <img src="img/Camino_Parte1.gif" alt="AMTI" class="img-fluid " />
+                <div class="row botones" id="botones">
+                    <div class="col-12 col-lg-2">
+                        <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino1">
+                            Anterior
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-8"></div>
+                    <div class="col-12 col-lg-2">
+                        <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino2" >
+                            Siguiente
+                        </button>
+                    </div>
+                </div>        
             </div>
         </div>
-        <div class="row botones">
+        <div class="row onboarding-card-web" id="camino2">
+            <img src="img/Camino_Parte2.gif" alt="AMTI" class="img-fluid" />
+            <div class="row botones" id="botones2">
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino1">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-12 col-lg-8"></div>
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino3">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row onboarding-card-web" id="camino3">
+            <img src="img/Camino_Parte3.gif" alt="AMTI" class="img-fluid " />
+            <div class="row botones" id="botones3">
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino2">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-12 col-lg-8"></div>
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino4">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
+        </div>
+       <div class="row onboarding-card-web" id="camino4">
+        <img src="img/Camino_Parte4.gif" alt="AMTI" class="img-fluid " />
+        <div class="row botones " id="botones4">
             <div class="col-12 col-lg-2">
-                <button class="btn btn-primary">
+                <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino3">
                     Anterior
                 </button>
             </div>
             <div class="col-12 col-lg-8"></div>
             <div class="col-12 col-lg-2">
-                <button class="btn btn-primary" onclick="animacion_H()" >
+                <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino5">
                     Siguiente
                 </button>
             </div>
         </div>
+       </div>
+       <div class="row onboarding-card-web" id="camino5">
+            <img src="img/Camino_Parte5.gif" alt="AMTI" class="img-fluid " />
+            <div class="row botones" id="botones5">
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino4">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-12 col-lg-8"></div>
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino6">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
+       </div>
+        <div class="row onboarding-card-web" id="camino6">
+            <img src="img/Camino_Parte6.gif" alt="AMTI" class="img-fluid" />
+            <div class="row botones" id="botones6">
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino5">
+                        Anterior
+                    </button>
+                </div>
+                <div class="col-12 col-lg-8"></div>
+                <div class="col-12 col-lg-2">
+                    <button class="btn btn-primary onboarding-card-web__arrow" data-target="#camino1">
+                        Siguiente
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+        
     </div>
     <script>
-        function animacion_H(){
-            document.getElementById('camino2').style.display = 'block';
-            document.getElementById('camino1').style.display = 'none';
-        }
+    document.querySelectorAll('.onboarding-card__arrow').forEach(function (arrow) {
+        var target = document.querySelector(arrow.dataset.target);
+        arrow.addEventListener('click', function (e) {
+        document.querySelector('.visible-card').classList.remove('visible-card');
+        target.classList.add('visible-card');
+        }, false);
+    });
+    document.querySelectorAll('.onboarding-card-web__arrow').forEach(function (arrow) {
+        var target = document.querySelector(arrow.dataset.target);
+        arrow.addEventListener('click', function (e) {
+        document.querySelector('.visible-card-web').classList.remove('visible-card-web');
+        target.classList.add('visible-card-web');
+        }, false);
+    });
     
     </script>
     <!--
@@ -163,12 +411,12 @@
         </div>
     </div>-->
 
-    <!-- Button trigger modal -->
+    <!-- Button trigger modal 
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Paises">
         paises
-    </button>
+    </button>-->
   
-  <!-- Modal -->
+  <!-- Modal 
   <div class="modal fade" id="Paises" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="PaisesLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-lg">
       <div class="modal-content modal-paises">
@@ -285,13 +533,13 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Button trigger modal -->
+  </div>-->
+  <!-- Button trigger modal 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#examplePhoto">
     Launch demo modal
-  </button>
+  </button>-->
   
-  <!-- Modal -->
+  <!-- Modal
   <div class="modal fade" id="examplePhoto" tabindex="-1" aria-labelledby="examplePhotoLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-foto">
       <div class="modal-content modal-flujo">
@@ -317,13 +565,13 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Button trigger modal -->
+  </div> -->
+  <!-- Button trigger modal 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#licencia">
     Launch demo modal
-  </button>
+  </button>-->
   
-  <!-- Modal -->
+  <!-- Modal
   <div class="modal fade" id="licencia" tabindex="-1" aria-labelledby="licenciaLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
       <div class="modal-content">
@@ -340,8 +588,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <style>
+  </div> -->
+  <!--<style>
     
     .body {
         padding-top: 40px;
@@ -364,7 +612,7 @@
    }
 
 </style>
-<!---->
+
 <div class="body">
 	<img id="coche1" src="img2/Carro_Andando.gif" alt="Este es mi coche">
 	<img id="coche2" src="img2/Carro_parado.gif" alt="Este es mi oponente">			
@@ -402,7 +650,7 @@
 		 coche2.style.left = x_coche2 + "%"; //volvemos a aplicar el valor obtenido al left del elemento
 	    }
       }
-  </script>
+  </script>-->
 
 <!--CÓMO COMPRAR-->
 <div class="container py-5">
