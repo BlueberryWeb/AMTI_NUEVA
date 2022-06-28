@@ -490,6 +490,9 @@ body.modal-open{
     display: block;
     font-weight: bold;
 }
+.aviso{
+    color: #111;
+}
 /*TERMINA CONTADOR*/
 @media(max-width:400px){
     .avalado{
