@@ -5,20 +5,28 @@ Morado: #9d5d93
 Verde: #7cb269
 */
 @font-face {
-    font-family: 'Montserrat Bold';
-    src: url("fonts/Montserrat-Bold.ttf"); 
+    font-family: 'Poppins Bold';
+    src: url("fonts/Poppins-Bold.ttf"); 
 }
 @font-face {
-    font-family: 'Montserrat ExtraBold';
-    src: url("fonts/Montserrat-ExtraBold.ttf"); 
+    font-family: 'Poppins SemiBold';
+    src: url("fonts/Poppins-SemiBold.ttf"); 
 }
 @font-face {
-    font-family: 'Montserrat Italic';
-    src: url("fonts/Montserrat-Italic.ttf"); 
+    font-family: 'Poppins Regular';
+    src: url("fonts/Poppins-Regular.ttf"); 
 }
 @font-face {
-    font-family: 'Montserrat Regular';
-    src: url("fonts/Montserrat-Regular.ttf"); 
+    font-family: 'Poppins Medium';
+    src: url("fonts/Poppins-Medium.ttf"); 
+}
+@font-face {
+    font-family: 'Poppins Italic';
+    src: url("fonts/Poppins-Medium.ttf"); 
+}
+@font-face {
+    font-family: 'Lato Semibold';
+    src: url("fonts/Lato-SemiBold.ttf"); 
 }
 .animacion-titulos{
     animation: fadeIn;
@@ -41,22 +49,31 @@ Verde: #7cb269
     font-size: 2rem;
 }
 .bold{
-    font-family: 'Montserrat Bold';
+    font-family: 'Poppins Bold';
 }
-.extrabold{
-    font-family: 'Montserrat ExtraBold';
-}
-.italic{
-    font-family: 'Montserrat Italic';
+.semibold{
+    font-family: 'Poppins ExtraBold';
 }
 .regular{
-    font-family: 'Montserrat Regular';
+    font-family: 'Poppins Regular';
+}
+.medium{
+    font-family: 'Poppins Medium';
+}
+.italic{
+    font-family: 'Poppins Italic';
+}
+.lato{
+    font-family: 'Lato Semibold';
 }
 .txt-rojo{
     color: #FF0058;
 }
 .txt-azul-comprar{
     color: #1844E5;
+}
+.txt-pagos{
+    color: #1C5A7F;
 }
 .txt-azul{
     color: #033D5F;
@@ -125,10 +142,20 @@ html, body {
    	overflow-x: hidden;
 }
 input{
-    font-family: 'Montserrat Regular';
+    font-family: 'Poppins Regular';
+
 }
 body.modal-open{
     overflow: hidden;
+}
+.licencia{
+    position: absolute;
+    z-index: 2;
+    right: 10%;
+    top: -20%;
+}
+.libro{
+    position: relative;
 }
 .icono-header{
     width: 30px;
@@ -141,6 +168,14 @@ body.modal-open{
 }
 .iconos-nosotros{
     width: 100px;
+    float: left;
+    margin-right: 2rem;
+}
+.jeep{
+    background-image: url('../img/chica-jeep.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .video{
     width: 100%;
@@ -161,13 +196,16 @@ body.modal-open{
 }
 .content-sobre-puesto{
     position: relative;
-    margin-top: -170px;
+    margin-top: -100px;
+}
+.sobre-may{
+    margin-top: -50px;
 }
 .content-sobre-puesto span{
     font-size: 0.5rem;
 }
 .content-sobre-puesto img{
-    margin-top: -110px;
+    margin-top: -80px;
 }
 .card{
     border-radius: 15px;
@@ -212,7 +250,10 @@ body.modal-open{
     z-index: 10;
 }
 .avalados-img{
-    width: 100px;
+    width: 80px;
+}
+.avalados-mexico{
+    width: 150px;
 }
 .mapa{
     width: 100%;
@@ -252,6 +293,7 @@ body.modal-open{
     height: 520px;
     width: 100%;
     padding: 0;
+    right: 0;
 }
 .envio{
     width: 110px;
@@ -366,6 +408,7 @@ body.modal-open{
     width: 200px;
     background-color: #DBEBF3;
     border-color: #DBEBF3;
+    border-radius: 0;
     color: #002236;
 }
 .btn-paises:hover{
@@ -462,6 +505,11 @@ body.modal-open{
     .contador{
         left:15%;
     }
+    .licencia{
+       position: relative;
+       margin-top: 170px;
+       margin-left: 70px;
+    }
 }
 @media(max-width:700px){
     .avalado{
@@ -477,6 +525,11 @@ body.modal-open{
     .contador{
         left:15%;
     }
+    .licencia{
+        position: relative;
+        margin-top: 170px;
+        margin-left: 70px;
+     }
 }
 @media(max-width:900px){
     .avalado{
@@ -492,4 +545,9 @@ body.modal-open{
     .contador{
         left:15%;
     }
+    .licencia{
+        position: relative;
+        margin-top: 170px;
+        margin-left: 70px;
+     }
 }
