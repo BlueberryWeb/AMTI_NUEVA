@@ -494,6 +494,53 @@ body.modal-open{
     color: #111;
 }
 /*TERMINA CONTADOR*/
+/*CARROUSEL DE OPINIONES*/
+.controls {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.2);
+}
+.fa-arrow-left, .fa-arrow-right {
+    font-size: 1rem;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.carrousel {
+    margin: auto;
+    margin-top: 120px;
+    overflow:hidden;
+}
+.controls:hover {
+    background-color: rgba(0,0,0,.5);
+}
+.item {
+    width: 405px;
+    height: 400px;
+    float: left;
+    margin-left: 15px;
+    padding-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s all;
+    /*box-shadow: 0 9px 10px rgba(6,6,7,.3);*/
+}
+.cont {
+    position: absolute;
+    width: 1100px;
+    margin-top: 140px;
+}
+.tapa {
+    width: 12000px;/* 	change if the size is >     12000  :) */
+    transition: .9s all;
+}
+/*TERMINA CARROUSEL DE OPINIONES*/
 @media(max-width:400px){
     .avalado{
         padding: 0;
@@ -512,6 +559,9 @@ body.modal-open{
        position: relative;
        margin-top: 170px;
        margin-left: 70px;
+    }
+    .cont{
+        width: 400px;
     }
 }
 @media(max-width:700px){
@@ -532,7 +582,10 @@ body.modal-open{
         position: relative;
         margin-top: 170px;
         margin-left: 70px;
-     }
+    }
+    .cont{
+        width: 400px;
+    }
 }
 @media(max-width:900px){
     .avalado{
@@ -552,5 +605,8 @@ body.modal-open{
         position: relative;
         margin-top: 170px;
         margin-left: 70px;
-     }
+    }
+    .cont{
+        width: 400px;
+    }
 }
