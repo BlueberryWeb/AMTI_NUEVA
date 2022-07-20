@@ -88,6 +88,9 @@ Verde: #7cb269
 .txt-footer{
     color: #7C919A;
 }
+footer{
+    background-color: #fff;
+}
 .bg-azul{
     background-color: #025373;
     color: #fff;
@@ -120,6 +123,13 @@ Verde: #7cb269
     background-size: cover;
     border-radius: 15px;
     height: 400px;
+}
+.bg-modal-inicio{
+    background-image: url('../img/bg-medio-circulos.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
 }
 .bg-nosotros{
     background-image: url('../img/bg-medio-circulos.png');
@@ -285,6 +295,28 @@ body.modal-open{
 .bg-modal{
     background-color: #6B9DB5;
 }
+/*Modal inicio*/
+.padding-modal{
+    padding-top: 150px;
+}
+.bg-modal-inicio h1{
+    color: #033D5F;
+}
+.btn-modal-inicio{
+    border-color: #183C5C;
+    background-color: #183C5C;
+    width: 300px;
+}
+.image-jeep{
+    position: absolute;
+    right: 0;
+    left: 50%;
+    top: -30%;
+}
+.btn-modal{
+    z-index: 2;
+}
+/*Ternina Modal inicio*/
 .vid-derecha{
     padding: 0;
     margin-top: 30px;
@@ -563,6 +595,21 @@ body.modal-open{
     .cont{
         width: 400px;
     }
+    .padding-modal{
+        padding-top: 0;
+    }
+    .image-jeep{
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    .btn-modal-inicio{
+        width: 250px;
+    }
+    .bg-modal-inicio{
+        margin-left: -3px!important;
+    }
 }
 @media(max-width:700px){
     .avalado{
@@ -586,6 +633,21 @@ body.modal-open{
     .cont{
         width: 400px;
     }
+    .padding-modal{
+        padding-top: 0;
+    }
+    .image-jeep{
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    .btn-modal-inicio{
+        width: 250px;
+    }
+    .bg-modal-inicio{
+        margin-left: -3px!important;
+    }
 }
 @media(max-width:900px){
     .avalado{
@@ -608,5 +670,23 @@ body.modal-open{
     }
     .cont{
         width: 400px;
+    }
+    .padding-modal{
+        padding-top: 0;
+    }
+    .image-jeep{
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    .btn-modal-inicio{
+        width: 250px;
+    }
+    .bg-modal-inicio{
+        margin-left: -3px!important;
+    }
+    .btn-licencias{
+        width: 200px;
     }
 }

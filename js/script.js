@@ -1,3 +1,10 @@
+$( document ).ready(function() {
+    $('#exampleModal2').modal('toggle')
+});
+
+function cerrar_modal(){
+    $('#exampleModal2').modal('hide');
+}
 function GDL(){
     document.getElementById('GDL').style.display = 'block';
     document.getElementById('MTY').style.display = 'none';

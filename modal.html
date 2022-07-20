@@ -69,6 +69,46 @@
       </div>
     </div>
   </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Launch demo modal2
+</button>
+
+<!-- Modal Inicio -->
+<div class="modal fade bg-modal padding-modal" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content mx-5 bg-modal-inicio">
+      <div class="modal-header pb-3">
+        <button type="button" class="btn-close pb-3 me-3" data-bs-dismiss="modal" aria-label="Close">
+          <img src="img/btn-pop-up-inicio.png" alt="Close" class="img-fluid"/>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="container-fluid pb-5 ">
+              <div class="row pb-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 pt-5 pb-5">
+                  <div class=" pt-5 pb-5">
+                    <h1 class="bold h4">¿AÚN NO TIENES TU LICENCIA?</h1>
+                    <h4 class="h6 txt-footer">¡Adquiere tu licencia internacional ahora mismo!</h4>
+                    <div class="ms-3 pt-3">
+                      <button class="btn btn-primary btn-modal-inicio">
+                        <a href="#" class="none_a_decoration">
+                          <h6>COMPRA AHORA</h6>
+                        </a>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="image-jeep">
+                    <img src="img/pop-up-inicio.png" alt="AMTI" class="img-fluid"/>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -76,5 +116,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      $( document ).ready(function() {
+          $('#exampleModal2').modal('toggle')
+      });
+    </script>
 </body>
 </html>
