@@ -296,8 +296,8 @@ body.modal-open{
     background-color: #6B9DB5;
 }
 /*Modal inicio*/
-.padding-modal{
-    padding-top: 150px;
+.modal-inicio{
+    position: relative;
 }
 .bg-modal-inicio h1{
     color: #033D5F;
@@ -305,7 +305,10 @@ body.modal-open{
 .btn-modal-inicio{
     border-color: #183C5C;
     background-color: #183C5C;
-    width: 300px;
+    width: 240px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
 }
 .image-jeep{
     position: absolute;
@@ -643,7 +646,8 @@ body.modal-open{
         top: 0;
     }
     .btn-modal-inicio{
-        width: 250px;
+        width: 50px;
+        top: 30%;
     }
     .bg-modal-inicio{
         margin-left: -3px!important;
@@ -682,6 +686,7 @@ body.modal-open{
     }
     .btn-modal-inicio{
         width: 250px;
+        top: 60%;
     }
     .bg-modal-inicio{
         margin-left: -3px!important;
