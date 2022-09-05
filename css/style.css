@@ -687,6 +687,7 @@ body.modal-open{
     .btn-modal-inicio{
         width: 250px;
         top: 60%;
+        left: 20%;
     }
     .bg-modal-inicio{
         margin-left: -3px!important;
