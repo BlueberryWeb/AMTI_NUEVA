@@ -293,7 +293,7 @@ body.modal-open{
     border-radius: 20px;
 }
 .bg-modal{
-    background-color: #6B9DB5;
+    background: rgba(107, 157, 181, 0.5);
 }
 /*Modal inicio*/
 .padding-modal{

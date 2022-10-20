@@ -44,8 +44,52 @@
             margin-left: 13rem;
             margin-bottom: 2rem;
         }
-        
+        .btn-flotante-whats{
+            position: fixed;
+            bottom: 80px;
+            right: 70px;
+            transition: all 300ms ease 0ms;
+            z-index: 99;
+            font-size: 50px;
+            width: 80px;
+            height: 80px;
+            background: #EDBC50;
+            background: linear-gradient(160deg, rgb(238,196,112) 0%, rgba(213,115,86,255) 61%, rgba(207,98,88,255) 100%);
+            border-radius: 100%;
+        }
+        .btn-flotante-whats:hover {
+        transform: translateY(-7px);
+        }
+        .btn-flotante-phone{
+            position: fixed;
+            bottom: 180px;
+            right: 70px;
+            transition: all 300ms ease 0ms;
+            z-index: 99;
+            font-size: 50px;
+            width: 80px;
+            height: 80px;
+            background: #EDBC50;
+            background: linear-gradient(160deg, rgb(238,196,112) 0%, rgba(213,115,86,255) 61%, rgba(207,98,88,255) 100%);
+            border-radius: 100%;
+        }
+        .btn-flotante-phone:hover {
+        transform: translateY(-7px);
+        }
+        .icono-btn{
+            margin-left: 1.3rem;
+            color: #fff;
+        }
+        .fa-phone{
+            font-size: 2.3rem;
+        }
     </style>
+    <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp icono-btn"></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-phone" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-phone icono-btn"></i>
+    </a>
     <!--CELULAR-->
     <div class="container d-block d-sm-block d-md-none">
         <div class="row d-flex justify-content-center onboarding-card visible-card" id="camino1">
@@ -310,6 +354,8 @@
     });
     
     </script>
+    
+
     <!--
     <header class="header" id="header">
         <div class="section__index">
