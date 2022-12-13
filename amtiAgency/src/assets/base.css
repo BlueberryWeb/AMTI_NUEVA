@@ -1,0 +1,263 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+
+/* semantic color variables for this project */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+html, body {
+  width: 100% !important;
+  overflow-x: hidden;
+}
+.a_none_style{
+  text-decoration: none;
+}
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'OpenSans ExtraBold';
+  src: url("fonts/OpenSans-ExtraBold.ttf"); 
+}
+@font-face {
+  font-family: 'OpenSans Bold';
+  src: url("fonts/OpenSans-Bold.ttf"); 
+}
+@font-face {
+  font-family: 'OpenSans SemiBold';
+  src: url("fonts/OpenSans-SemiBold.ttf"); 
+}
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url("fonts/OpenSans-Regular.ttf"); 
+}
+@font-face {
+  font-family: 'Raleway ExtraBold';
+  src: url("fonts/Raleway-ExtraBold.ttf"); 
+}
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("fonts/Raleway-Regular.ttf"); 
+}
+.oExtraBold{
+  font-family: 'OpenSans ExtraBold';
+}
+.oBold{
+  font-family: 'OpenSans Bold';
+}
+.oSemiBold{
+  font-family: 'OpenSans SemiBold';
+}
+.oRegular{
+  font-family: 'OpenSans Regular';
+}
+.rExtraBold{
+  font-family: 'Raleway ExtraBold';
+}
+.regular{
+  font-family: 'Raleway Regular';
+}
+#menu{
+  display: none;
+}
+.txt-blue{
+  color: #31B1A7;
+}
+.txt-yellow{
+  color: #F4AD3D;
+}
+/* BUTTONS */
+.btn-blue-green{
+  background: rgb(48,172,163);
+  background: linear-gradient(160deg, rgba(48,172,163,1) 0%, rgba(15,65,73,0.9) 61%, rgba(15,65,73,0.9) 100%);
+  border-color: #707070;
+}
+.btn-know{
+  width: 180px;
+  border-radius: 10px;
+}
+.btn-list{
+  width: 250px;
+  border-radius: 10px;
+}
+.btn-start{
+  background: rgb(107,199,196);
+  background: linear-gradient(160deg, rgba(107,199,196,1) 0%, rgba(244,173,61,1) 59%, rgba(244,173,61,1) 100%);
+  border-color: #707070;
+  width: 200px;
+  border-radius: 10px;
+}
+.btn-send{
+  background: rgb(48,172,163);
+  background: linear-gradient(160deg, rgba(48,172,163,1) 0%, rgba(15,65,73,0.9) 61%, rgba(15,65,73,0.9) 100%);
+  border-color: #707070;
+  width: 120px;
+  border-radius: 10px;
+}
+/* ENDS BUTTONS */
+/* RESPONISVO*/
+@media only screen and (min-width:320px) and (max-width: 479px){
+  .order-1-phone{
+      order: 1;
+  }
+  .order-2-phone{
+      order: 2;
+  }
+  .txt-want p{
+      font-size: 12px;
+  }
+  .world-car{
+      margin-top: 2rem;
+  }
+  .txt-idp p{
+      line-height: 135%;
+  }
+  .txt-bg-travel{
+      left: 10%;
+      top: 40%;
+  }
+  .txt-get-need p{
+      line-height: 135%;
+  }
+  .tit-periods{
+      text-align: center!important;
+  }
+  .cards-blue p{
+      line-height: 135%;
+  }
+  .txt-advantages p{
+      text-align: center;
+  }
+  .txt-form{
+      margin-left: 0!important;
+      margin-right: 0!important;
+  }
+  .txt-form h5{
+      font-size: 17px;
+  }
+  .form-help{
+      margin-left: 0!important;
+      margin-right: 0!important;
+  }
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+  .order-1-phone{
+      order: 1;
+  }
+  .order-2-phone{
+      order: 2;
+  }
+  .world-car{
+      margin-top: 2rem;
+  }
+  .txt-want p{
+      font-size: 17px;
+  }
+  .txt-idp p{
+      line-height: 145%;
+  }
+  .txt-bg-travel{
+      left: 20%;
+      top: 40%;
+  }
+  .txt-get-need p{
+      line-height: 135%;
+  }
+  .tit-periods{
+      text-align: center!important;
+  }
+  .cards-blue p{
+      line-height: 135%;
+  }
+  .txt-advantages p{
+      text-align: center;
+  }
+  .txt-form h5{
+      font-size: 18px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width: 1023px){
+  .order-1-phone{
+      order: 1;
+  }
+  .order-2-phone{
+      order: 2;
+  }
+  .world-car{
+      margin-top: 2rem;
+  }
+  .txt-want p{
+      font-size: 17px;
+  }
+  .txt-bg-travel{
+      left: 30%;
+      top: 50%;
+  }
+  .cards-blue p{
+      text-align: center;
+  }
+  .txt-advantages p{
+      text-align: center;
+  }
+  .icon-arrow{
+      visibility: hidden;
+  }
+}
+@media only screen and (min-width:1024px) and (max-width: 1200px){
+  .txt-idp p{
+      font-size: 11.5px;
+  }
+  .txt-get-need p{
+      font-size: 9px;
+  }
+  .txt-cards-blue{
+      margin-left: 0!important;
+      margin-right: 0!important
+  }
+  .cards-blue p{
+      font-size: 13px;
+  }
+  .txt-advantages{
+      margin-left: 0!important;
+      margin-right: 0!important;
+  }
+  .txt-advantages p{
+      font-size: 10px;
+  }
+  .txt-form h1{
+      font-size: 28px;
+  }
+  .txt-form h5{
+      font-size: 16px;
+  }
+  .icon-phone, .icon-whats, .icon-mail{
+      margin-right: 0;
+  }
+  .contactUs h6{
+      font-size: 12.5px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+  .txt-get-need p{
+      font-size: 10px;
+  }
+  .txt-cards-blue{
+      margin-left: 0!important;
+      margin-right: 0!important;
+      text-align: center;
+  }
+  .txt-advantages p{
+      font-size: 10px;
+  }
+  .txt-form h1{
+      font-size: 35px;
+  }
+  .contactUs h6{
+      font-size: 14px;
+  }
+}
