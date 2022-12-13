@@ -10,6 +10,7 @@ import Countires from './HomeView/130-countries.vue'
 import TravelCarefree from './HomeView/travel-carefree.vue'
 import Contact from './HomeView/contact.vue'
 import Footer from './HomeView/footer.vue'
+import Privacity from './OtherComponents/privacity.vue'
 </script>
 
 <template>
@@ -24,6 +25,7 @@ import Footer from './HomeView/footer.vue'
  <TravelCarefree></TravelCarefree>
  <Contact></Contact>
  <Footer></Footer>
+ <Privacity></Privacity>
 
 </template>
 
