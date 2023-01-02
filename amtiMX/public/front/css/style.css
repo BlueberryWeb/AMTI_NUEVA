@@ -1,0 +1,565 @@
+html, body {
+    width: 100% !important;
+    overflow-x: hidden;
+}
+.a_none_style{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'OpenSans ExtraBold';
+    src: url("fonts/OpenSans-ExtraBold.ttf"); 
+}
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url("fonts/OpenSans-Bold.ttf"); 
+}
+@font-face {
+    font-family: 'OpenSans SemiBold';
+    src: url("fonts/OpenSans-SemiBold.ttf"); 
+}
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url("fonts/OpenSans-Regular.ttf"); 
+}
+@font-face {
+    font-family: 'Raleway ExtraBold';
+    src: url("fonts/Raleway-ExtraBold.ttf"); 
+}
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url("fonts/Raleway-Regular.ttf"); 
+}
+.oExtraBold{
+    font-family: 'OpenSans ExtraBold';
+}
+.oBold{
+    font-family: 'OpenSans Bold';
+}
+.oSemiBold{
+    font-family: 'OpenSans SemiBold';
+}
+.oRegular{
+    font-family: 'OpenSans Regular';
+}
+.rExtraBold{
+    font-family: 'Raleway ExtraBold';
+}
+.regular{
+    font-family: 'Raleway Regular';
+}
+/* BACKGROUNDS */
+.bg-blue-green{
+    background: rgb(49,177,167);
+    background: linear-gradient(140deg, rgba(49,177,167,0.9) 3%, rgba(15,65,73,0.9) 30%, rgba(15,65,73,0.9) 100%);
+    color: #fff;
+}
+.background-orange{
+    background: rgb(107,196,169);
+    background: linear-gradient(180deg, rgba(107,196,169,1) 2%, rgba(72,59,119,1) 57%, rgba(72,59,119,1) 91%);
+    color: #fff;
+}
+
+.bg-card{
+    background: rgb(107,196,169);
+    background: linear-gradient(180deg, rgba(107,196,169,1) 2%, rgba(72,59,119,1) 57%, rgba(72,59,119,1) 91%);
+    border-color: #ffffff;
+}
+
+.bg-card-amti{
+    background-image: url('../img/need-help.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    height: 90vh;
+}
+
+.bg-index{
+    background-image: url('../img/bg-index.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    height: 90vh;
+}
+.bg-gray{
+    background-color: #EBEBEB;
+}
+.bg-yellow-blue{
+    background: rgb(107,199,196);
+    background: linear-gradient(160deg, rgba(107,199,196,1) 0%, rgba(243,173,61,1) 61%, rgba(243,173,61,1) 100%);
+    color: #000000;
+}
+.bg-continent{
+    background-image: url('../img/bg-continent.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-continent2{
+    background-image: url('../img/fondo_amigos.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-continent-first{
+    background-image: url('../img/Places-pt01.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 82vh;
+}
+.bg-continent-black{
+    background-image: url('../img/bg-continent-black.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-travel{
+    position: relative;
+    color: #fff;
+}
+.bg-blue{
+    background: rgb(48,172,163);
+    background: linear-gradient(180deg, rgba(48,172,163,0.9) 7%, rgba(15,65,73,0.9) 58%, rgba(15,65,73,0.9) 100%);
+    color: #fff;
+}
+.card-period{
+    background: rgb(107,196,169);
+    background: linear-gradient(160deg, rgba(107,196,169,1) 0%, rgba(72,59,119,1) 61%, rgba(72,59,119,1) 100%);
+    border-radius: 25px;
+}
+.cards-blue{
+    background: rgb(48,172,163);
+    background: linear-gradient(180deg, rgba(48,172,163,0.9) 0%, rgba(15,65,73,0.9) 66%, rgba(15,65,73,0.9) 100%);
+    border-radius: 35px;
+    color: #fff;
+}
+/* END BACKGROUNDS */
+/* ICONS */
+.fa-bars{
+    color: #1F1F1F;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.icon-idp{
+    width: 100px;
+}
+.icon-licence{
+    width: 200px;
+    margin-top: 25%;
+}
+.icon-cards-blue{
+    width: 80px;
+}
+.icon-phone{
+    width: 20px;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+.icon-whats{
+    width: 20px;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+.icon-mail{
+    width: 20px;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+.icon-fb{
+    width: 11.5px;
+}
+.icon-ig{
+    width: 20px;
+}
+.icon-advantages{
+    width: 80px;
+}
+.icon-arrow{
+    margin-top: 8rem;
+}
+.fa-xmark{
+    color: #000000;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.logo-menu{
+    width: 150px;
+}
+.icon-letter{
+    width: 50px;
+}
+/* ENDS ICONS */
+/* TEXTS */
+.line-height-header h1{
+    line-height: 92%;
+}
+.text-orange-header{
+    color: #6bc4a9;
+    font-size: 90px;
+    font-weight: 900;
+}
+.txt-index{
+    margin-top: 21rem;
+}
+.txt-blue{
+    color: #31B1A7;
+}
+.txt-yellow{
+    color: #6bc4a9;
+}
+.text-orange{
+    color: #483b77;
+}
+.txt-want{
+    margin-top: 5rem;
+}
+.txt-want p{
+    line-height: 80%;
+}
+.txt-idp p{
+    line-height: 95%;
+    font-size: 14px;
+    font-family: 'OpenSans Regular';
+}
+.txt-bg-travel{
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 25%;
+}
+.txt-get-need p{
+    line-height: 95%;
+    font-size: 14px;
+    font-family: 'OpenSans Regular';
+}
+.txt-amti-book li{
+    line-height: 205%;
+}
+.cards-blue h2{
+    line-height: 90%;
+}
+.cards-blue p{
+    font-family: 'OpenSans Regular';
+    line-height: 80%;
+}
+.txt-coverage h1{
+    line-height: 90%;
+}
+.txt-advantages p{
+    font-size: 12.5px;
+    line-height: 80%;
+}
+.txt-advantages{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.card-text{
+    text-align: justify;
+}
+/* ENDS TEXTS */
+/* BUTTONS */
+.btn-blue-green{
+    background: rgb(48,172,163);
+    background: linear-gradient(160deg, rgba(48,172,163,1) 0%, rgba(15,65,73,0.9) 61%, rgba(15,65,73,0.9) 100%);
+    border-color: #707070;
+}
+.btn-orange{
+    background: rgb(107,196,169);
+    background: linear-gradient(45deg, rgba(107,196,169,1) 0%, rgba(72,59,119,1) 61%, rgba(72,59,119,1) 100%);
+    border-color: #ffffff;
+}
+.btn-know{
+    width: 180px;
+    border-radius: 10px;
+}
+.btn-list{
+    width: 250px;
+    border-radius: 10px;
+}
+.btn-start{
+    background: rgb(107,196,169);
+    background: linear-gradient(160deg, rgba(107,196,169,1) 0%, rgba(72,59,119,1) 61%, rgba(72,59,119,1) 100%);
+    border-color: #707070;
+    width: 200px;
+    border-radius: 10px;
+}
+.btn-send{
+    background: rgb(107,196,169);
+    background: linear-gradient(160deg, rgba(107,196,169,1) 0%, rgba(72,59,119,1) 61%, rgba(72,59,119,1) 100%);
+    border-color: #ffffff;
+    width: 120px;
+    border-radius: 10px;
+}
+/* ENDS BUTTONS */
+/* FORMULARIO */
+.form-help input{
+    border-bottom: 1px solid #707070;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form-help textarea{
+    border-bottom: 1px solid #707070;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* ENDS FORMULARIO */
+.world-car{
+    margin-top: -100px;
+    z-index: 99;
+}
+.hr-footer{
+    border: 1px solid #fff;
+}
+.margin-top-img{
+    margin-top: 5%;
+}
+#menu{
+    display: none;
+}
+.bg-modal{
+    background-image: url('../img/bg-modal.png');
+    color: #fff;
+}
+.fa-xmark{
+    color: #fff;
+    font-size: 2rem;
+}
+.btn-close{
+    background: none;
+}
+/* BOTONES FLOTANTES */
+.btn-flotante-whats{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    background: rgb(107,196,169);
+    background: linear-gradient(160deg, rgba(107,196,169,1) 0%, rgba(72,59,119,1) 61%, rgba(72,59,119,1) 100%);
+    border-radius: 100%;
+}
+.btn-flotante-whats:hover {
+    transform: translateY(-7px);
+}
+.btn-flotante-phone{
+    position: fixed;
+    bottom: 180px;
+    right: 20px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    background: rgb(107,196,169);
+    background: linear-gradient(160deg, rgba(107,196,169,1) 0%, rgba(72,59,119,1) 61%, rgba(72,59,119,1) 100%);
+    border-radius: 100%;
+}
+.btn-flotante-phone:hover {
+    transform: translateY(-7px);
+}
+.icono-btn{
+    margin-bottom: 1rem;
+    margin-left: 0.9rem;
+    color: #fff;
+}
+.fa-phone{
+    margin-top: 0.8rem;
+    margin-left: 0.9rem;
+}
+/* TERMINAN BOTONES FLOTANTES */
+/* RESPONISVO*/
+@media only screen and (min-width:320px) and (max-width: 479px){
+    .order-1-phone{
+        order: 1;
+    }
+    .order-2-phone{
+        order: 2;
+    }
+    .txt-want p{
+        font-size: 12px;
+    }
+    .world-car{
+        margin-top: 2rem;
+    }
+    .txt-idp p{
+        line-height: 135%;
+    }
+    .txt-bg-travel{
+        left: 10%;
+        top: 40%;
+    }
+    .txt-get-need p{
+        line-height: 135%;
+    }
+    .tit-periods{
+        text-align: center!important;
+    }
+    .cards-blue p{
+        line-height: 135%;
+    }
+    .txt-advantages p{
+        text-align: center;
+    }
+    .txt-form{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .txt-form h5{
+        font-size: 17px;
+    }
+    .form-help{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .text-orange-header{
+        color: #EDBC50;
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+    .order-1-phone{
+        order: 1;
+    }
+    .order-2-phone{
+        order: 2;
+    }
+    .world-car{
+        margin-top: 2rem;
+    }
+    .txt-want p{
+        font-size: 17px;
+    }
+    .txt-idp p{
+        line-height: 145%;
+    }
+    .txt-bg-travel{
+        left: 10%;
+        top: 40%;
+    }
+    .txt-get-need p{
+        line-height: 135%;
+    }
+    .tit-periods{
+        text-align: center!important;
+    }
+    .cards-blue p{
+        line-height: 135%;
+    }
+    .txt-advantages p{
+        text-align: center;
+    }
+    .txt-form h5{
+        font-size: 18px;
+    }
+    .text-orange-header{
+        color: #EDBC50;
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .order-1-phone{
+        order: 1;
+    }
+    .order-2-phone{
+        order: 2;
+    }
+    .world-car{
+        margin-top: 2rem;
+    }
+    .txt-want p{
+        font-size: 17px;
+    }
+    .txt-bg-travel{
+        left: 15%;
+        top: 50%;
+    }
+    .cards-blue p{
+        text-align: center;
+    }
+    .txt-advantages p{
+        text-align: center;
+    }
+    .icon-arrow{
+        visibility: hidden;
+    }
+    .text-orange-header{
+        color: #EDBC50;
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1200px){
+    .txt-idp p{
+        font-size: 11.5px;
+    }
+    .txt-get-need p{
+        font-size: 9px;
+    }
+    .txt-cards-blue{
+        margin-left: 0!important;
+        margin-right: 0!important
+    }
+    .cards-blue p{
+        font-size: 13px;
+    }
+    .txt-advantages{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .txt-advantages p{
+        font-size: 10px;
+    }
+    .txt-form h1{
+        font-size: 28px;
+    }
+    .txt-form h5{
+        font-size: 16px;
+    }
+    .icon-phone, .icon-whats, .icon-mail{
+        margin-right: 0;
+    }
+    .contactUs h6{
+        font-size: 12.5px;
+    }
+    .text-orange-header{
+        color: #6bc4a9;
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1800px){
+    .txt-get-need p{
+        font-size: 10px;
+    }
+    .txt-cards-blue{
+        margin-left: 0!important;
+        margin-right: 0!important;
+        text-align: center;
+    }
+    .txt-advantages p{
+        font-size: 10px;
+    }
+    .txt-form h1{
+        font-size: 35px;
+    }
+    .contactUs h6{
+        font-size: 14px;
+    }
+    .text-orange-header{
+        color: #6bc4a9;
+        font-size: 50px;
+        font-weight: 900;
+    }
+}
