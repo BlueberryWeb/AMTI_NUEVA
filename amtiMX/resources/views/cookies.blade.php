@@ -428,7 +428,7 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6"></div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-2">
                             <a href="https://blueberry.mx/" class="a_none_style" target="_blank" rel="noopener noreferrer">
-                                <img src="{{ asset('front/img/materialized-negro.gif') }}"
+                                <img src="{{ asset('front/img/materialized-blueberry.gif') }}"
                                     alt="Materialized by Blueberry" class="img-fluid" />
                             </a>
                         </div>

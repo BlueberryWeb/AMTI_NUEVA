@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{{ asset('front/css/style.css') }}" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <title>AMTI</title>
+    <title>AMTI | Asociación Mexicana de Turismo Internacional</title>
 </head>
 
 <body>
@@ -579,8 +579,74 @@
             {{-- <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div> --}}
         </div>
     </div>
+     <!--MAPAS-->
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-7 col-sm-12 col-md-12 p-0 wp-animate"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.602300424461!2d-103.38726988477453!3d20.68575288618515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae6a7eaac583%3A0xd74281561fac35da!2sAv.%20Rub%C3%A9n%20Dar%C3%ADo%20586-int%208%2C%20Prados%20Providencia%2C%2044670%20Guadalajara%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1672783413926!5m2!1ses-419!2smx" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="GDL"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.499280387915!2d-100.29534038469357!3d25.654738983685572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bfc7ddbd682b%3A0xa31c79106056c3a!2sPaseo%20Tec!5e0!3m2!1ses-419!2smx!4v1655838739756!5m2!1ses-419!2smx" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="MTY"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5532611750164!2d-99.18586318479235!3d19.43169898688475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8acbaca9ea3%3A0x2f928866a33b0016!2sAv.%20Pdte.%20Masaryk%2061-piso%209-b%2C%20Polanco%2C%20Polanco%20V%20Secc%2C%20Miguel%20Hidalgo%2C%2011560%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1655838785537!5m2!1ses-419!2smx" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="CDMX"></iframe>
+            </div>
+            <div class="col-12 col-lg-5 col-sm-12 col-md-12 background-orange pt-5">
+                <div class="bg-continent">
+                    <div class="mx-5">
+                        <div class="GDL mb-5 wp-animated" >
+                            <h3 class="oBold" onclick="GDL()">
+                                <img src="{{ asset('front/img/pointer.png') }}" alt="AMTI" class="img-fluid"/>
+                                <i>SUCURSAL GUADALAJARA</i> 
+                            </h3>
+                            <div class="informes ms-5">
+                                <p class="oRegular">Av. Rubén Darío #586 int.8, Lomas de Guevara, CP 44657 Guadalajara, Jal.</p>
+                                <a href="https://api.whatsapp.com/send?phone=523327903393" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                    <h6 class="oBold">33 2790 3393</h6>
+                                </a>
+                                <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                    <h6 class="oBold">55 4032 4042</h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="MTY mb-5 wp-animated">
+                            <h3 class="oBold" onclick="MTY()">
+                                <img src="{{ asset('front/img/pointer.png') }}" alt="AMTI" class="img-fluid"/>
+                                <i>SUCURSAL MONTERREY</i> 
+                            </h3>
+                            <div class="informes ms-5">
+                                <p class="oRegular">Av. Eugenio Garza Sada #2411 Local
+                                    L69 (Plaza Paseo Tec) Col. Roma Sur
+                                    CP 64700, Monterrey, Nuevo León</p>
+                                <a href="https://api.whatsapp.com/send?phone=528132532915" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                    <h6 class="oBold">81 3253 2915</h6>
+                                </a>
+                                <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                    <h6 class="oBold">55 4032 4042</h6>
+                                </a> 
+                            </div>
+                        </div>
+                        <div class="CDMX mb-5 wp-animated" >
+                            <h3 class="oBold" onclick="CDMX()">
+                                <img src="{{ asset('front/img/pointer.png') }}" alt="AMTI" class="img-fluid"/>
+                                <i>SUCURSAL CDMX</i>
+                            </h3>
+                            <div class="informes ms-5">
+                                <p class="oRegular">Av. Presidente Masaryk #61, Piso 9
+                                    Col. Polanco V secc, CP 11560, 
+                                    Miguel Hidalgo, Ciudad de México</p>
+                                <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                    <h6 class="oBold">55 4032 4042</h6>
+                                </a>
+                                <a href="tel:5536891390" class="a_none_style text-white" target="_blank" rel="noopener noreferrer">
+                                    <h6 class="oBold">55 3689 1390</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
-    <footer class="background-orange text-black">
+    <footer class="background-orange">
         <div class="container pt-5 pb-3 bg-continent">
             <div class="row">
                  <div class = "text-center my-3">
@@ -683,7 +749,7 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6"></div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-2">
                             <a href="https://blueberry.mx/" class="a_none_style" target="_blank" rel="noopener noreferrer">
-                                <img src="{{ asset('front/img/materialized-negro.gif') }}"
+                                <img src="{{ asset('front/img/materialized-blueberry.gif') }}"
                                     alt="Materialized by Blueberry" class="img-fluid" />
                             </a>
                         </div>
