@@ -193,7 +193,7 @@
                             <h1 class="text-white rExtraBold display-5">licencia de conducir
                                 internacional?</h1>
                             <div class="d-none d-sm-none d-md-block text-white">
-                                <div class="d-flex justify-content-center mt-5 container">
+                                <div class="d-flex justify-content-center mt-5 ">
                                     <p class="pt-4">La licencia internacional de conducir es un documento oficial que 
                                         funciona como una extensión de tu licencia nacional en países extranjeros.
                                         El International Driver's Document traduce tu licencia al idioma hablado y 
