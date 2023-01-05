@@ -26,12 +26,6 @@
     <a href="tel:+525540324042" class="btn-flotante-phone" target="_blank" rel="noopener noreferrer">
         <i class="fa-solid fa-phone icono-btn"></i>
     </a>
-    <!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
     <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
             <div class="container">
@@ -107,22 +101,22 @@
                                 <div class="text-start">
                                     <img src="{{ asset('front/img/logo-white.png') }}" alt="AMTI"
                                         class="img-fluid logo-menu mt-3 mb-5" />
-                                    <a href="#header" class="a_none_style text-black">
+                                    <a href="#header" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Inicio</h1>
                                     </a>
-                                    <a href="#¿Que-es-un-licencia-para-conducir?" class="a_none_style text-black">
+                                    <a href="#¿Que-es-un-licencia-para-conducir?" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">¿Qué es?</h1>
                                     </a>
-                                    <a href="#Cobertura" class="a_none_style text-black">
+                                    <a href="#Cobertura" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Cobertura</h1>
                                     </a>
-                                    <a href="#¿Por-que-necesito-un-licencia?" class="a_none_style text-black">
+                                    <a href="#¿Por-que-necesito-un-licencia?" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">¿Por qué la necesito?</h1>
                                     </a>
-                                    <a href="#Ventajas" class="a_none_style text-black">
+                                    <a href="#Ventajas" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Ventajas</h1>
                                     </a>
-                                    <a href="#Contacto" class="a_none_style text-black">
+                                    <a href="#Contacto" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Contacto</h1>
                                     </a>
                                 </div>
@@ -130,11 +124,11 @@
                         </div>
                         <div class="row mx-2 pt-5 ">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-5">
-                                <h4 class="oRegular h6 text-white">© 2022 AMTI, All rights reserved</h4>
+                                <h4 class="oRegular h6 text-white">© 2023 AMTI, All rights reserved</h4>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                <img src="{{ asset('front/img/materialized-negro.gif') }}"
+                                <img src="{{ asset('front/img/materialized-blueberry.gif') }}"
                                     alt="Materialized by Blueberry" class="img-fluid" />
                             </div>
                         </div>
@@ -199,16 +193,18 @@
                             <h1 class="text-white rExtraBold display-5">licencia de conducir
                                 internacional?</h1>
                             <div class="d-none d-sm-none d-md-block text-white">
-                                <p class="pt-4 rExtraBold ">La licencia internacional de conducir es un documento oficial</p>
-                                <p class="rExtraBold "> que funciona como una extensión de tu licencia nacional en </p>
-                                <p>países extranjeros.</p>
-                                <p>El International Driver's Document traduce tu licencia al idioma hablado y  </p>
-                                <p>escrito en el país de destino para que pueda ser entendido allí. Cuenta</p>
-                                <p>n más de 9 idiomas (portugués, chino, alemán, español, francés, inglés, </p>
-                                <p>árabe, italiano y ruso). La licencia identificará al titular como la</p>
-                                <p>persona física que cumple con los requisitos de la Convención de las Naciones</p>
-                                <p>Unidas de 1949 sobre el tráfico por carretera ante las autoridades de</p>
-                                <p>tránsito extranjeras y las agencias de alquiler de coches.</p>
+                                <div class="d-flex justify-content-center mt-5 container">
+                                    <p class="pt-4">La licencia internacional de conducir es un documento oficial que 
+                                        funciona como una extensión de tu licencia nacional en países extranjeros.
+                                        El International Driver's Document traduce tu licencia al idioma hablado y 
+                                        escrito en el país de destino para que pueda ser entendido allí. Cuenta con un 
+                                        folleto y una tarjeta de identificación no gubernamental traducida en más de 9 
+                                        idiomas (portugués, chino, alemán, español, francés, inglés, árabe, italiano y ruso). 
+                                        La licencia identificará al titular como la persona física que cumple con los requisitos 
+                                        de la Convención de las Naciones Unidas de 1949 sobre el tráfico por carretera ante 
+                                        las autoridades de tránsito extranjeras y las agencias de alquiler de coches.</p>
+                                </div>
+                                
                             </div>
                             <div class="d-block d-sm-block d-md-none text-white">
                                 <p class="pt-4">La licencia internacional de conducir es un documento oficial que 
@@ -257,7 +253,7 @@
     <div class="bg-card" id="¿Por-que-necesito-un-licencia?">
         <div class="bg-continent">
             <div class="row">
-                <div class="col py-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 py-5">
                     <div class="d-flex justify-content-center">
                         <img width="90" src="{{ asset('front/img/icon-01.gif') }}" alt="" />
                     </div>
@@ -284,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col py-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 py-5">
                     <div class="d-flex justify-content-center">
                         <img width="90" src="{{ asset('front/img/icon-02.gif') }}" alt="">
                     </div>
@@ -295,6 +291,12 @@
                     </div>
                     <div class="d-flex justify-content-center mt-5 container">
                         <img width="380" src="{{ asset('front/img/text_card.png') }}" alt="" class="img-fluid"/>
+                        
+                    </div>
+                    <div class="text-center my-4">
+                        <a href="https://amti.me/compralo/proceso" class=" text-white btn btn-primary btn-solid btn-know" target="_blank" rel="noopener noreferrer">
+                            <h6 class="pt-1">SOLICITALA AQUÍ</h6>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -381,7 +383,9 @@
                                 <div class="col text-white text-center">
                                     <h1 class="oExtraBold display-1">5</h1>
                                     <h1 class="oRegular h2 mb-3">años</h1>
-                                    <h6 class="oRegular">(Altamente recomendado)</h6>
+                                </div>
+                                <div class="text-center">
+                                    <h6 class="oRegular text-white">(Altamente recomendado)</h6>
                                 </div>
                             </div>
                         </div>
@@ -389,14 +393,14 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                     <div class="mx-4">
-                        <div class="card-period p-4">
+                        <div class="card-period p-4 ">
                             <div class="row">
                                 <div class="col align-middle text-center">
                                     <img src="{{ asset('front/img/lic_icon.png') }}"
                                         alt="INTERNATIONAL DRIVING PERIOD"
                                         class="img-fluid icon-licence align-middle" />
                                 </div>
-                                <div class="col text-white text-center">
+                                <div class="col text-white text-center pb-4">
                                     <h1 class="oExtraBold display-1">3</h1>
                                     <h1 class="oRegular h2 mb-3">años</h1>
                                 </div>
@@ -413,7 +417,7 @@
                                         alt="INTERNATIONAL DRIVING PERIOD"
                                         class="img-fluid icon-licence align-middle" />
                                 </div>
-                                <div class="col text-white text-center">
+                                <div class="col text-white text-center pb-4">
                                     <h1 class="oExtraBold display-1">1</h1>
                                     <h1 class="oRegular h2 mb-3">años</h1>
                                 </div>
@@ -500,10 +504,6 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-7 p-0">
             <img src="{{ asset('front/img/fondo_amigos.png') }}" alt="" class="img-fluid">
         </div>
-    </div>
-
-    {{-- IMAGEN AMTI --}}
-    <div class="bg-card-amti">
     </div>
 
     <!-- FORM -->
@@ -646,6 +646,12 @@
         </div>
     </div>
 
+    {{-- IMAGEN AMTI --}}
+    <div class="bg-card-amti">
+    </div>
+
+    
+
     <footer class="background-orange">
         <div class="container pt-5 pb-3 bg-continent">
             <div class="row">
@@ -744,7 +750,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-10">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-2">
-                            <h6 class="oRegular text-white">© 2022 AMTI, All rights reserved</h6>
+                            <h6 class="oRegular text-white">© 2023 AMTI, All rights reserved</h6>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6"></div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-2">
@@ -776,14 +782,14 @@
                                     <i class="fa-solid fa-xmark"></i>
                                 </button>
                             </div>
-                            <h1 class="rExtraBold">AMTI’s IDP <b class="txt-yellow">cobertura</b> </h1>
+                            <h1 class="rExtraBold">AMTI’s IDP <b class="text-orange">cobertura</b> </h1>
                         </div>
                     </div>
                 </div>
             
             </div>
             <div class="modal-body">
-                <div class="container">
+                <div class="container bg-continent" >
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-10">

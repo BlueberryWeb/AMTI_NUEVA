@@ -23,36 +23,7 @@
     <a href="tel:+525540324042" class="btn-flotante-phone" target="_blank" rel="noopener noreferrer">
         <i class="fa-solid fa-phone icono-btn"></i>
     </a>
-    <!-- Messenger Plugin de chat Code -->
-    <div id="fb-root"></div>
 
-    <!-- Your Plugin de chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "109863591904790");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v15.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
      <header id="header" class="background-orange py-3">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
             <div class="container">
@@ -112,22 +83,22 @@
                                 <div class="text-start">
                                     <img src="{{ asset('front/img/logo-white.png') }}" alt="AMTI"
                                         class="img-fluid logo-menu mt-3 mb-5" />
-                                    <a href="#" class="a_none_style text-black">
+                                    <a href="#" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Inicio</h1>
                                     </a>
-                                    <a href="#" class="a_none_style text-black">
+                                    <a href="#" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">¿Qué es?</h1>
                                     </a>
-                                    <a href="#" class="a_none_style text-black">
+                                    <a href="#" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Cobertura</h1>
                                     </a>
-                                    <a href="#" class="a_none_style text-black">
+                                    <a href="#" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">¿Por qué la necesito?</h1>
                                     </a>
-                                    <a href="#" class="a_none_style text-black">
+                                    <a href="#" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Ventajas</h1>
                                     </a>
-                                    <a href="#" class="a_none_style text-black">
+                                    <a href="#" class="a_none_style text-white">
                                         <h1 class="rExtraBold mb-4">Contacto</h1>
                                     </a>
                                 </div>
@@ -135,11 +106,11 @@
                         </div>
                         <div class="row mx-2 pt-5 ">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-5">
-                                <h4 class="oRegular h6 text-white">© 2022 AMTI, All rights reserved</h4>
+                                <h4 class="oRegular h6 text-white">© 2023 AMTI, All rights reserved</h4>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                                <img src="{{ asset('front/img/materialized-negro.gif') }}"
+                                <img src="{{ asset('front/img/materialized-blueberry.gif') }}"
                                     alt="Materialized by Blueberry" class="img-fluid" />
                             </div>
                         </div>
@@ -297,7 +268,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-10">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-2">
-                            <h6 class="oRegular text-white">© 2022 AMTI, All rights reserved</h6>
+                            <h6 class="oRegular text-white">© 2023 AMTI, All rights reserved</h6>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6"></div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3 mb-2">
