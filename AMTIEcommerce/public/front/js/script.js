@@ -1,0 +1,2 @@
+//animaciones
+AOS.init();

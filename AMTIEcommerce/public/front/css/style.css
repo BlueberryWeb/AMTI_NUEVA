@@ -1,0 +1,53 @@
+html, body {
+    width: 100% !important;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: 'OpenSans Bold';
+    src: url("fonts/OpenSans-Bold.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSans ExtraBold';
+    src: url("fonts/OpenSans-ExtraBold.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSans Light';
+    src: url("fonts/OpenSans-Light.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSans Medium';
+    src: url("fonts/OpenSans-Medium.ttf"); 
+    font-display: swap;
+}
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url("fonts/OpenSans-Regular.ttf"); 
+    font-display: swap;
+}
+.bold{
+    font-family: 'OpenSans Bold';
+}
+.extraBold{
+    font-family: 'OpenSans ExtraBold';
+}
+.light{
+    font-family: 'OpenSans Light';
+}
+.medium{
+    font-family: 'OpenSans Medium';
+}
+.regular{
+    font-family: 'OpenSans Regular';
+}
+input, label, textarea{
+    font-family: 'OpenSans Regular';
+}
+.txt-azul{
+    color: #56D4E3;
+}
+.txt-azul-oscuro{
+    color: #38678E;
+}
