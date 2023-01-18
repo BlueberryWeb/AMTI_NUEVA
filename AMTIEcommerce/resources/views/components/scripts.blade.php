@@ -2,3 +2,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 <!-- LIBRERIA DE ANIMACIONES -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="{{ asset('front/js/script.js') }}"></script>
