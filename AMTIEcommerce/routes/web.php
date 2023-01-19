@@ -1,6 +1,8 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\comoFuncionaController;
+use App\Http\Controllers\vigenciasController;
+use App\Http\Controllers\faqController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('comoFunciona', comoFuncionaController::class, 'index')->name('comoFunciona');
+Route::get('vigencias', vigenciasController::class, 'index')->name('vigencias');
+Route::get('faq', faqController::class, 'index')->name('faq');

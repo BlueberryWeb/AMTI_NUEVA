@@ -65,6 +65,9 @@ input, label, textarea{
 .txt-color-parrafo{
     color: #6A6A6A;
 }
+.txt-verde{
+    color: #65B96E;
+}
 .a_none_style{
     text-decoration: none;
 }
@@ -129,6 +132,28 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-comoFunciona{
+    background-image: url('https://res.cloudinary.com/dra1bsh4u/image/upload/v1674144230/AMTI%20Ecommerce/bg-como-funciona_h2wia9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+}
+.bg-vigencias{
+    background-image: url('https://res.cloudinary.com/dra1bsh4u/image/upload/v1674151948/AMTI%20Ecommerce/bg-vigencias_enyhq6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+}
+.bg-azul-3{
+    background: rgb(56,103,142);
+    background: linear-gradient(160deg, rgba(56,103,142,1) 27%, rgba(32,74,105,1) 100%);
 }
 /**************
 TEXTOS
@@ -236,6 +261,9 @@ IMÁGENES
     left: 40%;
     width: 80px;
 }
+.video-bg_video{
+    width: 100%;
+}
 /*****************
 CUADROS AVALADOS
 *****************/
@@ -331,4 +359,140 @@ NUESTRAS SUCURSALES
 .icon-suc{
     width: 13px;
     margin-right: 1rem;
+}
+/************************
+FOOTER
+*************************/
+footer i{
+    font-size: 18px;
+}
+.icono-footer{
+    width: 16px;
+    margin-right: 1rem;
+}
+.icono-fb{
+    width: 10px;
+}
+.icono-ig{
+    width: 20px;
+    margin-left: 1rem;
+}
+.secure-trust{
+    width: 50px;
+}
+.ssl{
+    width: 50px;
+}
+.icono-pagos{
+    width: 40px;
+    margin-right: 0.5rem;
+}
+/************************
+CÓMO FUNCIONA
+*************************/
+.txt-como{
+    text-align: center;
+    margin-top: 10rem;
+}
+.txt-licencia-digital{
+    margin-top: 10rem;
+}
+.txt-licencia-digital p{
+    line-height: 70%;
+}
+.txt-ilustracion-lib p{
+    line-height: 50%;
+}
+/************************
+CUADROS CÓMO FUNCIONA
+*************************/
+.cuadro-como-funciona{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    height: 350px;
+}
+.cuadro-como-funciona img{
+    width: 45px;
+    margin-bottom: 1.5rem;
+}
+.cuadro-como-funciona p{
+    line-height: 60%;
+}
+/************************
+BUEN USO
+*************************/
+.txt-buen-uso img{
+    width: 50px;
+}
+.txt-buen-uso p{
+    line-height: 70%;
+}
+.border-left{
+    border-right: 1px solid #fff;
+}
+/************************
+CUADROS VIGENCIAS
+*************************/
+.cuadro-vigencias{
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    height: 440px;
+}
+.header-cuadro{
+    background: rgb(107,195,199);
+    background: linear-gradient(150deg, rgba(107,195,199,1) 15%, rgba(44,119,153,1) 58%);
+    color: #fff;
+    text-align: center;
+}
+.cuadro-vigencias-2{
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    height: 470px;
+    position: relative;
+}
+.header-cuadro-2{
+    background: rgb(121,199,107);
+    background: linear-gradient(150deg, rgba(121,199,107,1) 15%, rgba(69,153,44,1) 58%);
+    color: #fff;
+    text-align: center;
+}
+.licencia-vigencia{
+    width: 200px;
+}
+.secure-trust-vigencia{
+    width: 70px;
+}
+.ssl-vigencia{
+    width: 40px;
+}
+.tachado{
+    text-decoration:line-through;
+    color: red;
+}
+.etiqueta-recom{
+    background: rgb(121,199,107);
+    background: linear-gradient(150deg, rgba(121,199,107,1) 15%, rgba(69,153,44,1) 58%);
+    color: #fff;
+    width: 180px;
+    position: absolute;
+    right: 0;
+    top: 38%;
+}
+.etiqueta-recom img{
+    width: 15px;
+}
+/************************
+CUADROS ENVÍOS
+*************************/
+.cuadro-envios{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    height: 280px;
+}
+.cuadro-envios p{
+    line-height: 60%;
 }

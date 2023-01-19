@@ -8,9 +8,14 @@
                     <a href="" class="btn btn-primary btn-lista py-2">Ver lista de países</a>
                 </div>
             </div>
-            <div class="text-center">
-                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674061491/AMTI%20Ecommerce/mapa_jjz6ei.png" alt="Mundo" class="img-fluid"/>
-            </div>
+            
         </div>
+    </div>
+</div>
+<div class="container-fluid p-0">
+    <div class="">
+        <video autoplay loop muted class="video-bg_video">
+            <source src="https://res.cloudinary.com/dra1bsh4u/video/upload/v1674079207/AMTI%20Ecommerce/mapa-paises_trscgp.mp4" type="video/mp4">
+          </video>
     </div>
 </div>

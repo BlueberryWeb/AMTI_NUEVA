@@ -45,10 +45,10 @@
                         <a class="nav-link active text-white me-4 ms-4 top-menu" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white me-4 top-menu" href="#">¿Cómo funciona?</a>
+                        <a class="nav-link text-white me-4 top-menu" href="{{ route('comoFunciona') }}">¿Cómo funciona?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white me-4 top-menu" href="#">Vigencias y precios</a>
+                        <a class="nav-link text-white me-4 top-menu" href="{{ route('vigencias') }}">Vigencias y precios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white me-4 top-menu" href="#">Contacto</a>
