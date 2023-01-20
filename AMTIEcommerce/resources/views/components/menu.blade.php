@@ -33,7 +33,7 @@
     <hr/>
     <nav class="navbar navbar-expand-lg navbar-light regular">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674070253/AMTI%20Ecommerce/logo-amti-gde_tasxta.png" alt="AMTI" class="img-fluid logo-menu"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white me-4 ms-4 top-menu" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active text-white me-4 ms-4 top-menu" aria-current="page" href="{{ url('/') }}">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white me-4 top-menu" href="{{ route('comoFunciona') }}">¿Cómo funciona?</a>
@@ -57,7 +57,7 @@
                 </ul>
                 <div class="d-flex">
                     <div class="">
-                        <a href="" class="btn btn-primary btn-bordes-azul">Tamitar mi licencia</a>
+                        <a href="{{ route('procesoCompra')  }}" class="btn btn-primary btn-bordes-azul">Tamitar mi licencia</a>
                     </div>
                     <div class="ms-4 bolsa">
                         <a href="" class="a_none_style text-white">

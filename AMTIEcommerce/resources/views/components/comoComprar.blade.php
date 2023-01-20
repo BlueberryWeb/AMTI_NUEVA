@@ -91,7 +91,7 @@
     </div>
     <div class="row">
         <div class="my-4 text-center">
-            <a href="" class="btn btn-primary btn-tramitar py-2">Tramitar mi licencia online</a>
+            <a href="{{ route('procesoCompra') }}" class="btn btn-primary btn-tramitar py-2">Tramitar mi licencia online</a>
         </div>
     </div>
 </div>

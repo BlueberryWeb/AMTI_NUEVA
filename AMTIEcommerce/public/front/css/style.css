@@ -209,6 +209,10 @@ BOTONES
     background: transparent;
     width: 200px;
 }
+.btn-bordes-azul i{
+    font-size: 18px;
+    font-weight: 600;
+}
 .items{
     position: absolute;
     bottom: 0;
@@ -340,9 +344,9 @@ FORMULARIO
     border-radius: 0;
     height: 90px;
 }
-/************************
-NUESTRAS SUCURSALES
-*************************/
+/*****************************
+CUADROS NUESTRAS SUCURSALES
+*****************************/
 .cuadro-sucursales{
     background-color: #fff;
     border-radius: 20px;
@@ -386,6 +390,9 @@ footer i{
 .icono-pagos{
     width: 40px;
     margin-right: 0.5rem;
+}
+.bb-logo{
+    width: 250px;
 }
 /************************
 CÓMO FUNCIONA
@@ -495,4 +502,488 @@ CUADROS ENVÍOS
 }
 .cuadro-envios p{
     line-height: 60%;
+}
+/************************
+PASOS DE LA COMPRA
+*************************/
+.signup-step-container{
+    font-family: 'OpenSans Regular';
+}
+.signup-step-container i {
+	margin-right: 10px;
+}
+
+/*------------------------*/
+.login-box input:focus,
+.login-box button:focus,
+.form-control:focus{
+	outline: none;
+	box-shadow: none;
+}
+.form-control:disabled, .form-control[readonly]{
+	background-color: #fff;
+}
+/*----------step-wizard------------*/
+.d-flex{
+	display: flex;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.align-items-center{
+	align-items: center;
+}
+
+/*---------signup-step-------------*/
+.bg-color{
+	background-color: #333;
+}
+.signup-step-container{
+	padding: 90px 0px;
+	padding-bottom: 60px;
+}
+.wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+.wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.connecting-line {
+    position: absolute;
+    width: 87.5%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+    z-index: 1;
+    border-color: #9B9A98;
+    border-bottom-style: dashed;
+    border-width: 2px;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #E3E3E3;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    font-family: 'OpenSans Bold';
+}
+span.round-tab i{
+    color:#555555;
+}
+span.round-tab h6{
+    font-size: 18px;
+}
+.wizard li.active span.round-tab {
+    background: rgb(59,118,167);
+    background: linear-gradient(150deg, rgba(59,118,167,1) 15%, rgba(32,74,105,1) 58%);
+    color: #fff;
+    border-color: #204A69;
+    font-family: 'OpenSans Bold';
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+.wizard .nav-tabs > li.active > a i{
+	color: #224C6C;
+    font-weight: 800 !important;
+}
+
+.wizard .nav-tabs > li {
+    width: 11.1%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+.wizard .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+.wizard .nav-tabs > li a i{
+	position: absolute;
+    top: 60px;
+    font-style: normal;
+    font-weight: 400;
+    white-space: nowrap;
+    left: 80%;
+    transform: translate(-20%, -50%);
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+}
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 20px;
+}
+.wizard h3 {
+    margin-top: 0;
+}
+.prev-step,
+.next-step{
+    font-size: 18px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    width: 200px;
+}
+.next-step{
+	background: rgb(54,101,139);
+    background: linear-gradient(150deg, rgba(54,101,139,1) 15%, rgba(34,76,108,1) 58%);
+    color: #fff;
+}
+.prev-step{
+    background-color: transparent;
+    border: 1px solid #2A5779;
+}
+.step-head{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.term-check{
+	font-size: 14px;
+	font-weight: 400;
+}
+.custom-file {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0;
+}
+.custom-file-input {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    opacity: 0;
+}
+.custom-file-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 40px;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.custom-file-label::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    display: block;
+    height: 38px;
+    padding: .375rem .75rem;
+    line-height: 2;
+    color: #495057;
+    content: "Browse";
+    background-color: #e9ecef;
+    border-left: inherit;
+    border-radius: 0 .25rem .25rem 0;
+}
+.footer-link{
+	margin-top: 30px;
+}
+.all-info-container{
+    font-family: 'OpenSans Regular';
+}
+.list-content{
+	margin-bottom: 10px;
+}
+.list-content a{
+	padding: 10px 15px;
+    width: 100%;
+    display: inline-block;
+    background-color: #f5f5f5;
+    position: relative;
+    color: #565656;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.list-content a[aria-expanded="true"] i{
+	transform: rotate(180deg);
+}
+.list-content a i{
+	text-align: right;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    transition: 0.5s;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fdfdfd;
+}
+.list-box{
+	padding: 10px;
+}
+.signup-logo-header .logo_area{
+	width: 200px;
+}
+.signup-logo-header .nav > li{
+	padding: 0;
+}
+.signup-logo-header .header-flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.list-inline li{
+    display: inline-block;
+}
+.pull-right{
+    float: right;
+}
+/*-----------custom-checkbox-----------*/
+/*----------Custom-Checkbox---------*/
+.login-box input[type="checkbox"]{
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+}
+.login-box input[type="checkbox"]::before,
+.login-box input[type="checkbox"]::after {
+    position: absolute;
+    content: "";
+    display: inline-block;   
+}
+.login-box input[type="checkbox"]::before{
+    height: 16px;
+    width: 16px;
+    border: 1px solid #999;
+    left: 0px;
+    top: 0px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.login-box input[type="checkbox"]::after{
+    height: 5px;
+    width: 9px;
+    left: 4px;
+    top: 4px;
+}
+.login-box input[type="checkbox"]:checked::after{
+    content: "";
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: rotate(-45deg);
+}
+.login-box input[type="checkbox"]:checked::before{
+    background: rgb(59,118,167);
+    background: linear-gradient(150deg, rgba(59,118,167,1) 15%, rgba(32,74,105,1) 58%);
+    border-color: #18ba60;
+}
+
+@media (max-width: 767px){
+	.sign-content h3{
+		font-size: 40px;
+	}
+	.wizard .nav-tabs > li a i{
+		display: none;
+	}
+	.signup-logo-header .navbar-toggle{
+		margin: 0;
+		margin-top: 8px;
+	}
+	.signup-logo-header .logo_area{
+		margin-top: 0;
+	}
+	.signup-logo-header .header-flex{
+		display: block;
+	}
+}
+
+/************************
+FORMULARIO BIENVENIDA
+*************************/
+.form-bienvenida{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 340px; 
+}
+.form-bienvenida label, input{
+    color: #525252;
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
+}
+.form-bienvenida input{
+    border-color: #C4C4C4;
+}
+/************************
+VIDEO TUTORIALES
+*************************/
+.videoTutorial{
+    position: relative;
+}
+.etiquetaVerde{
+    background: rgb(121,199,107);
+    background: linear-gradient(150deg, rgba(121,199,107,1) 15%, rgba(107,173,87,1) 43%);
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.etiquetaVerde img{
+    width: 22px;
+    margin-left: 1rem;
+}
+.btn-close{
+    background-image: none;
+    color: #fff;
+}
+.btn-close i{
+    font-size: 25px;
+}
+.modal-tuto{
+    border-radius: 35px;
+}
+/****************************
+CUADROS DE PROCESO DE COMPRA
+*****************************/
+.cuadro-compra{
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    height: 400px;
+    position: relative;
+}
+.licencia-proceso{
+    width: 200px;
+}
+.btn-seleccionar{
+    background: rgb(80,152,178);
+    background: linear-gradient(150deg, rgba(80,152,178,1) 15%, rgba(56,103,142,1) 53%);
+    width: 180px;
+    color: #fff;
+    border-radius: 5px;
+}
+.form-check-input:checked{
+    background-color: transparent;
+    border-color: transparent;
+}
+.form-check-input{
+    background: transparent;
+    border: none;
+}
+.login-box input[type="checkbox"]{
+    margin-right: 15px;
+    margin-left: 2px;
+}
+/****************************
+CUADROS SUBE TUS DOCUMENTOS
+*****************************/
+.cuadro-documentos{
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    height: 400px;
+}
+.cuadro-documentos p{
+    line-height: 50%;
+}
+.btn-ejemplo{
+    background: rgb(54,101,139);
+    background: linear-gradient(150deg, rgba(54,101,139,1) 15%, rgba(34,76,108,1) 43%);
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    width: 120px;
+    border-radius: 7px;
+    font-family: 'OpenSans Regular';
+}
+.txt-evitar h6{
+    line-height: 70%;
+}
+.icono-lentes{
+    width: 45px;
+}
+.icono-proh{
+    width: 15px;
+}
+.icono-acce{
+    width: 35px;
+}
+/****************************
+CUADRO TU FIRMA
+*****************************/
+.txt-firma p{
+    line-height: 70%;
+}
+/**********************************
+CUADRO INFORMACIÓN COMPLEMENTARIA
+*********************************/
+.form-info-compl{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 700px; 
+}
+.form-info-compl label, input{
+    color: #525252;
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
+}
+.form-info-compl input{
+    border-color: #C4C4C4;
+}
+.centimentros{
+    background: rgb(54,101,139);
+    background: linear-gradient(150deg, rgba(54,101,139,1) 15%, rgba(34,76,108,1) 43%);
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1.9rem;
 }

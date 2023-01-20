@@ -41,7 +41,7 @@
                                                 <p class="semibold txt-color-tit titulos">$2,700 MXN.</p>
                                             </div>
                                             <div class="">
-                                                <a href="" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
+                                                <a href="{{ route('procesoCompra') }}" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
@@ -84,7 +84,7 @@
                                                 <p class="semibold txt-color-tit titulos">$3,700 MXN.</p>
                                             </div>
                                             <div class="">
-                                                <a href="" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
+                                                <a href="{{ route('procesoCompra') }}" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
                                             </div>
                                         </div>
                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">

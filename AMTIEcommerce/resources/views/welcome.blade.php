@@ -197,7 +197,7 @@
                                     <h1 class="bold titulos">Tu licencia internacional  <b class="txt-azul">de AMTI</b></h1>
                                     <h1 class="semiBold titulos">asegura tu viaje en el extranjero</h1>
                                     <div class="mt-5">
-                                        <a href="" class="btn btn-primary btn-bordes-azul">Tamitar mi licencia</a>
+                                        <a href="{{ route('procesoCompra') }}" class="btn btn-primary btn-bordes-azul">Tamitar mi licencia</a>
                                     </div>
                                 </div>
                             </div>

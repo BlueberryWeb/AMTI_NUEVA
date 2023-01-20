@@ -5,7 +5,9 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-10">
                     <div class="text-center mb-4">
-                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082739/AMTI%20Ecommerce/logo-azul-gde_uhagup.png" alt="AMTI" class="img-fluid logo-amti"/>
+                        <a href="{{ url('/') }}" class="a_none_style">
+                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082739/AMTI%20Ecommerce/logo-azul-gde_uhagup.png" alt="AMTI" class="img-fluid logo-amti"/>
+                        </a>
                     </div>
                     <div class="row mb-5">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
@@ -32,7 +34,7 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="menu">
                                 <h6 class="semiBold txt-azul-oscuro titulos mb-4">Menú</h6>
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="{{ url('/') }}" class="a_none_style txt-color-parrafo">
                                     <h6 class="regular mb-3">Inicio</h6>
                                 </a>
                                 <a href="{{ route('comoFunciona') }}" class="a_none_style txt-color-parrafo">
@@ -97,7 +99,7 @@
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                            <a href="" class="a_none_style" target="_blank">
+                            <a href="https://blueberry.mx/" class="a_none_style" target="_blank">
                                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041263/BlueberryMX/we-are-Bb_black_sucfyi.gif" alt="Materialized by Blueberry" class="img-fluid"/>
                             </a>
                         </div>
