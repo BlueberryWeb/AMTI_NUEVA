@@ -25,7 +25,8 @@
                         </div>
                         <div class="col-12 col-sm-12 col-lg-6">
                             <div class="">
-                                <form class="needs-validation form-message" novalidate>
+                                <form class="needs-validation form-message" novalidate action="{{ route('mail') }}" method="POST">
+                                    @csrf
                                     <div class="mb-4">
                                         <label for="validationCustom05" class="form-label">Nombre</label>
                                         <input type="text" class="form-control" id="validationCustom05" required name="name">

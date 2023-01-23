@@ -67,3 +67,41 @@ $('.nav-tabs').on('click', 'li', function() {
   $('.nav-tabs li.active').removeClass('active');
   $(this).addClass('active');
 });
+
+//Drop de color de ojos
+$(document).ready(function() {
+  $(".drop-image").each(function() {
+    $(".option-image").click(function() {
+      var val = $(this).attr("data-value"),
+          $drop = $(".drop-image"),
+          prevActive = $(".drop-image .option-image.active").attr("data-value"),
+          options = $(".drop-image .option-image").length;
+
+      $drop.toggleClass("visible");
+      $drop.removeClass("withBG");
+      $(this).css("top");
+      $drop.toggleClass("opacity");
+
+      if ($drop.hasClass("visible")) {
+        setTimeout(function() {
+          $drop.addClass("withBG");
+        }, 400 + options * 100);
+      }
+      if (val !== "placeholder" || prevActive === "placeholder") {
+        $(".drop-image .option-image").removeClass("active");
+        $(this).addClass("active");
+      }
+    });
+  });
+});
+
+//ACCORDION DE FAQ'S
+var accord = document.getElementsByClassName("accordionFaqs-btn");
+var i;
+
+for (i = 0; i < accord.length; i++) {
+    accord[i].onclick = function() {
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}

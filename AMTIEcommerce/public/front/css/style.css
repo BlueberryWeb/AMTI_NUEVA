@@ -142,6 +142,12 @@ body{
     height: 50vh;
     color: #fff;
 }
+.bg-continenteB{
+    background-image: url('https://res.cloudinary.com/dra1bsh4u/image/upload/v1674509994/AMTI%20Ecommerce/bg-mundo_nb3u7q.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg-vigencias{
     background-image: url('https://res.cloudinary.com/dra1bsh4u/image/upload/v1674151948/AMTI%20Ecommerce/bg-vigencias_enyhq6.png');
     background-position: center;
@@ -154,6 +160,16 @@ body{
 .bg-azul-3{
     background: rgb(56,103,142);
     background: linear-gradient(160deg, rgba(56,103,142,1) 27%, rgba(32,74,105,1) 100%);
+}
+.bg-contacto{
+    background-image: url('https://res.cloudinary.com/dra1bsh4u/image/upload/v1674510996/AMTI%20Ecommerce/bg-contacto_cizw9i.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    color: #fff;
+    text-align: center;
 }
 /**************
 TEXTOS
@@ -179,6 +195,9 @@ TEXTOS
 }
 .txt-idp p{
     line-height: 70%;
+}
+.bg-contacto h1{
+    margin-top: 10rem;
 }
 /**************
 TAMAÑO TEXTOS
@@ -247,6 +266,13 @@ BOTONES
     background: transparent;
     width: 140px;
 }
+.btn-generar-ficha{
+    background: rgb(54,101,139);
+    background: linear-gradient(150deg, rgba(54,101,139,1) 15%, rgba(34,76,108,1)   61%);
+    color: #fff;
+    border: none;
+    width: 100%;
+}
 /*****************
 IMÁGENES
 *****************/
@@ -264,6 +290,7 @@ IMÁGENES
     top: 35%;
     left: 40%;
     width: 80px;
+    cursor: pointer;
 }
 .video-bg_video{
     width: 100%;
@@ -393,6 +420,9 @@ footer i{
 }
 .bb-logo{
     width: 250px;
+}
+.check-img{
+    width: 90px;
 }
 /************************
 CÓMO FUNCIONA
@@ -611,7 +641,7 @@ span.round-tab h6{
 }
 
 .wizard .nav-tabs > li {
-    width: 11.1%;
+    width: 14.2%;
 }
 
 .wizard li:after {
@@ -912,11 +942,11 @@ CUADROS DE PROCESO DE COMPRA
 }
 .form-check-input:checked{
     background-color: transparent;
-    border-color: transparent;
+    border-color: #BEBEBE;
 }
 .form-check-input{
     background: transparent;
-    border: none;
+    border: transparent;
 }
 .login-box input[type="checkbox"]{
     margin-right: 15px;
@@ -970,7 +1000,6 @@ CUADRO INFORMACIÓN COMPLEMENTARIA
     background-color: #fff;
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    height: 700px; 
 }
 .form-info-compl label, input{
     color: #525252;
@@ -986,4 +1015,274 @@ CUADRO INFORMACIÓN COMPLEMENTARIA
     color: #fff;
     border-radius: 5px;
     margin-top: 1.9rem;
+}
+/**********************************
+CUADRO CONFIRMA INFORMACIÓN 
+*********************************/
+.form-confirmacion{
+    background-color: #F2F2F1;
+    border-radius: 0 0 10px 10px;
+}
+.header-lic{
+    background-color: #646A8C;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+/**********************************
+CUADRO ENVÍO
+*********************************/
+.check-envio{
+    background: transparent;
+    border: 1px solid #BEBEBE;
+}
+.form-info-envio{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.form-info-envio label, input{
+    color: #525252;
+    font-family: 'OpenSans Regular';
+    font-size: 14px;
+}
+.form-info-envio input{
+    border-color: #C4C4C4;
+}
+.accordion-button{
+    padding: 1rem 0.5rem;
+}
+.form-check{
+    padding-left: 1rem;
+    min-height: 1rem;
+    margin-right: 0.5rem;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0px !important;
+    background: transparent;
+    border: none;
+    font-family: 'OpenSans Regular';
+}
+.accordion-button[aria-expanded="true"]{
+    background-color: transparent;
+    color:#404040;
+    box-shadow: none;
+    font-family: 'OpenSans Regular';
+}
+.accordion-button:after{
+    color:#404040;
+    background-color: transparent;
+    background-image: none;
+    font-family: 'OpenSans Regular';
+}
+.accordion-fact{
+    border: 1px solid #bfbfbf !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+.accordion-fact{
+    border: none;
+}
+/**********************************
+SELECT CON IMÁGENES
+*********************************/
+.drop-image {
+    width: 24em;
+    color: #464646;
+    text-transform: uppercase;
+    position: relative;
+}
+.drop-image .option-image {
+    padding: 1em;
+    cursor: pointer;
+    background-color: transparent;
+}
+.drop-image .option-image:not(.active) {
+    display: none;
+}
+.drop-image.visible:before, .drop-image.visible:after {
+    border-color: #fff;
+}
+.drop-image.visible:before {
+    opacity: 0;
+}
+.drop-image.visible:after {
+    opacity: 1;
+}
+.drop-image.visible .option-image {
+    color: #464646;
+    display: block;
+}
+.drop-image.opacity .option-image {
+    opacity: 1;
+}
+.drop-image.withBG .option-image {
+    transition: background-color 0.1s;
+}
+.drop-image.withBG .option-image:not(.placeholder):hover {
+    background: rgb(80,152,178);
+    background: linear-gradient(150deg, rgba(80,152,178,1) 15%, rgba(56,103,142,1) 53%);
+    color: #fff;
+}
+.drop-image.withBG .option-image:not(.placeholder).active {
+    background: rgb(80,152,178);
+    background: linear-gradient(150deg, rgba(80,152,178,1) 15%, rgba(56,103,142,1) 53%);
+    color: #fff;
+}
+.drop-image:after, .drop-image:before {
+    content: "";
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+    width: 0.75em;
+    height: 0.75em;
+    border: 0.2em solid #86919a;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    transition: opacity 0.2s;
+}
+.drop-image:before {
+    border-left: none;
+    border-top: none;
+    top: 1.2em;
+}
+.drop-image:after {
+    border-right: none;
+    border-bottom: none;
+    opacity: 0;
+    border: 0.2em solid #fff;
+}
+/**********************************
+SELECT CON FONDO DEGRADADO
+*******************************
+.form-select{
+    background: rgb(80,152,178) !important;
+    background: linear-gradient(150deg, rgba(80,152,178,1) 15%, rgba(56,103,142,1) 53%) !important;
+    background-image: url('https://res.cloudinary.com/dra1bsh4u/image/upload/v1674498276/AMTI%20Ecommerce/arrow-down_cuzld6.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+}
+**/
+/**********************************
+CUADRO DEL CHECKOUT 
+*********************************/
+.cuadro-compra-2{
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-chekout{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.icono-visa{
+    width: 30px;
+    margin-left: 1rem;
+}
+.icono-master{
+    width: 30px;
+}
+.icono-mestro{
+    width: 30px;
+}
+.icono-american{
+    width: 30px;
+}
+.icono-oxxo{
+    width: 30px;
+    margin-left: 1rem;
+}
+.form-efectivo input{
+    border-radius: 10px;
+}
+.pago-rechazado{
+    background-color: #FFEBEB;
+    color: #BA3D3D;
+    text-align: center;
+}
+/*****************
+FAQ'S
+*****************/
+.accordionFaqs .content {
+    padding: 0.5em 1.5em 0.5em;
+}  
+.content1 {
+    padding: 0.5em 5em 0.5em;
+} 
+/* accordionFaqs Styles */
+.accordionFaqs {
+    width: 60%;
+    margin: 0 auto;
+}
+/* Button Styles */
+.accordionFaqs-btn {
+    background-color: #fff;
+    font-size: 18px;
+    color: #464646;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none ;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'OpenSans SemiBold';
+}
+.accordionFaqs-btn span {
+    padding-left: 0.5em;
+    padding-top: 1rem;
+}
+.accordionFaqs-btn:after {
+    content: "+";
+    font-size: 1.3em;
+    color: #4F84AC;
+    float: left;
+    margin-left: 1rem;
+    margin-right: 5px;
+}
+/* Active and Hover Button Styles */
+.accordionFaqs-btn.active,
+.accordionFaqs-btn:hover {
+    background-color: #ffffff;
+    color: #204A69;
+}
+.accordionFaqs-btn.active:after {
+    content: "-";
+}
+/* Panel Styles */
+.panel {
+    background-color: #ffffff;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    font-family: 'OpenSans Regular';
+}
+.panel p {
+    font-size: 1.2em;
+    padding: 0 2em;
+} 
+/* Show Panel onclick */
+.panel.show {
+    display: block;
+    opacity: 1;
+    max-height: 500px;
+}
+/* Inner accordionFaqs Style */
+.inner-accord {
+    background-color: #5b80a4;
+    font-size: 1.2em;
+    margin-left: 1.25em;
+} 
+.inner-accord.active,
+.inner-accord:hover {
+    background-color: #7b99b7;
 }

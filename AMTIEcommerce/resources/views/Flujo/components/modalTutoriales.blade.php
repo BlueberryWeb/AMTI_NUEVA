@@ -17,8 +17,9 @@
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                                 <div class="video-modal">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/portada-video_wbs5yc.png" alt="" class="img-fluid"/>
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/boton-play_aps3sm.png" alt="Play" class="img-fluid btn-play"/>
+                                    <video controls class="video-bg_video">
+                                        <source src="https://res.cloudinary.com/dra1bsh4u/video/upload/v1674491340/AMTI%20Ecommerce/videos/Amti_Funciona_cm1vic.mp4" type="video/mp4">
+                                    </video>
                                     <div class="text-center my-3">
                                         <h1 class="titulos bold text-white">¿Cómo funciona?</h1>
                                         <h6 class="top-menu regular text-white">Duración: 00:30 seg</h6>
@@ -27,8 +28,9 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                                 <div class="video-modal">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/portada-video_wbs5yc.png" alt="" class="img-fluid"/>
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/boton-play_aps3sm.png" alt="Play" class="img-fluid btn-play"/>
+                                    <video controls class="video-bg_video">
+                                        <source src="https://res.cloudinary.com/dra1bsh4u/video/upload/v1674491371/AMTI%20Ecommerce/videos/AMTI_Tramite_zmkhiz.mp4" type="video/mp4">
+                                    </video>
                                     <div class="text-center my-3">
                                         <h1 class="titulos bold text-white">¿Cómo la tramito?</h1>
                                         <h6 class="top-menu regular text-white">Duración: 01:30 min</h6>
@@ -37,8 +39,9 @@
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                                 <div class="video-modal">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/portada-video_wbs5yc.png" alt="" class="img-fluid"/>
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/boton-play_aps3sm.png" alt="Play" class="img-fluid btn-play"/>
+                                    <video controls class="video-bg_video">
+                                        <source src="https://res.cloudinary.com/dra1bsh4u/video/upload/v1674491378/AMTI%20Ecommerce/videos/AMTI_Pagar_wtrzuq.mp4" type="video/mp4">
+                                    </video>
                                     <div class="text-center my-3">
                                         <h1 class="titulos bold text-white">¿Cómo pagar?</h1>
                                         <h6 class="top-menu regular text-white">Duración: 01:21 min</h6>

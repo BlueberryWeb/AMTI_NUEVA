@@ -51,7 +51,7 @@
                         <a class="nav-link text-white me-4 top-menu" href="{{ route('vigencias') }}">Vigencias y precios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white me-4 top-menu" href="#">Contacto</a>
+                        <a class="nav-link text-white me-4 top-menu" href="{{ route('contacto') }}">Contacto</a>
                     </li>
                
                 </ul>

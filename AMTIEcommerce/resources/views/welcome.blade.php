@@ -56,7 +56,7 @@
     </div>
     <!-- DÓNDE ESTÁ AVALADO -->
     <div class="container txt-avalado mb-5">
-        <div class="row">
+        <div class="row mb-3">
             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                 <h1 class="bold txt-color-tit big">¿Dónde está avalado?</h1>
                 <h1 class="bold txt-azul big">Normativa reguladora</h1>
@@ -205,7 +205,8 @@
                             <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                                 <div class="video-modal">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/portada-video_wbs5yc.png" alt="" class="img-fluid"/>
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/boton-play_aps3sm.png" alt="Play" class="img-fluid btn-play"/>
+                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674069474/AMTI%20Ecommerce/boton-play_aps3sm.png" alt="Play" class="img-fluid btn-play" data-bs-toggle="modal" data-bs-target="#VideoPrincipal"/>
+                                    @include('components.modalVideo')
                                 </div>
                             </div>
                         </div>

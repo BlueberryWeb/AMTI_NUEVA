@@ -71,12 +71,6 @@
                                         <li role="presentation" class="disabled">
                                             <a href="#step7" data-toggle="tab" aria-controls="step7" role="tab"><span class="round-tab"><h6 class="pt-2">7</h6></span> <i>Envío </i></a>
                                         </li>
-                                        <li role="presentation" class="disabled">
-                                            <a href="#step8" data-toggle="tab" aria-controls="step8" role="tab"><span class="round-tab"><h6 class="pt-2">7</h6></span> <i>Checkout </i></a>
-                                        </li>
-                                        <li role="presentation" class="disabled">
-                                            <a href="#step9" data-toggle="tab" aria-controls="step9" role="tab"><span class="round-tab"><h6 class="pt-2">9</h6></span> <i>Final </i></a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -469,67 +463,82 @@
                                             <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
                                             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                                                 <div class="mx-2">
-                                                    <div class="form-info-compl">
+                                                    <div class="form-info-compl py-5">
                                                         <div class="mx-5">
                                                             <div class="row py-4 txt-firma">
-                                                                <div class="">
-                                                                    <div class="row">
-                                                                        <h4 class="bold txt-color-tit mb-3 h5 ">Rasgos físicos:</h4>
-                                                                        <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
-                                                                            <label for="exampleInputEmail1" class="form-label">País de nacimiento*</label>
-                                                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                                                                <option selected>México</option>
-                                                                                <option value="1">One</option>
-                                                                                <option value="2">Two</option>
-                                                                                <option value="3">Three</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
-                                                                            <div class="row">
-                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                                                                                    <div class="mb-3">
-                                                                                        <label for="exampleInputEmail1" class="form-label">Estatura*</label>
-                                                                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                                                                                    </div>
-                                                                                    
-                                                                                </div>
-                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                                                                                    <div class="centimentros py-1">
-                                                                                        <h5 class="regular parrafos ms-3 pt-1">centímetros</h5>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
-                                                                            <label for="exampleInputEmail1" class="form-label">Sexo*</label>
-                                                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                                                                <option selected>Femenino</option>
-                                                                                <option value="1">Masculino</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
-                                                                            <label for="exampleInputEmail1" class="form-label">Color de cabello natural*</label>
-                                                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                                                                <option selected>México</option>
-                                                                                <option value="1">One</option>
-                                                                                <option value="2">Two</option>
-                                                                                <option value="3">Three</option>
-                                                                            </select>
-                                                                        </div>
+                                                                <h4 class="bold txt-color-tit mb-3 h5 ">Rasgos físicos:</h4>
+                                                                <div class="row">
+                                                                    <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
+                                                                        <label for="exampleInputEmail1" class="form-label">País de nacimiento*</label>
+                                                                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                                            <option selected>México</option>
+                                                                            <option value="1">One</option>
+                                                                            <option value="2">Two</option>
+                                                                            <option value="3">Three</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
                                                                         <div class="row">
-                                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                                                                <label for="exampleInputEmail1" class="form-label">Color de ojos*</label>
+                                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                <div class="mb-3">
+                                                                                    <label for="exampleInputEmail1" class="form-label">Estatura*</label>
+                                                                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="estatura">
+                                                                                </div>
                                                                             </div>
-                                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                                                                <select class="form-select" aria-label="Default select example">
-                                                                                    <option selected>Open this select menu</option>
-                                                                                    <option value="1">One</option>
-                                                                                    <option value="2">Two</option>
-                                                                                    <option value="3">Three</option>
-                                                                                </select>
+                                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                <div class="centimentros py-1">
+                                                                                    <h5 class="regular parrafos ms-3 pt-1">centímetros</h5>
+                                                                                </div>
                                                                             </div>
-                                                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6"></div>
+
                                                                         </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
+                                                                        <label for="exampleInputEmail1" class="form-label">Sexo*</label>
+                                                                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                                            <option selected>Femenino</option>
+                                                                            <option value="1">Masculino</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-12 col-md-12 col-sm-12 col-lg-6 mb-4">
+                                                                        <label for="exampleInputEmail1" class="form-label">Color de cabello natural*</label>
+                                                                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                                            <option selected>México</option>
+                                                                            <option value="1">One</option>
+                                                                            <option value="2">Two</option>
+                                                                            <option value="3">Three</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                                                            <label for="exampleInputEmail1" class="form-label">Color de ojos*</label>
+                                                                        </div>
+                                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                                                            <div class="drop-image mb-4">
+                                                                                <div class="option-image active placeholder" data-value="placeholder">
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-cafe_vkklmb.png" alt="Ilustración de color de ojos" class="me-3"/>Selecciona un color de ojos
+                                                                                </div>
+                                                                                <div class="option-image" data-value="wow">
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-ambar_d1yi7v.png" alt="Ilustración de color de ojos" class="me-3"/> Ambar
+                                                                                </div>
+                                                                                <div class="option-image" data-value="wow">
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-castano_g8zhwc.png" alt="Ilustración de color de ojos" class="me-3"/> Castaño
+                                                                                </div>
+                                                                                <div class="option-image" data-value="drop-image">
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-gris_ks0w5a.png" alt="Ilustración de color de ojos" class="me-3"/> Gris
+                                                                                </div>
+                                                                                <div class="option-image" data-value="select">
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-avellana_b4mz4x.png" alt="Ilustración de color de ojos" class="me-3"/> Avellana
+                                                                                </div>
+                                                                                <div class="option-image" data-value="custom">
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-verde_h0vwr7.png" alt="Ilustración de color de ojos" class="me-3"/> Verde
+                                                                                </div>
+                                                                                <div class="option-image" data-value="animation"> 
+                                                                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674496571/AMTI%20Ecommerce/ojo-azul_g1yxz6.png" alt="Ilustración de color de ojos" class="me-3"/> Azul
+                                                                                </div>
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
                                                                     </div>
                                                                     <hr/>
                                                                     <h4 class="bold txt-color-tit mb-3 h5 ">Dirección completa:</h4>
@@ -537,41 +546,117 @@
                                                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                                                                             <div class="">
                                                                                 <label for="exampleInputEmail1" class="form-label">Calle*</label>
-                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                                                                             <div class="">
                                                                                 <label for="exampleInputEmail1" class="form-label">Colonia*</label>
-                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="colonia">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                                                                             <div class="">
                                                                                 <label for="exampleInputEmail1" class="form-label">Número exterior*</label>
-                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="NumExterior">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                                                                             <div class="">
                                                                                 <label for="exampleInputEmail1" class="form-label">Número interior*</label>
-                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="numInterior">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                                                                             <div class="">
                                                                                 <label for="exampleInputEmail1" class="form-label">Ciudad*</label>
-                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="ciudad">
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                                                                             <div class="">
                                                                                 <label for="exampleInputEmail1" class="form-label">Estado*</label>
-                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                                                                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="estado">
                                                                             </div>
                                                                         </div>
-                                                                    </div>  
-                                                                </div><!-- -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                                            <ul class="list-inline pull-right">
+                                                                <li><button type="button" class="default-btn prev-step regular"><i class="fa-solid fa-arrow-left"></i> Anterior</button></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                                            <ul class="list-inline pull-right">
+                                                                <li><button type="button" class="default-btn next-step">Siguiente <i class="fa-solid fa-arrow-right"></i></button></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- CONFIRMACIÓN DE DATOS -->
+                                    <div class="tab-pane" role="tabpanel" id="step6">
+                                        <h4 class="text-center my-5 bold h5">Por favor, confirma que tus datos sean correctos</h4>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                <div class="mx-5">
+                                                    <div class="form-confirmacion">
+                                                        <div class="header-lic py-1">
+                                                            <h6 class="bold  pt-1">INTERNATIONAL DRIVING PERMIT</h6>
+                                                            <h6 class="regular tags">TRANSLATION OF FOREIG DRIVER'S LICENCE</h6>
+                                                        </div>
+                                                        <div class="mx-5">
+                                                            <div class="row py-4 txt-firma">
+                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                                                    <div class="mb-3">
+                                                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674245868/AMTI%20Ecommerce/foto-ejemp_pfcn3n.png" alt="Ilustración de firma" class="img-fluid"/>
+                                                                    </div>
+                                                                    <div class="">
+                                                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674253285/AMTI%20Ecommerce/ejemplo-firma_fnmd48.png" alt="Ilustración de firma" class="img-fluid"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                                                                    <h1 class="txt-color-parrafo h6 regular mb-4"><b class="txt-azul-oscuro">FULL NAME:</b> "PRUEBAS"</h1>
+                                                                    <p class="regular h6  txt-color-parrafo mb-4"><b class="txt-azul-oscuro">ADDRESS:</b> "AV. RÚBEN DARÍO #586"</p>
+                                                                    <p class="regular h6 txt-color-parrafo"><b class="txt-azul-oscuro">PLACE OF BIRTH:</b></p>
+                                                                    <p class="regular h6 txt-color-parrafo mb-4">"MÉXICO"</p>
+                                                                    <div class="row">
+                                                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
+                                                                            <p class="regular h6 txt-color-parrafo"><b class="txt-azul-oscuro">SEX:</b></p>
+                                                                            <p class="regular h6 txt-color-parrafo">"M"</p>
+                                                                        </div>
+                                                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
+                                                                            <p class="regular h6 txt-color-parrafo"><b class="txt-azul-oscuro">EYES:</b></p>
+                                                                            <p class="regular h6 txt-color-parrafo">"EFF"</p>
+                                                                        </div>
+                                                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
+                                                                            <p class="regular h6 txt-color-parrafo"><b class="txt-azul-oscuro">HT:</b></p>
+                                                                            <p class="regular h6 txt-color-parrafo">"150"</p>
+                                                                        </div>
+                                                                        <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-4">
+                                                                            <p class="regular h6 txt-color-parrafo"><b class="txt-azul-oscuro">HAIR:</b></p>
+                                                                            <p class="regular h6 txt-color-parrafo">"VFVF"</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                                
                                                                 
@@ -605,383 +690,245 @@
                                             </div>
                                             <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
                                         </div>
-                                    </div>
-                                    <!-- CONFIRMACIÓN DE DATOS -->
-                                    <div class="tab-pane" role="tabpanel" id="step6">
-                                        <h4 class="text-center">Step 3</h4>
-                                         <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Account Name *</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Demo</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Inout</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Information</label> 
-                                                <div class="custom-file">
-                                                  <input type="file" class="custom-file-input" id="customFile">
-                                                  <label class="custom-file-label" for="customFile">Select file</label>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Number *</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Input Number</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                           </div>
-                                        <ul class="list-inline pull-right">
-                                            <li><button type="button" class="default-btn prev-step">Back</button></li>
-                                            <li><button type="button" class="default-btn next-step skip-btn">Skip</button></li>
-                                            <li><button type="button" class="default-btn next-step">Continue</button></li>
-                                        </ul>
+                                        
                                     </div>
                                     <!-- DATOS DE ENVÍO -->
                                     <div class="tab-pane" role="tabpanel" id="step7">
-                                        <h4 class="text-center">Step 3</h4>
-                                         <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Account Name *</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Demo</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Inout</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Information</label> 
-                                                <div class="custom-file">
-                                                  <input type="file" class="custom-file-input" id="customFile">
-                                                  <label class="custom-file-label" for="customFile">Select file</label>
+                                        <h4 class="text-center my-5 bold h5">Datos de envío</h4>
+                                        <div class="row">
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
+                                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                <div class="mx-2">
+                                                    <div class="form-info-envio">
+                                                        <div class="mx-5">
+                                                            <div class="row py-5 txt-firma">
+                                                                <div class="mb-4">
+                                                                    <label for="exampleInputEmail1" class="form-label">Nombre Completo*</label>
+                                                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Teléfono*</label>
+                                                                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Correo electrónico*</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Calle*</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Colonia*</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Número exterior*</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Número exterior</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Ciudad*</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                        <div class="mb-4">
+                                                                            <label for="exampleInputEmail1" class="form-label">Estado*</label>
+                                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mb-4">
+                                                                    <label for="exampleInputEmail1" class="form-label">Instrucciones adicionales para acceder al domicilio*</label>
+                                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                </div>
+                                                                <div class="row mb-5">
+                                                                    <label for="exampleInputEmail1" class="form-label">Selecciona tu tipo de envío*</label>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input check-envio" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                            <label class="form-check-label txt-color-tit bold" for="flexRadioDefault1">
+                                                                                Envío<b class="txt-azul-oscuro"> estándar</b> <br/>
+                                                                                <i class="fa-solid fa-check txt-verde"></i> <b class="txt-verde">Gratuito</b> <br/>
+                                                                                <b class="top-menu regular">5 - 7 días hábiles</b>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                                                        <div class="form-check ">
+                                                                            <input class="form-check-input check-envio" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                                Envío<b class="txt-azul-oscuro"> express</b> <br/>
+                                                                                <b class="regular">$199</b> <br/>
+                                                                                <b class="top-menu regular">1 a 3 días hábiles</b>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input check-envio" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                                                Recoger en<b class="txt-azul-oscuro"> sucursal</b> <br/>
+                                                                                <i class="fa-solid fa-check txt-verde"></i> <b class="txt-verde">Gratuito</b> <br/>
+                                                                                <b class="top-menu regular">2 a 3 días hábiles.</b>
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-end mb-3">
+                                                                    <h6 class="top-menu txt-color-parrafo"><i>*Los días de entrega pueden variar según sea la zona de entrega por políticas de paqueterías.</i></h6>
+                                                                </div>
+
+                                                                <div class="accordion" id="accordionPanelsStayOpenExample">
+                                                                    <div class="accordion-item">
+                                                                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                                          <div class="form-check mt-1">
+                                                                            <input class="form-check-input chkAll" type="checkbox" value="" id="chkAccordion2All">
+                                                                          </div>
+                                                                          Requiero factura
+                                                                        </button>
+                                                                      </h2>
+                                                                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                                                        <div class="accordion-body ms-3">
+                                                                            <div class="row">
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Nombre o Razón Social</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">RFC*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Calle*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Colonia*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Número exterior*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Numero interior</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Código Postal*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Ciudad*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Estado*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">País*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Correo electrónico*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Teléfono*</label>
+                                                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="calle">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                                                                    <div class="mb-4">
+                                                                                        <label for="exampleInputEmail1" class="form-label">Uso del CFDI*</label>
+                                                                                        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                                                            <option selected>Femenino</option>
+                                                                                            <option value="1">Masculino</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Number *</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
+                                        </div>   
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                                                    <div class="row">
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                                                            <ul class="list-inline pull-right">
+                                                                <li><button type="button" class="default-btn prev-step regular"><i class="fa-solid fa-arrow-left"></i> Anterior</button></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-4"></div>
+                                                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                                                            <ul class="list-inline pull-right">
+                                                                <li><a type="button" class="default-btn next-step a_none_style text-white" href="{{route('checkout') }}">Siguiente <i class="fa-solid fa-arrow-right"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-2"></div>
+                                                
                                             </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label>Input Number</label> 
-                                                <input class="form-control" type="text" name="name" placeholder=""> 
-                                            </div>
-                                        </div>
-                                           </div>
-                                        <ul class="list-inline pull-right">
-                                            <li><button type="button" class="default-btn prev-step">Back</button></li>
-                                            <li><button type="button" class="default-btn next-step skip-btn">Skip</button></li>
-                                            <li><button type="button" class="default-btn next-step">Continue</button></li>
-                                        </ul>
+                                        </div> 
                                     </div>
-                                    <!-- CHECKOUT -->
-                                    <div class="tab-pane" role="tabpanel" id="step8">
-                                        <h4 class="text-center">Step 4</h4>
-                                        <div class="all-info-container">
-                                            <div class="list-content">
-                                                <a href="#listone" data-toggle="collapse" aria-expanded="false" aria-controls="listone">Collapse 1 <i class="fa fa-chevron-down"></i></a>
-                                                <div class="collapse" id="listone">
-                                                    <div class="list-box">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>First and Last Name *</label> 
-                                                                    <input class="form-control" type="text"  name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Phone Number *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="list-content">
-                                                <a href="#listtwo" data-toggle="collapse" aria-expanded="false" aria-controls="listtwo">Collapse 2 <i class="fa fa-chevron-down"></i></a>
-                                                <div class="collapse" id="listtwo">
-                                                    <div class="list-box">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Address 1 *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>City / Town *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Country *</label> 
-                                                                    <select name="country2" class="form-control" id="country2" disabled="disabled">
-                                                                        <option value="NG" selected="selected">Nigeria</option>
-                                                                        <option value="NU">Niue</option>
-                                                                        <option value="NF">Norfolk Island</option>
-                                                                        <option value="KP">North Korea</option>
-                                                                        <option value="MP">Northern Mariana Islands</option>
-                                                                        <option value="NO">Norway</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Legal Form</label> 
-                                                                    <select name="legalform2" class="form-control" id="legalform2" disabled="disabled">
-                                                                        <option value="" selected="selected">-Select an Answer-</option>
-                                                                        <option value="AG">Limited liability company</option>
-                                                                        <option value="GmbH">Public Company</option>
-                                                                        <option value="GbR">No minimum capital, unlimited liability of partners, non-busines</option>
-                                                                    </select> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Business Registration No.</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Registered</label> 
-                                                                    <select name="vat2" class="form-control" id="vat2" disabled="disabled">
-                                                                        <option value="" selected="selected">-Select an Answer-</option>
-                                                                        <option value="yes">Yes</option>
-                                                                        <option value="no">No</option>
-                                                                    </select> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Seller</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <label>Company Name *</label> 
-                                                                    <input class="form-control" type="password" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="list-content">
-                                                <a href="#listthree" data-toggle="collapse" aria-expanded="false" aria-controls="listthree">Collapse 3 <i class="fa fa-chevron-down"></i></a>
-                                                <div class="collapse" id="listthree">
-                                                    <div class="list-box">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Name *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder=""> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Number *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder=""> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <ul class="list-inline pull-right">
-                                            <li><button type="button" class="default-btn prev-step">Back</button></li>
-                                            <li><button type="button" class="default-btn next-step">Finish</button></li>
-                                        </ul>
-                                    </div>
-                                    <!-- FINAL -->
-                                    <div class="tab-pane" role="tabpanel" id="step8">
-                                        <h4 class="text-center">Step 4</h4>
-                                        <div class="all-info-container">
-                                            <div class="list-content">
-                                                <a href="#listone" data-toggle="collapse" aria-expanded="false" aria-controls="listone">Collapse 1 <i class="fa fa-chevron-down"></i></a>
-                                                <div class="collapse" id="listone">
-                                                    <div class="list-box">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>First and Last Name *</label> 
-                                                                    <input class="form-control" type="text"  name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Phone Number *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="list-content">
-                                                <a href="#listtwo" data-toggle="collapse" aria-expanded="false" aria-controls="listtwo">Collapse 2 <i class="fa fa-chevron-down"></i></a>
-                                                <div class="collapse" id="listtwo">
-                                                    <div class="list-box">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Address 1 *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>City / Town *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Country *</label> 
-                                                                    <select name="country2" class="form-control" id="country2" disabled="disabled">
-                                                                        <option value="NG" selected="selected">Nigeria</option>
-                                                                        <option value="NU">Niue</option>
-                                                                        <option value="NF">Norfolk Island</option>
-                                                                        <option value="KP">North Korea</option>
-                                                                        <option value="MP">Northern Mariana Islands</option>
-                                                                        <option value="NO">Norway</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Legal Form</label> 
-                                                                    <select name="legalform2" class="form-control" id="legalform2" disabled="disabled">
-                                                                        <option value="" selected="selected">-Select an Answer-</option>
-                                                                        <option value="AG">Limited liability company</option>
-                                                                        <option value="GmbH">Public Company</option>
-                                                                        <option value="GbR">No minimum capital, unlimited liability of partners, non-busines</option>
-                                                                    </select> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Business Registration No.</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Registered</label> 
-                                                                    <select name="vat2" class="form-control" id="vat2" disabled="disabled">
-                                                                        <option value="" selected="selected">-Select an Answer-</option>
-                                                                        <option value="yes">Yes</option>
-                                                                        <option value="no">No</option>
-                                                                    </select> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Seller</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <label>Company Name *</label> 
-                                                                    <input class="form-control" type="password" name="name" placeholder="" disabled="disabled"> 
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="list-content">
-                                                <a href="#listthree" data-toggle="collapse" aria-expanded="false" aria-controls="listthree">Collapse 3 <i class="fa fa-chevron-down"></i></a>
-                                                <div class="collapse" id="listthree">
-                                                    <div class="list-box">
-                                                        <div class="row">
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Name *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder=""> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                            
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <label>Number *</label> 
-                                                                    <input class="form-control" type="text" name="name" placeholder=""> 
-                                                                </div>
-                                                            </div>
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <ul class="list-inline pull-right">
-                                            <li><button type="button" class="default-btn prev-step">Back</button></li>
-                                            <li><button type="button" class="default-btn next-step">Finish</button></li>
-                                        </ul>
-                                    </div>
+                                    
                                     <div class="clearfix"></div>
                                        
                                 </div>

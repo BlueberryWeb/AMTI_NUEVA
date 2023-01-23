@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-8">
                             <div class="text-center">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674251521/AMTI%20Ecommerce/ejemplo-iden_g5mwua.png" alt="Ilustración de fotografía de ejemplo" class="img-fluid"/>
+                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674497796/AMTI%20Ecommerce/licencia-de-conducir_qv2b1i.png" alt="Ilustración de fotografía de ejemplo" class="img-fluid"/>
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-4">
