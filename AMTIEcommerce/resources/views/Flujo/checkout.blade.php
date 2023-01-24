@@ -39,7 +39,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-1"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-10">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                         
                         <div class="">
                             <div class="">
@@ -80,7 +80,7 @@
                             
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-4">
                         <div class="">
                             <div class="">
                                 <div class="form-chekout py-4">
@@ -164,7 +164,7 @@
                                                             </div>
                                                             
                                                             
-                                                            <div class="text-center mb-3">
+                                                            <div class="text-center my-3">
                                                                 <a href="" class="btn btn-primary btn-generar-ficha" data-bs-toggle="modal" data-bs-target="#Pago">Pagar</a>
                                                             </div>
                                                           </div>
@@ -284,12 +284,12 @@
                 <h6 class="txt-color-parrafo regular parrafos">© 2023 AMTI, Todos los derechos reservados</h6>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                <h6 class="txt-color-parrafo regular parrafos"><a href="" class="a_none_style txt-color-parrafo regular parrafos">Términos y condiciones </a> • <a href="" class="a_none_style txt-color-parrafo regular parrafos">Aviso de privacidad</a> </h6>
+                <h6 class="txt-color-parrafo regular parrafos"><a href="{{ route('terminos') }}" class="a_none_style txt-color-parrafo regular parrafos">Términos y condiciones </a> • <a href="{{ route('aviso') }}" class="a_none_style txt-color-parrafo regular parrafos">Aviso de privacidad</a> </h6>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                 <div class="text-end">
                     <a href="https://blueberry.mx/" class="a_none_style" target="_blank">
-                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041263/BlueberryMX/we-are-Bb_black_sucfyi.gif" alt="Materialized by Blueberry" class="img-fluid bb-logo"/>
+                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674595263/Cosas%20generales/blueberry-tech_se5b3f.gif" alt="Materialized by Blueberry" class="img-fluid bb-logo"/>
                     </a>
                 </div>
                 

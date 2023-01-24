@@ -23,7 +23,7 @@
         <div class="bg-continente py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                         <div class="mx-3">
                             <div class="cuadro-vigencias">
                                 <div class="header-cuadro py-2">
@@ -35,16 +35,16 @@
                                 <div class="mx-4">
                                     <hr/>
                                     <div class="row ">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="col-9 col-sm-9 col-md-9 col-lg-6">
                                             <div class="">
                                                 <p class="regular txt-color-parrafo parrafos">Vigencia: 3 años</p>
-                                                <p class="semibold txt-color-tit titulos">$2,700 MXN.</p>
+                                                <p class="semibold txt-color-tit titulos precio">$2,700 MXN.</p>
                                             </div>
                                             <div class="">
                                                 <a href="{{ route('procesoCompra') }}" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
+                                        <div class="col-3 col-sm-3 col-md-3 col-lg-6 mt-5 sellos">
                                             <div class="text-end">
                                                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673275337/Jeanswest/pagos/icono-ssl_dnzh3m.png" alt="Certificado SSL" class="img-fluid ssl-vigencia"/>
                                             </div>
@@ -59,7 +59,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                         <div class="mx-3">
                             <div class="cuadro-vigencias-2">
                                 <div class="header-cuadro-2 py-2">
@@ -77,17 +77,17 @@
                                 <div class="mx-4">
                                     <hr/>
                                     <div class="row mt-4">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="col-9 col-sm-9 col-md-9 col-lg-6">
                                             <div class="">
                                                 <p class="regular txt-color-parrafo parrafos mb-0">Vigencia: 5 años</p>
                                                 <p class="regular parrafos tachado my-0">$4,900 MXN</p>
-                                                <p class="semibold txt-color-tit titulos">$3,700 MXN.</p>
+                                                <p class="semibold txt-color-tit titulos precio">$3,700 MXN.</p>
                                             </div>
                                             <div class="">
                                                 <a href="{{ route('procesoCompra') }}" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
+                                        <div class="col-3 col-sm-3 col-md-3 col-lg-6 mt-5 sellos">
                                             <div class="text-end">
                                                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673275337/Jeanswest/pagos/icono-ssl_dnzh3m.png" alt="Certificado SSL" class="img-fluid ssl-vigencia"/>
                                             </div>
@@ -102,7 +102,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                         <div class="mx-3">
                             <div class="cuadro-vigencias">
                                 <div class="header-cuadro py-2">
@@ -114,16 +114,16 @@
                                 <div class="mx-4">
                                     <hr/>
                                     <div class="row">
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                        <div class="col-9 col-sm-9 col-md-9 col-lg-6">
                                             <div class="">
                                                 <p class="regular txt-color-parrafo parrafos">Vigencia: 1 año</p>
-                                                <p class="semibold txt-color-tit titulos">$1,450 MXN..</p>
+                                                <p class="semibold txt-color-tit titulos precio">$1,450 MXN..</p>
                                             </div>
                                             <div class="">
                                                 <a href="" class="btn btn-primary btn-lista py-2">Comprar licencia</a>
                                             </div>
                                         </div>
-                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-5">
+                                        <div class="col-3 col-sm-3 col-md-3 col-lg-6 mt-5 sellos">
                                             <div class="text-end">
                                                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673275337/Jeanswest/pagos/icono-ssl_dnzh3m.png" alt="Certificado SSL" class="img-fluid ssl-vigencia"/>
                                             </div>
@@ -176,21 +176,36 @@
                     <div class="mx-5 py-5">
                         <h1 class="bold txt-color-tit titulos">Confirmaciones </h1>
                         <h1 class="bold txt-azul-oscuro mb-3 titulos">de pago</h1>
-
-                        <p class="regular txt-color-parrafo top-menu">Todas las confirmaciones de pago se envían </p>
-                        <p class="regular txt-color-parrafo top-menu">automáticamente a través del correo </p>
-                        <p class="regular txt-color-parrafo top-menu">electrónico.</p>
+                        <div class="d-none d-sm-none d-md-block">
+                            <p class="regular txt-color-parrafo top-menu">Todas las confirmaciones de pago se envían </p>
+                            <p class="regular txt-color-parrafo top-menu">automáticamente a través del correo </p>
+                            <p class="regular txt-color-parrafo top-menu">electrónico.</p>
+                        </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <p class="regular txt-color-parrafo top-menu">Todas las confirmaciones de pago se envían 
+                                automáticamente a través del correo 
+                                electrónico.</p>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="cuadro-envios">
                     <div class="mx-5 py-5">
                         <h1 class="bold txt-color-tit titulos">Rastreo del envío</h1>
                         <h1 class="bold txt-azul-oscuro mb-3 titulos">(Express)</h1>
-
-                        <p class="regular txt-color-parrafo top-menu">En los envíos express su número de guía se </p>
-                        <p class="regular txt-color-parrafo top-menu">le envía ese mismo día (de ser hábil) o en lo </p>
-                        <p class="regular txt-color-parrafo top-menu">sucesivo dentro del primer día hábil después</p>
-                        <p class="regular txt-color-parrafo top-menu">del pago.</p>
+                        <div class="d-none d-sm-none d-md-block">
+                            <p class="regular txt-color-parrafo top-menu">En los envíos express su número de guía se </p>
+                            <p class="regular txt-color-parrafo top-menu">le envía ese mismo día (de ser hábil) o en lo </p>
+                            <p class="regular txt-color-parrafo top-menu">sucesivo dentro del primer día hábil después</p>
+                            <p class="regular txt-color-parrafo top-menu">del pago.</p>
+                        </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <p class="regular txt-color-parrafo top-menu">En los envíos express su número de guía se 
+                                le envía ese mismo día (de ser hábil) o en lo 
+                                sucesivo dentro del primer día hábil después 
+                                del pago.</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -199,10 +214,17 @@
                    <div class="mx-5 py-5">
                         <h1 class="bold txt-color-tit titulos">Rastreo del envío</h1>
                         <h1 class="bold txt-azul-oscuro mb-3 titulos">(Estándar)</h1>
-
-                        <p class="regular txt-color-parrafo top-menu">En envío estándar su número de guía le </p>
-                        <p class="regular txt-color-parrafo top-menu">estará llegando vía correo electrónico dentro</p>
-                        <p class="regular txt-color-parrafo top-menu">de los 4-5 días hábiles siguientes. </p>
+                        <div class="d-none d-sm-none d-md-block">
+                            <p class="regular txt-color-parrafo top-menu">En envío estándar su número de guía le </p>
+                            <p class="regular txt-color-parrafo top-menu">estará llegando vía correo electrónico dentro </p>
+                            <p class="regular txt-color-parrafo top-menu">de los 4-5 días hábiles siguientes. </p>
+                        </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <p class="regular txt-color-parrafo top-menu">En envío estándar su número de guía le 
+                                estará llegando vía correo electrónico dentro
+                                de los 4-5 días hábiles siguientes. </p>
+                        </div>
+                        
                         
                     </div> 
                 </div>
@@ -210,12 +232,21 @@
                     <div class="mx-5 py-5">
                         <h1 class="bold txt-color-tit titulos">Servicio</h1>
                         <h1 class="bold txt-azul-oscuro mb-3 titulos">Express</h1>
-
-                        <p class="regular txt-color-parrafo top-menu"> Aplica a pedidos realizados antes de las </p>
-                        <p class="regular txt-color-parrafo top-menu">2:30pm de lunes a viernes. Si el pago y el </p>
-                        <p class="regular txt-color-parrafo top-menu">registro quedan después de este horario o es</p>
-                        <p class="regular txt-color-parrafo top-menu">realizado en sábado o domingo, el envío se </p>
-                        <p class="regular txt-color-parrafo top-menu">realizará hasta el siguiente día hábil.</p>
+                        <div class="d-none d-sm-none d-md-block">
+                            <p class="regular txt-color-parrafo top-menu"> Aplica a pedidos realizados antes de las </p>
+                            <p class="regular txt-color-parrafo top-menu">2:30pm de lunes a viernes. Si el pago y el </p>
+                            <p class="regular txt-color-parrafo top-menu">registro quedan después de este horario o es</p>
+                            <p class="regular txt-color-parrafo top-menu">realizado en sábado o domingo, el envío se </p>
+                            <p class="regular txt-color-parrafo top-menu">realizará hasta el siguiente día hábil.</p>
+                        </div>
+                        <div class="d-block d-sm-block d-md-none">
+                            <p class="regular txt-color-parrafo top-menu"> Aplica a pedidos realizados antes de las 
+                                2:30pm de lunes a viernes. Si el pago y el 
+                                registro quedan después de este horario o es
+                                realizado en sábado o domingo, el envío se 
+                                realizará hasta el siguiente día hábil.</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>

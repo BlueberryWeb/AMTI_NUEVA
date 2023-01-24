@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-2">
                 <div class="">
-                    <a href="" class="a_none_style text-white" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=5255403240423" class="a_none_style text-white" target="_blank">
                         <h6>
                             <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674060120/AMTI%20Ecommerce/icono-cel-menu_c5jw9e.png" alt="" class="img-fluid icono-menu"/>
                             55 4032 4042
@@ -37,7 +37,9 @@
                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674070253/AMTI%20Ecommerce/logo-amti-gde_tasxta.png" alt="AMTI" class="img-fluid logo-menu"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon pt-1">
+                    <i class="fa-solid fa-bars"></i>
+                </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -60,7 +62,7 @@
                         <a href="{{ route('procesoCompra')  }}" class="btn btn-primary btn-bordes-azul">Tamitar mi licencia</a>
                     </div>
                     <div class="ms-4 bolsa">
-                        <a href="" class="a_none_style text-white">
+                        <a href="{{ route('procesoCompra')  }}" class="a_none_style text-white">
                             <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674061005/AMTI%20Ecommerce/icono-bolsa-menu_wdqhff.png" alt="" class="img-fluid icono-bolsa"/>
                         </a>
                         <div class="items">

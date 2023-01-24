@@ -1,6 +1,6 @@
 html, body {
     width: 100% !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 @font-face {
     font-family: 'OpenSans Bold';
@@ -88,9 +88,15 @@ ICONOS
     position: relative;
 }
 .icono-beneficios{
-    width: 30px;
+    width: 45px;
     margin-right: 1rem;
     margin-top: .5rem;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: none;
+}
+.fa-bars{
+    font-size: 50px;
 }
 /****************
 BACKGROUNDS
@@ -343,6 +349,10 @@ BOTONES
     border: none;
     width: 100%;
 }
+.navbar-light .navbar-toggler{
+    color: #fff;
+    border-color: #fff;
+}
 /*****************
 IMÁGENES
 *****************/
@@ -489,7 +499,7 @@ footer i{
     margin-right: 0.5rem;
 }
 .bb-logo{
-    width: 250px;
+    width: 220px;
 }
 .check-img{
     width: 90px;
@@ -940,6 +950,9 @@ span.round-tab h6{
 	.signup-logo-header .header-flex{
 		display: block;
 	}
+    .sellos{
+        margin-top: 4.5rem !important;
+    }
 }
 
 /************************
@@ -949,7 +962,7 @@ FORMULARIO BIENVENIDA
     background-color: #fff;
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    height: 340px; 
+    /*height: 340px; */
 }
 .form-bienvenida label, input{
     color: #525252;
@@ -958,6 +971,17 @@ FORMULARIO BIENVENIDA
 }
 .form-bienvenida input{
     border-color: #C4C4C4;
+}
+.num-paso{
+    background: rgb(59,118,167);
+    background: linear-gradient(150deg, rgba(59,118,167,1) 15%, rgba(32,74,105,1) 58%);
+    color: #fff;
+    border-color: #204A69;
+    font-family: 'OpenSans Bold';
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: auto;
 }
 /************************
 VIDEO TUTORIALES
@@ -976,6 +1000,7 @@ VIDEO TUTORIALES
     top: 0;
     right: 0;
     cursor: pointer;
+    z-index: 1000;
 }
 .etiquetaVerde img{
     width: 22px;
@@ -997,7 +1022,7 @@ CUADROS DE PROCESO DE COMPRA
 .cuadro-compra{
     background-color: #fff;
     border-radius: 0 0 15px 15px;
-    height: 400px;
+    /*height: 400px;*/
     position: relative;
 }
 .licencia-proceso{
@@ -1030,7 +1055,7 @@ CUADROS SUBE TUS DOCUMENTOS
     border-radius: 25px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     position: relative;
-    height: 400px;
+    /*height: 400px;*/
 }
 .cuadro-documentos p{
     line-height: 50%;
@@ -1386,7 +1411,7 @@ CAROUSEL DE OPINIONES
     background-color: #2D5A7D;
 }
 .item {
-    width: 550px;
+    width: 650px;
     height: 400px;
     float: left;
     margin-left: 30px;
@@ -1398,8 +1423,8 @@ CAROUSEL DE OPINIONES
 }
 .cont {
     position: absolute;
-    width: 1480px;
-    margin-top: 140px;
+    width: 100%;
+    margin-top: 120px;
 }
 .tapa {
     width: 12000px;/* 	change if the size is >     12000  :) */
@@ -1412,5 +1437,171 @@ CAROUSEL DE OPINIONES
     border: none;
 }
 .image-review{
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+/**********************************
+RESPONSIVO
+*********************************/
+@media only screen and (min-width:320px) and (max-width: 479px) {
+    .item {
+        width: 320px;
+    }
+    .cuadro-avalado p{
+        line-height: 110%;
+    }
+    .cont {
+        width: 100%;
+    }
+    .txt-que-es p{
+        line-height: 115%;
+    }
+    .txt-avalado p{
+        line-height: 115%;
+    }
+    .cuadro-como-funciona p{
+        line-height: 115%;
+    }
+    .txt-buen-uso p{
+        line-height: 115%;
+    }
+    .cuadro-envios p{
+        line-height: 115%;
+    }
+    .form-bienvenida p{
+        line-height: 115%;
+    }
+    .cuadro-documentos p{
+        line-height: 115%;
+    }
+    .txt-firma p{
+        font-size: 12px !important;
+    }
+    .drop-image {
+        width: 15em;
+    }
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+    .item {
+        width: 450px;
+    }
+    .cuadro-avalado p{
+        line-height: 110%;
+    }
+    .cont {
+        width: 100%;
+    }
+    .txt-que-es p{
+        line-height: 115%;
+    }
+    .txt-avalado p{
+        line-height: 115%;
+    }
+    .cuadro-como-funciona p{
+        line-height: 115%;
+    }
+    .txt-buen-uso p{
+        line-height: 115%;
+    }
+    .cuadro-envios p{
+        line-height: 115%;
+    }
+    .form-bienvenida p{
+        line-height: 115%;
+    }
+    .cuadro-documentos p{
+        line-height: 115%;
+    }
+    .txt-firma p{
+        font-size: 12px !important;
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .item {
+        width: 750px;
+    }
+    .cuadro-avalado p{
+        line-height: 110%;
+    }
+    .cont {
+        width: 100%;
+    }
+    .txt-que-es p{
+        line-height: 115%;
+    }
+    .txt-avalado p{
+        line-height: 115%;
+    }
+    .cuadro-como-funciona p{
+        line-height: 115%;
+    }
+    .txt-buen-uso p{
+        line-height: 115%;
+    }
+    .cuadro-envios p{
+        line-height: 115%;
+    }
+    .flechita{
+        visibility: hidden;
+    }
+    .form-bienvenida p{
+        line-height: 115%;
+    }
+    .cuadro-documentos p{
+        line-height: 115%;
+    }
+    .txt-firma p{
+        font-size: 12px !important;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1200px){
+    .cont {
+        width: 100%;
+    }
+    .cuadro-avalado p{
+        font-size: 8px !important;
+        line-height: 50% !important;
+    }
+    .txt-que-es p{
+        font-size: 12px;
+        line-height: 115%;
+    }
+    .txt-avalado p{
+        font-size: 11px;
+        line-height: 115%;
+    }
+    .cuadro-como-comprar p{
+        font-size: 9px;
+    }
+    .cuadro-como-funciona p{
+        font-size: 9px !important;
+        line-height: 65%;
+    }
+    .txt-buen-uso p{
+        font-size: 9px !important;
+        line-height: 65%;
+    }
+    .precio{
+        font-size: 16px !important;
+    }
+    .cuadro-envios p{
+        font-size: 9px !important;
+        line-height: 65%;
+    }
+    .flechita{
+        visibility: hidden;
+    }
+    .sellos{
+        margin-top: 0 !important;
+    }
+    .cuadro-documentos p{
+        font-size: 7px !important;
+    }
+    .form-bienvenida p{
+        font-size: 12px !important;
+    }
+
+}
+@media only screen and (min-width: 1600px) and (max-width: 2200px) {
+
 }

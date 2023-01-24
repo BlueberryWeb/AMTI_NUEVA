@@ -3,9 +3,9 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content bg-azul-3">
         <div class="modal-body bg-continenteB">
-            <div class="container">
+            <div class="container py-4">
                 <div class="row">
-                    <div class="text-end">
+                    <div class="text-end mb-2">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                             <i class="fa-solid fa-xmark"></i>
                         </button>

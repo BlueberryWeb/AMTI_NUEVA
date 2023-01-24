@@ -1,5 +1,14 @@
 <div class="container py-5">
     <div class="row">
+        <div class="text-center">
+            <h1 class="bold txt-color-tit extra">¿Cómo comprar mi</h1>
+            <h1 class="bold txt-azul extra">Licencia internacional?</h1>
+            <h1 class="regular parrafos txt-color-parrafo">Adquirir tu licencia internacional es muy sencillo, </h1>
+            <h1 class="regular parrafos txt-color-parrafo mb-5">sólo sigue éstos 4 pasos</h1>
+
+        </div>
+    </div>
+    <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-3 cuad-lic mb-4">
             <div class="margen-cuadros">
                 <div class="cuadro-como-comprar">
@@ -17,7 +26,9 @@
                 </div>
             </div>
             <div class="d-block d-sm-block d-md-none">
-                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674078618/AMTI%20Ecommerce/flecha-down_qu2qjc.png" alt="Felchita" class="img-fluid flechita"/>
+                <div class="text-center">
+                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674078618/AMTI%20Ecommerce/flecha-down_qu2qjc.png" alt="Felchita" class="img-fluid flecha"/>
+                </div>
             </div>
             <div class="flechita d-none d-sm-none d-md-block">
                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674073239/AMTI%20Ecommerce/icono-flechita_e4l6om.png" alt="Flechita" class="img-fluid"/>
@@ -40,7 +51,9 @@
                 </div>
             </div>
             <div class="d-block d-sm-block d-md-none">
-                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674078618/AMTI%20Ecommerce/flecha-down_qu2qjc.png" alt="Felchita" class="img-fluid flechita"/>
+                <div class="text-center">
+                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674078618/AMTI%20Ecommerce/flecha-down_qu2qjc.png" alt="Felchita" class="img-fluid flecha"/>
+                </div>
             </div>
             <div class="flechita d-none d-sm-none d-md-block">
                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674073239/AMTI%20Ecommerce/icono-flechita_e4l6om.png" alt="Flechita" class="img-fluid"/>
@@ -64,7 +77,9 @@
                 </div>
             </div>
             <div class="d-block d-sm-block d-md-none">
-                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674078618/AMTI%20Ecommerce/flecha-down_qu2qjc.png" alt="Felchita" class="img-fluid flechita"/>
+                <div class="text-center">
+                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674078618/AMTI%20Ecommerce/flecha-down_qu2qjc.png" alt="Felchita" class="img-fluid flecha"/>
+                </div>
             </div>
             <div class="flechita d-none d-sm-none d-md-block">
                 <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674073239/AMTI%20Ecommerce/icono-flechita_e4l6om.png" alt="Flechita" class="img-fluid"/>
