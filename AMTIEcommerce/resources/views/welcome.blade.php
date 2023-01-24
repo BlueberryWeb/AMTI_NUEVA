@@ -223,7 +223,181 @@
     <!-- CON LA CONFIANZA DE MILES DE CLIENTES -->
     @include('components.confianzaClientes')
     <!-- CARROUSEL DE RESEÑAS -->
-    
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="carrousel">
+                <div class="tapa" id="move">
+                  <div class="item">
+                      <div class="card ">
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                    <div class="mx-3">
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-roberto_gasnph.png" alt="AMTI" class="img-fluid image-review"/>
+                                    </div>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                    <h5 class="bold"> ROBERTO MONTES</h5>
+                                    <h6 class="regular">Licencia de 5 años</h6>
+                                    <span>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576152/AMTI%20Ecommerce/estrellas_ocs0zi.png" alt="AMTI" class="img-fluid me-2"/>
+                                        <b class="bold">¡Excelente!</b>
+                                    </span>
+                                    <div class="row pt-4">
+                                        <p class="regular">La atención y asesoría fue bastante cercana, me resolvieron todas mis dudas y me ayudaron en el proceso de trámite. ¡Muy amables por cierto!</p>
+                                    </div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="card " >
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                    <div class="mx-3">
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-maria_l7c9je.png" alt="AMTI" class="img-fluid image-review"/>
+                                    </div>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                      <h5 class="bold">SOFÍA MARTÍNEZ</h5>
+                                      <h6 class="regular">Licencia 5 años</h6>
+                                      <span>
+                                          <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576152/AMTI%20Ecommerce/estrellas_ocs0zi.png" alt="AMTI" class="img-fluid me-2"/>
+                                          <b class="bold">Muy fácil</b>
+                                      </span>
+                                      <div class="row pt-4">
+                                        <p class="regular">
+                                            ¡Muy practico! Hice mi tramite en unos cuantos clics, y en un par de días recibí mi licencia. Muuuuy recomendado.
+                                        </p>
+                                    </div>
+                                  </div>
+                              </div>
+                             
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="card ">
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                    <div class="mx-3">
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-roberto_gasnph.png" alt="AMTI" class="img-fluid image-review"/>
+                                    </div>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                    <h5 class="bold">HÉCTOR NAVARRO</h5>
+                                    <h6 class="regular">Licencia 3 años</h6>
+                                    <span>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576152/AMTI%20Ecommerce/estrellas_ocs0zi.png" alt="AMTI" class="img-fluid me-2"/>   
+                                        <b class="bold">Justo a tiempo</b>
+                                    </span>
+                                    <div class="row pt-4">
+                                        <p class="regular">Me encantó la experiencia con AMTI! Súper eficiente, rápido, y sencillo de tramitar.
+                                        </p>
+                                    </div>
+                                  </div>
+                                  
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="card " >
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                    <div class="mx-3">
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-maria_l7c9je.png" alt="AMTI" class="img-fluid image-review"/>
+                                    </div>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                      <h5 class="bold">PAOLA BRAVO</h5>
+                                      <h6 class="regular">Licencia 1 año</h6>
+                                      <span>
+                                          <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576152/AMTI%20Ecommerce/estrellas_ocs0zi.png" alt="AMTI" class="img-fluid me-2"/>
+                                          <b class="bold">Muy fácil</b>
+                                      </span>
+                                      <div class="row pt-4">
+                                        <p class="regular">
+                                            ¡Gran servicio! Súper sencillo y rápido.
+                                        </p>
+                                    </div>
+                                  </div>
+                                  
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="card ">
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                    <div class="mx-3">
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-roberto_gasnph.png" alt="AMTI" class="img-fluid image-review"/>
+                                    </div>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                    <h5 class="bold">CARLA GÓNZALEZ</h5>
+                                    <h6 class="regular">Licencia 3 años</h6>
+                                    <span>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576152/AMTI%20Ecommerce/estrellas_ocs0zi.png" alt="AMTI" class="img-fluid me-2"/>
+                                        <b class="bold">Muy rápido</b>
+                                    </span>
+                                    <div class="row pt-4">
+                                        <p class="regular">Woow no me imagine que fuera tan rapido la entrega de la licencia.
+                                        </p>
+                                    </div>
+                                  </div>
+                                  
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div class="card ">
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-6 col-lg-4 col-md-6 col-md-6">
+                                    <div class="mx-3">
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-maria_l7c9je.png" alt="AMTI" class="img-fluid image-review"/>
+                                    </div>
+                                  </div>
+                                  <div class="col-6 col-lg-8 col-md-6 col-md-6">
+                                    <h5 class="bold"> JUAN DÍAZ</h5>
+                                    <h6 class="regular">Licencia de 5 años</h6>
+                                    <span>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576152/AMTI%20Ecommerce/estrellas_ocs0zi.png" alt="AMTI" class="img-fluid me-2"/>
+                                        <b class="bold">Muy simple</b>
+                                    </span>
+                                    <div class="row pt-4">
+                                        <p class="regular">Me encanto el modo de pedir la licencia, fue bastante simple.
+                                        </p>
+                                    </div>
+                                </div>
+                                  
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item"></div>
+                </div>
+                <!-- controls -->
+                <div class="cont">
+                    <div class="left controls" id="l"><i class="fa-solid fa-chevron-left ms-1"></i></div>
+                    <div class="right controls" id="r"><i class="fa-solid fa-chevron-right ms-1"></i></div>
+                </div>
+              </div>
+        </div>
+    </div>
     <!-- FORMULARIO -->
     @include('components.formulario')
 
@@ -234,7 +408,7 @@
                 <h1 class="bold txt-color-tit extra">Ubica nuestras</h1>
                 <h1 class="bold txt-azul extra">Sucursales AMTI</h1>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                 <div class="cuadro-sucursales py-5">
                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674061490/AMTI%20Ecommerce/icono-ubicacion-fondo_n5rubm.png" alt="2" class="img-fluid icono-suc"/>
                     <div class="mx-5">
@@ -242,7 +416,7 @@
                         <h1 class="txt-azul-oscuro titulos bold">Guadalajara</h1>
                         <div class="my-4 parrafos txt-color-parrafo">
                             <div class="mb-4">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="https://goo.gl/maps/2KwUDyvY4ywRFFma6" class="a_none_style txt-color-parrafo">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-ubi-azul_cwfi4i.png" alt="" class="img-fluid icon-suc float-start mb-3"/>
                                     <h6 class="regular top-menu">Av. Rubén Darío #586 int.8, Lomas de </h6>
                                     <h6 class="regular top-menu">Guevara, CP: 44657 Guadalajara, Jal.</h6>
@@ -250,14 +424,14 @@
                                
                             </div>
                             <div class="">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="tel:+523327903393" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-tel-azul_lfvzjs.png" alt="" class="img-fluid icon-suc float-start"/>
                                     <h6 class="semiBold top-menu">33 2790 3393</h6>
                                 </a>
                                 
                             </div>
                             <div class="">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-whats-azul_avcovi.png" alt="" class="img-fluid icon-suc float-start"/>
                                     <h6 class="semiBold top-menu">55 4032 4042</h6>
                                 </a>
@@ -266,7 +440,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                 <div class="cuadro-sucursales py-5">
                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674061490/AMTI%20Ecommerce/icono-ubicacion-fondo_n5rubm.png" alt="2" class="img-fluid icono-suc"/>
                     <div class="mx-5">
@@ -274,7 +448,7 @@
                         <h1 class="txt-azul-oscuro titulos bold">Monterrey</h1>
                         <div class="my-4 parrafos txt-color-parrafo">
                             <div class="mb-4">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="https://goo.gl/maps/PSjpMpWCMuRc7zgEA" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-ubi-azul_cwfi4i.png" alt="" class="img-fluid icon-suc float-start mb-3"/>
                                     <h6 class="regular top-menu">Av. Dr. José Eleuterio González 250, Planta  </h6>
                                     <h6 class="regular top-menu">Alta , San Jerónimo, 64634 Monterrey, N.L.</h6>
@@ -282,14 +456,14 @@
                                
                             </div>
                             <div class="">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="tel:+528132532915" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-tel-azul_lfvzjs.png" alt="" class="img-fluid icon-suc float-start"/>
                                     <h6 class="semiBold top-menu">81 3253 2915</h6>
                                 </a>
                                 
                             </div>
                             <div class="">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-whats-azul_avcovi.png" alt="" class="img-fluid icon-suc float-start"/>
                                     <h6 class="semiBold top-menu">55 4032 4042</h6>
                                 </a>
@@ -298,7 +472,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">
                 <div class="cuadro-sucursales py-5">
                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674061490/AMTI%20Ecommerce/icono-ubicacion-fondo_n5rubm.png" alt="2" class="img-fluid icono-suc"/>
                     <div class="mx-5">
@@ -306,7 +480,7 @@
                         <h1 class="txt-azul-oscuro titulos bold">Ciudad de México</h1>
                         <div class="my-4 parrafos txt-color-parrafo">
                             <div class="mb-4">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="https://goo.gl/maps/nqMYVTjAG8voMDGL9" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-ubi-azul_cwfi4i.png" alt="" class="img-fluid icon-suc float-start mb-3"/>
                                     <h6 class="regular top-menu">Av. Presidente Masaryk #61, Piso 9 Col. </h6>
                                     <h6 class="regular top-menu">Polanco V secc, CP 11560, CDMX.</h6>
@@ -314,14 +488,14 @@
                                
                             </div>
                             <div class="">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-tel-azul_lfvzjs.png" alt="" class="img-fluid icon-suc float-start"/>
                                     <h6 class="semiBold top-menu">55 4032 4042</h6>
                                 </a>
                                 
                             </div>
                             <div class="">
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="tel:+525536891390" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-whats-azul_avcovi.png" alt="" class="img-fluid icon-suc float-start"/>
                                     <h6 class="semiBold top-menu">55 3689 1390</h6>
                                 </a>

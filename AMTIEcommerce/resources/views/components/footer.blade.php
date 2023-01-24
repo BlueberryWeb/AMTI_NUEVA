@@ -12,19 +12,19 @@
                     <div class="row mb-5">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                             <h6 class="semiBold txt-azul-oscuro titulos mb-4">Contáctanos</h6>
-                            <a href="" class="a_none_style txt-color-parrafo" target="_blank">
+                            <a href="tel:+525540324042" class="a_none_style txt-color-parrafo" target="_blank">
                                     <h6 class="regular mb-3 txt-color-parrafo">
                                         <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-tel-azul_lfvzjs.png" alt="Teléfono" class="img-fluid icono-footer"/>
                                         55 4032 4042
                                     </h6>
                             </a>
-                            <a href="" class="a_none_style txt-color-parrafo" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=523327903393" class="a_none_style txt-color-parrafo" target="_blank">
                                 <h6 class="regular mb-3 txt-color-parrafo">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-whats-azul_avcovi.png" alt="WhatsApp" class="img-fluid icono-footer"/>
                                     332 790 3393
                                 </h6>
                             </a>
-                            <a href="" class="a_none_style txt-color-parrafo" target="_blank">
+                            <a href="mailto:contacto@amti.mx?Subject=Contactar%20para%20informes%20en%20AMTI" class="a_none_style txt-color-parrafo" target="_blank">
                                 <h6 class="regular txt-color-parrafo">
                                     <i class="fa-regular fa-envelope me-3 txt-azul-oscuro"></i>
                                     contacto@amti.mx
@@ -54,13 +54,13 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="legal">
                                 <h6 class="semiBold txt-azul-oscuro titulos mb-4">Legal</h6>
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="{{ route('terminos') }}" class="a_none_style txt-color-parrafo">
                                     <h6 class="regular mb-3 txt-color-parrafo">Términos y condiciones</h6>
                                 </a>
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="{{ route('aviso') }}" class="a_none_style txt-color-parrafo">
                                     <h6 class="regular mb-3 txt-color-parrafo">Aviso de Privacidad</h6>
                                 </a>
-                                <a href="" class="a_none_style txt-color-parrafo">
+                                <a href="{{ route('cookies') }}" class="a_none_style txt-color-parrafo">
                                     <h6 class="regular txt-color-parrafo">Políica de Cookies</h6>
                                 </a>
                             </div>
@@ -68,10 +68,10 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="redes">
                                 <h6 class="semiBold txt-azul-oscuro titulos mb-4">Síguenos</h6>
-                                <a href="" class="a_none_style txt-color-parrafo" target="_blank">
+                                <a href="https://www.facebook.com/Licencia-Internacional-para-Conducir-AMTI-102260725273632/" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674140859/AMTI%20Ecommerce/icono-fb_uxh7dt.png" alt="FB: AMTI" class="img-fluid icono-fb"/>
                                 </a>
-                                <a href="" class="a_none_style txt-color-parrafo" target="_blank">
+                                <a href="https://instagram.com/amti.licencias?igshid=YmMyMTA2M2Y=" class="a_none_style txt-color-parrafo" target="_blank">
                                     <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674140859/AMTI%20Ecommerce/icono-ig_zlscnn.png" alt="IG: AMTI" class="img-fluid icono-ig"/>
                                 </a>
                             </div>

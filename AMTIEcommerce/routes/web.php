@@ -7,6 +7,9 @@ use App\Http\Controllers\procesoCompraController;
 use App\Http\Controllers\checkoutController;
 use App\Http\Controllers\contactoController;
 use App\Http\Controllers\mailController;
+use App\Http\Controllers\avisoController;
+use App\Http\Controllers\cookiesController;
+use App\Http\Controllers\terminosController;
 
 
 
@@ -29,6 +32,9 @@ Route::get('vigencias', vigenciasController::class, 'index')->name('vigencias');
 Route::get('faq', faqController::class, 'index')->name('faq');
 Route::get('contacto', contactoController::class, 'index')->name('contacto');
 Route::post('contactoMail', [mailController::class, 'store'])->name('mail');
+Route::get('cookies', cookiesController::class, 'index')->name('cookies');
+Route::get('aviso', avisoController::class, 'index')->name('aviso');
+Route::get('terminos', terminosController::class, 'index')->name('terminos');
 
 //PROCESO COMPRA
 Route::get('procesoCompra', procesoCompraController::class, 'index')->name('procesoCompra');

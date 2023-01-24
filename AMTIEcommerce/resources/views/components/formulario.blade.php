@@ -12,13 +12,13 @@
                                 <h1 class="bold extra txt-azul mb-2">Contáctanos</h1>
                                 <h6 class="regular parrafos mb-4">Estaremos encantados de atenderte</h6>
 
-                                <a href="" class="a_none_style text-white">
+                                <a href="tel:+523327903393" class="a_none_style text-white" target="_blank">
                                     <h4 class="regular titulos"><b class="bold">GDL:</b> 332 790 3393</h4>
                                 </a>
-                                <a href="" class="a_none_style text-white">
+                                <a href="tel:+525540324042" class="a_none_style text-white" target="_blank">
                                     <h4 class="regular titulos"><b class="bold">CDMX: </b> 554 032 4042</h4>
                                 </a>
-                                <a href="" class="a_none_style text-white">
+                                <a href="tel:+528132532915" class="a_none_style text-white" target="_blank">
                                     <h4 class="regular titulos"><b class="bold">MTY:</b>  813 253 2915</h4>
                                 </a>
                             </div>

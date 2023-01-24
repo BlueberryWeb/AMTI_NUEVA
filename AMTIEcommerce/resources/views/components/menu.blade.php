@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-2">
                 <div class="">
-                    <a href="" class="a_none_style text-white">
+                    <a href="" class="a_none_style text-white" target="_blank">
                         <h6>
                             <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674060120/AMTI%20Ecommerce/icono-cel-menu_c5jw9e.png" alt="" class="img-fluid icono-menu"/>
                             55 4032 4042
@@ -13,7 +13,7 @@
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-2">
                 <div class="">
-                    <a href="" class="a_none_style text-white">
+                    <a href="mailto:contacto@amti.mx?Subject=Contactar%20para%20informes%20en%20AMTI" class="a_none_style text-white" target="_blank">
                         <i class="fa-regular fa-envelope me-3"></i>
                         contacto@amti.me
                     </a>
@@ -22,7 +22,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-3"></div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                 <div class="">
-                    <a href="" class="a_none_style text-white">
+                    <a href="https://goo.gl/maps/sPQYLW6SRJ1wTTbm6" class="a_none_style text-white" target="_blank">
                         <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674060120/AMTI%20Ecommerce/icono-ubi-menu_asv1z5.png" alt="" class="img-fluid icono-menu"/>
                         Av. Rubén Darío #586 int.8, Lomas de Guevara, CP: 44657 Guadalajara, Jal.
                     </a>
