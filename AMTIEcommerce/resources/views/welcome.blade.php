@@ -368,7 +368,7 @@
                               <div class="row">
                                   <div class="col-12 col-lg-4 col-sm-12 col-md-12">
                                     <div class="mx-3">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-roberto_gasnph.png" alt="AMTI" class="img-fluid image-review"/>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674656837/AMTI%20Ecommerce/testimonio-6_kriwa2.png" alt="AMTI" class="img-fluid image-review"/>
                                     </div>
                                   </div>
                                   <div class="col-12 col-lg-8 col-sm-12 col-md-12">
@@ -395,7 +395,7 @@
                               <div class="row">
                                   <div class="col-12 col-lg-4 col-sm-12 col-md-12">
                                     <div class="mx-3">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-maria_l7c9je.png" alt="AMTI" class="img-fluid image-review"/>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674656837/AMTI%20Ecommerce/testimonio-7_w4lurb.png" alt="AMTI" class="img-fluid image-review"/>
                                     </div>
                                   </div>
                                   <div class="col-12 col-lg-8 col-sm-12 col-md-12">
@@ -423,7 +423,7 @@
                               <div class="row">
                                   <div class="col-12 col-lg-4 col-sm-12 col-md-12">
                                     <div class="mx-3">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-roberto_gasnph.png" alt="AMTI" class="img-fluid image-review"/>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674656837/AMTI%20Ecommerce/testimonio-4_lzdovq.png" alt="AMTI" class="img-fluid image-review"/>
                                     </div>
                                   </div>
                                   <div class="col-12 col-lg-8 col-sm-12 col-md-12">
@@ -450,7 +450,7 @@
                               <div class="row">
                                   <div class="col-12 col-lg-4 col-sm-12 col-md-12">
                                     <div class="mx-3">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674576261/AMTI%20Ecommerce/review-maria_l7c9je.png" alt="AMTI" class="img-fluid image-review"/>
+                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674656837/AMTI%20Ecommerce/testimonio-3_cwyc83.png" alt="AMTI" class="img-fluid image-review"/>
                                     </div>
                                   </div>
                                   <div class="col-12 col-lg-8 col-sm-12 col-md-12">
