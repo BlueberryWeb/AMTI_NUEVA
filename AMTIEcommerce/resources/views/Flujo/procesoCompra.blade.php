@@ -37,7 +37,7 @@
                     <div class="etiquetaVerde py-2">
                         <h3 class="regular parrafos pt-1" data-bs-toggle="modal" data-bs-target="#Tutoriales">Video tutoriales <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674234032/AMTI%20Ecommerce/icono-video_dcfyd4.png" alt="Icono video" class="img-fluid"/></h3>
                     </div>
-                    @include('Flujo.components.modalTutoriales')
+                     @include('Flujo.components.modalTutoriales')
                 </div>
             </div>
             <!-- PROCESO COMPRA -->
@@ -339,7 +339,7 @@
                                                                 
                                                             </div>
                                                         </div>
-                                                        @include('Flujo.components.modalIdentificacion')
+                                                         @include('Flujo.components.modalIdentificacion')
                                                     </div>
                                                 </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-4">

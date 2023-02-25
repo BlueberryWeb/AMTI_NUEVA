@@ -12,7 +12,7 @@
                     <div class="row mb-5">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                             <h6 class="semiBold txt-azul-oscuro titulos mb-4">Contáctanos</h6>
-                            <a href="https://api.whatsapp.com/send?phone=5255403240423" class="a_none_style txt-color-parrafo" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=5540324042" class="a_none_style txt-color-parrafo" target="_blank">
                                     <h6 class="regular mb-3 txt-color-parrafo">
                                         <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674082096/AMTI%20Ecommerce/icono-tel-azul_lfvzjs.png" alt="Teléfono" class="img-fluid icono-footer"/>
                                         55 4032 4042

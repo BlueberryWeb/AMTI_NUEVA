@@ -34,7 +34,7 @@
                     </div>
                     <div class="row txt-evitar pt-5">
                         <div class="text-center mb-4">
-                            <h6 class="bold h5 text-white">Al tomar foto de tu identificación debes evitar:</h6>
+                            <h6 class="bold h5 text-white">Al tomar foto de tu licencia debes evitar:</h6>
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                             <div class="text-center">

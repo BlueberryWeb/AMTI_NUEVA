@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-2">
                 <div class="">
-                    <a href="https://api.whatsapp.com/send?phone=5255403240423" class="a_none_style text-white" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=525540324042" class="a_none_style text-white" target="_blank">
                         <h6>
                             <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1674060120/AMTI%20Ecommerce/icono-cel-menu_c5jw9e.png" alt="" class="img-fluid icono-menu"/>
                             55 4032 4042

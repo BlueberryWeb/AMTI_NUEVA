@@ -1,5 +1,4 @@
-//animaciones
-AOS.init();
+
 
 //VALIDACIONES DEL FORMULARIO
 
